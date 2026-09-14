@@ -1,0 +1,36 @@
+- [Perfil Daniel Torres](user_profile.md) — socio/gestor clinica harmonizacao, nao programa, supervisiona Claude Code
+- [Negocios ativos](project_negocios.md) — clinica, mentoria, "Do WhatsApp a Consulta" (ex-Secretaria que Converte), prioridades 90 dias
+- [Programa de Aceleracao Clinica 4D](project_aceleracao_4d.md) — nome oficial da consultoria, metodo em 4 fases (Demanda, Atendimento, Dominio, Retencao)
+- [Caminho do Cliente 4D](project_caminho_cliente_4d.md) — mapa-mestre da entrega (8 paradas) + arquitetura entregaveis-padrao/diagnostico-roteador, entregaveis a produzir em lotes
+- [Sprint de Caixa 30 dias](project_sprint_caixa.md) — produto de entrada (sprint comercial hands-on) pra gerar caixa rapido e cases; primeira com amiga, pricing dos proximos a definir
+- [Stack e decisoes tecnicas](project_stack_decisoes.md) — Zenvia, Google Sheets, Calendar, Kanban HTML, Claude agent
+- [Comunicacao com Daniel](feedback_comunicacao.md) — tom descontraido, explicar antes de executar, direto
+- [Tom conversa · palavras do dia a dia](feedback_tom_conversa.md) — toda copy escrita como conversa real, zero corporativo/consultor/coach; usar palavras que dono/injetora de clínica usa (WhatsApp, secretária, consulta, paciente, orçamento, dinheiro, correria, faturamento)
+- [Humanizer sempre](feedback_humanizer_sempre.md) — SEMPRE rodar /humanizer em toda copy antes de entregar, sem hedge
+- [Padrao visual de carrossel](feedback_carrossel_visual.md) — capa pode ser branca OU preta, foto do CTA varia entre opcoes da pasta images/
+- [Daniel fala "voce", nunca "tu"](feedback_voce_nao_tu.md) — mineiro de Contagem, toda copy do Daniel usa voce/seu/sua
+- [Linda usa "consulta", nunca "avaliacao"](feedback_linda_consulta.md) — copy da Dra. Linda Italia sempre fala "consulta"
+- [Template PDF Linda virou Laureo](feedback_pdf_linda_laureo.md) — PDFs da Linda agora seguem template Laureo (Forum + selo Laureo + numeral romano translucido), substituiu o clean antigo
+- [Voz Daniel seca, nao narrativa](feedback_voz_seca.md) — em script/objecao/ensino tecnico, cortante e direto, sem warmup nem cena
+- [Scripts construidos pergunta a pergunta](feedback_scripts_construcao_colaborativa.md) — nunca escrever entregavel com voz sozinho; cada script tem seu proprio formulario, definido com Daniel antes
+- [Handle Instagram do Daniel](feedback_handle_instagram_daniel.md) — sempre @danieltorres.b (nunca @danieltorres), vale em todo carrossel/PDF/caption
+- [Conclave](project_conclave.md) — clube de networking high-ticket (R$250k anuidade). Daniel entrou como closer, quer virar lider e depois frente/socio
+- [Painel oficial Conclave](reference_conclave_painel.md) — URL do painel operacional do Conclave (tiers, comissao, calendario, pilares, metas)
+- [Apresentacao Harmo Clinic (recepcao)](project_harmoclinic_apresentacao.md) — deck TV em loop, fontes Vandermark+Kumbh, fotos do PDF, export 4K, pendencias em PENDENTES.txt
+- [Stack visual de apresentacao (template canonico)](reference_layout_apresentacao.md) — caminho de referencia pra qualquer deck institucional 16:9 (call, programatico, deck). Reusar generate.py + fontes + helpers
+- [Bolao Royal's Copa 2026](project_bolao_royals.md) — sistema web de bolao pra Royal's Barbershop (Next.js+Supabase+Vercel), prazo 11/06/2026, modelo sem-senha com PIN, pagamento Pix via WhatsApp
+- [Sistema da Clinica](project_sistema_clinica.md) — sistema interno proprio substituindo Clinicorp, modular/paralelo, Next+Supabase, Modulo 1 (CRM/Comercial) schema pronto, build no Sonnet
+- [Portal 4D · plataforma de membros](project_portal_4d.md) — ~/aceleracao-4d/ Next+Supabase. Pausado 2026-06-10 antes da Fase 7 (cliente editar entregaveis). Admin + auth cliente + area Hotmart-style funcionando.
+- [Diagnóstico de Partida · padrão oficial](project_diagnostico_partida_padrao.md) — 10 blocos, multi-select em tudo, obs opcional por pergunta, sem classificações. Vive em app/admin/clientes/[id]/diagnostico-partida/ no portal 4d
+- [Mentoria Láureo · precificação e negociação](project_mentoria_precificacao.md) — tabela interna: 1 mentoria R$6k, 2 juntas R$11k, +consultoria Daniel R$15k. Negociação: R$12k/10k/9k. Não entra na apresentação.
+- [Arquitetura canônica das Praxis](reference_arquitetura_praxis.md) — Praxis I é o template do Programa Principium. II, III, IV devem seguir mesmo tamanho/ritmo/padrão visual/abertura (Como utilizar) e encerramento (Erros + Objetivo desta Praxis).
+- [Padrão visual VOLO · neobrutalismo](reference_visual_volo.md) — paleta canônica (dourado+cream+dark+ink) + tipografia (Barlow Condensed + Plus Jakarta Sans) + estilo brutalista com sombras chapadas. Vale pra TODA peça VOLO (landings, PDFs, apresentações, carrosséis).
+- [Avaliação de skills externas](project_avaliacao_skills_externas.md) — Daniel manda repos GitHub de skills/agentes de marketing pra avaliar; critério e veredito de cada um analisado até agora
+- [Rebrand VOLO → Clínicas de Alto Voo](project_rebrand_alto_voo.md) — nome novo decidido 2026-07-25, escopo (visual, onde aplicar, apelido curto) ainda em aberto
+- [Auto-deploy do portal Volo](feedback_portal_auto_deploy.md) — apos toda mudanca no ~/Daniel Torres/volo/portal/, commit+push automatico. Ele testa direto em produção.
+- [Follow-up automatico WhatsApp](project_followup_whatsapp.md) — sequencia de follow-up via Meta Cloud API pra CRM do Sistema Clinico. PAUSADO 2026-07-28 aguardando Daniel fazer burocracia Meta.
+- [Playbook · email automatico pendente](project_playbook_email_pendente.md) — LEMBRAR de perguntar sobre envio automatico do PDF depois de finalizar as paginas /playbook e /playbook/obrigado
+- [Carrossel automatico](project_carrossel_automatico.md) — sistema autonomo: gera 4/dia, Daniel aprova 2 (slots 12:30 e 19:30), rejeitar regenera infinito. Auto-post Meta ainda pausado
+- [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — script Playwright local + painel /admin/prospeccao. Alvo 10 leads/dia. Bot de DM Instagram esta proibido
+- [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
+- [COPYWRITER.md obrigatorio](feedback_copywriter_obrigatorio.md) — TODA copy/texto do projeto passa por ~/COPYWRITER.md sem exceção. Placeholder tecnico = "PLACEHOLDER", nunca frase inventada.
