@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 585257fa-a2e8-4580-8b36-6a70832f92fc
+  modified: 2026-09-15T16:07:31.844Z
 ---
 
 Daniel decidiu construir o proprio sistema de gestao da clinica de harmonizacao (uso interno, NAO vira produto agora), pra substituir o Clinicorp/Clinica Experts que acha fraco no comercial e complexo demais no resto.
@@ -17,4 +18,4 @@ Daniel decidiu construir o proprio sistema de gestao da clinica de harmonizacao 
 
 **Economia de tokens (Daniel ta no Max 5x $100):** grosso da obra roda em Sonnet, Opus so pra schema/arquitetura. Daniel troca pra Sonnet pra construir telas.
 
-**Estado (jun/2026):** schema do Modulo 1 pronto em `~/clinica-sistema/db/schema.sql`, briefing em `~/clinica-sistema/BUILD.md`. Pendente: Daniel criar projeto Supabase e entregar URL+service key. Plano completo em `~/.claude/plans/claudin-to-pensando-em-virtual-anchor.md`.
+**Estado (set/2026, corrigido — memoria antiga estava desatualizada):** sistema em producao em `https://clinicasaltovoo.vercel.app/` (login com email+senha). App em `~/clinica-sistema/`, sem git local inicializado (deploy deve ser direto via Vercel). Modulos ja construidos: agenda, pacientes, cadastros (procedimentos/profissionais), contatos, financeiro, funil, funil-prospeccao, documentos, follow-ups, dashboard. Usa Server Actions (Next.js), NAO tem API routes (`app/**/route.ts`) — ou seja, nao ha endpoint REST pronto pra integracao externa hoje. Pra rotina/Jarvis puxar agenda de paciente desse sistema no futuro, precisa OU criar uma API route protegida OU dar acesso direto ao Supabase (service key) pra leitura.
