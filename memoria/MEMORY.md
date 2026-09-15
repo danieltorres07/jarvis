@@ -1,4 +1,5 @@
 - [Perfil Daniel Torres](user_profile.md) — socio/gestor clinica harmonizacao, nao programa, supervisiona Claude Code
+- [Claudinho e resposta em audio sob demanda](feedback_claudinho_audio.md) — apelido do assistente; se a mensagem tiver "Claudinho", responder em audio (voz Felipe), senao so texto
 - [Negocios ativos](project_negocios.md) — clinica, mentoria, "Do WhatsApp a Consulta" (ex-Secretaria que Converte), prioridades 90 dias
 - [Programa de Aceleracao Clinica 4D](project_aceleracao_4d.md) — nome oficial da consultoria, metodo em 4 fases (Demanda, Atendimento, Dominio, Retencao)
 - [Caminho do Cliente 4D](project_caminho_cliente_4d.md) — mapa-mestre da entrega (8 paradas) + arquitetura entregaveis-padrao/diagnostico-roteador, entregaveis a produzir em lotes
