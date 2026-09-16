@@ -35,3 +35,4 @@
 - [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — script Playwright local + painel /admin/prospeccao. Alvo 10 leads/dia. Bot de DM Instagram esta proibido
 - [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
 - [COPYWRITER.md obrigatorio](feedback_copywriter_obrigatorio.md) — TODA copy/texto do projeto passa por ~/COPYWRITER.md sem exceção. Placeholder tecnico = "PLACEHOLDER", nunca frase inventada.
+- [Operação Comercial Completa · prospecção](project_operacao_comercial_prospeccao.md) — funil 12 etapas + campos CRM + scripts prontos (abordagem/pitch/reativação/consulta) + preço R$2.500/Sprint, diverge do pricing em project_sprint_caixa
