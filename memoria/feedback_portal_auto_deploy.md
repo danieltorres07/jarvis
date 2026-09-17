@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: d8bc2e71-d600-4b8a-bd1c-34498ec864ed
-  modified: 2026-09-16T13:24:15.689Z
+  modified: 2026-09-17T14:34:51.514Z
 ---
 
 Toda mudanca no portal Volo (`~/Daniel Torres/volo/portal/`) deve ser commitada e pushada automaticamente. Vercel builda em ~1min.
@@ -14,6 +14,6 @@ Toda mudanca no portal Volo (`~/Daniel Torres/volo/portal/`) deve ser commitada 
 
 **How to apply:** apos qualquer Edit/Write nesse portal, rodar `git add <arquivos> && git commit -m "..." && git push origin main`. NAO rodar `vercel --prod --yes` depois do push.
 
-**IMPORTANTE (2026-09-16):** em 2026-09-08 o webhook GitHub -> Vercel parecia quebrado e a regra passou a rodar `vercel --prod --yes` apos todo push, alem do push em si. Isso ficou esquecido ligado e comecou a causar 2 deploys de Production simultaneos (1 do webhook nativo + 1 do CLI) pro mesmo commit, um deles quase sempre falhando. Removido o passo do CLI em 2026-09-16 — push sozinho deve bastar. Se o deploy automatico nao disparar na proxima mudanca, investigar o webhook de novo (sem reativar o CLI como solucao permanente).
+**REGRA FIRME (reforcada 2026-09-17):** SO `git push`. NUNCA `vercel --prod --yes` depois do push. O webhook GitHub->Vercel funciona normalmente e ja dispara o build de production sozinho. Se eu adicionar `vercel --prod` no comando, roda DOIS deploys em paralelo pro mesmo commit — um sempre falha, dispara email de erro pra Daniel, e ele nao entende porque. Daniel chegou a apontar isso em 2026-09-17 e reclamar do email de erro.
 
 Vale so pra ~/Daniel Torres/volo/portal/. Outros projetos seguem regra padrao (so commitar quando pedido).
