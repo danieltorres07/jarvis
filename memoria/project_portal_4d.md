@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: d8bc2e71-d600-4b8a-bd1c-34498ec864ed
+  modified: 2026-09-17T14:15:05.612Z
 ---
 
 **Path do projeto:** `~/aceleracao-4d/`
@@ -33,10 +34,8 @@ metadata:
 - Fase 12: Deploy Vercel + DNS (Daniel quer usar subdomínio dele)
 - Fase 10: Conteúdo Trilha Técnica Linda (sessão separada com ela)
 
-**Cliente de teste:** Dra. Brenda Guedes (`02bb8c10-efa7-4d43-a6f9-b1cf2cdb7002`). Diagnóstico dela importado do localStorage antigo. Tem acesso ao Sprint (compra direta). Última senha resetada em 2026-06-10.
-
 **Servidor dev:** `cd ~/aceleracao-4d && npm run dev` → http://localhost:3000
 
 **Why:** Daniel quer parar de enviar PDFs/scripts manualmente pra cada cliente. Plataforma é catálogo central + cópia editável por cliente, sem vazar entre clientes (padrão → instância).
 
-**How to apply:** quando ele chamar pra continuar, retomar a partir da Fase 7. Validar primeiro que o fluxo de auth ainda funciona (convite → senha → login) testando com a Brenda.
+**How to apply:** quando ele chamar pra continuar, retomar a partir da Fase 7. Validar primeiro que o fluxo de auth ainda funciona (convite → senha → login) com um cliente real ativo.
