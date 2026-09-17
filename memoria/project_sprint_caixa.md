@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: f4c645ec-5fff-4fb2-84de-7268f4cdf352
+  modified: 2026-09-17T14:14:49.640Z
 ---
 
 Produto de entrada da consultoria, desenhado em `Daniel Torres/metodo/sprint-caixa-30-dias.md`.
@@ -42,10 +43,7 @@ refinada pelo Daniel (a lista dele substitui o mapeamento teórico por semanas):
 
 **Bug corrigido no diagnostico-sprint.html:** campos de R$ (faturamento, ticket, orc-valor)
 agora têm máscara de milhar (data-money + moneyVal/maskMoney). Antes liam "36.000" como 36 e a
-estimativa saía 20x menor. Primeira rodada da Brenda (26/05/26) saiu errada por isso (deu R$1.689,
-correto ~R$10.680); precisa re-preencher os 3 campos de R$.
+estimativa saía 20x menor.
 
-**Caso em andamento:** Dra. Brenda Guedes (clínica Combo, 5 anos). Gargalo: Fechamento e
-Agendamento travados, Recuperação capenga. Comparecimento marcado 5% (verificar se é erro de
-digitação). (2) nome do produto ainda provisório.
+**Nome do produto:** ainda provisório.
 Ver [[project-caminho-cliente-4d]] e [[project-aceleracao-4d]].
