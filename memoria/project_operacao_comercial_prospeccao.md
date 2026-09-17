@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 96388ac3-2c07-42a0-a5f6-0deb7fb69385
-  modified: 2026-09-16T20:00:04.407Z
+  modified: 2026-09-17T14:14:56.400Z
 ---
 
 Documento "Operação Comercial Completa" (PDF entregue por Daniel em 2026-09-16) define a operação
@@ -34,10 +34,9 @@ estrutura de consulta comercial (10 passos), scripts de recepção.
 casos fortes). Meta inicial: 3 clientes simultâneos (não escalar antes de aprender o esforço real).
 Garantia: se não melhorar o indicador combinado (com ações executadas), cliente não paga.
 
-⚠️ Esse preço (R$2.500 fixo) diverge do modelo descrito em [[project-sprint-caixa-30-dias]] (R$500 +
-15-20% do incremento, caso Dra. Brenda). Parecem ser duas propostas/momentos de precificação
-diferentes para o mesmo produto de entrada — confirmar com Daniel qual é a vigente antes de usar em
-proposta comercial real.
+⚠️ Esse preço (R$2.500 fixo) diverge do modelo antigo em [[project-sprint-caixa-30-dias]] (R$500 +
+15-20% do incremento). Parecem ser duas propostas/momentos de precificação diferentes para o mesmo
+produto de entrada — confirmar com Daniel qual é a vigente antes de usar em proposta comercial real.
 
 **Placar comercial (funil de metas pessoais do Daniel, taxas):** Prospects mapeados → Abordagens →
 Respostas → Aceitaram 30s → Pitches enviados → Responderam ao pitch → Calls propostas → Calls
