@@ -1,15 +1,7 @@
 {
-  "atualizado_em": "2026-09-18T11:45:27.892Z",
-  "data": "2026-09-18",
-  "compromissos": [
-    {
-      "titulo": "unha",
-      "data": "2026-09-18",
-      "hora_inicio": "15:00:00",
-      "hora_fim": "16:00:00",
-      "observacoes": null
-    }
-  ],
+  "atualizado_em": "2026-09-19T11:45:27.665Z",
+  "data": "2026-09-19",
+  "compromissos": [],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
