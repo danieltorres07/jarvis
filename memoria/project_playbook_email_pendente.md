@@ -1,21 +1,43 @@
 ---
-name: playbook-email-pendente
-description: "Depois de finalizar as paginas do Playbook, LEMBRAR de perguntar ao Daniel sobre envio automatico do PDF por email/WhatsApp"
+name: playbook-email-sequencia
+description: "Sequencia de e-mail automatica do Playbook no ar via Resend: entrega na hora + 3 e-mails nos dias 2, 4 e 7"
 metadata: 
   node_type: memory
   type: project
   originSessionId: d8bc2e71-d600-4b8a-bd1c-34498ec864ed
-  modified: 2026-09-02T19:53:24.138Z
+  modified: 2026-09-21T15:33:02.277Z
 ---
 
-Landing /playbook + /playbook/obrigado no portal ([[project_portal_4d]]) prometem entregar o PDF "no contato cadastrado", mas o sistema hoje SO salva o lead em `leads_playbook` e redireciona. Nao ha envio de email nem WhatsApp automatico.
+**No ar desde 2026-09-21.** Funcionando de ponta a ponta, testado e entregue na caixa de entrada.
 
-**Why:** Daniel priorizou terminar as paginas primeiro (2026-09-02) e pediu pra eu lembrar dele depois.
+**Provedor:** Resend. Dominio `danieltorrespmv.com` verificado (DKIM em `resend._domainkey` + CNAMEs `rsend` e `send`, DNS na Hostinger).
+Remetente: `Daniel Torres <contato@danieltorrespmv.com>`.
 
-**How to apply:** Assim que os ajustes finais das paginas Playbook (landing + obrigado) forem concluidos, perguntar diretamente qual dos 3 caminhos ele quer seguir:
+**Sequencia:**
+| Quando | Assunto | Leva pra |
+|---|---|---|
+| Na hora do cadastro | Seu Playbook | so o PDF |
+| Dia 2, 10h BRT | Uma conta rapida | Raio-X (`/diagnostico-comercial`) |
+| Dia 4, 10h BRT | Perguntou o preco e sumiu | landing do produto |
+| Dia 7, 10h BRT | Ultima desse assunto | landing do produto |
 
-1. **E-mail via Resend** — recomendado, rapido, free ate 3k/mes. Precisa dele criar conta + configurar DNS SPF/DKIM em danieltorrespmv.com + me passar API key.
-2. **WhatsApp Meta Cloud API** — depende da burocracia Meta que esta pausada em [[project_followup_whatsapp]].
-3. **Tirar a promessa da copy** — remover a frase "voce vai receber no contato cadastrado" e deixar so o download na pagina de obrigado.
+**Onde mexe:**
+- Copy e molde HTML: `lib/email/playbook.ts`
+- E-mail 1 dispara em `app/actions/playbook-lead.ts` (falha nao trava o cadastro)
+- E-mails 2-4: cron `app/api/cron/playbook-sequencia/route.ts`, agendado no `vercel.json` (`0 13 * * *` = 10h BRT)
+- Descadastro: `app/api/playbook/descadastrar/route.ts`, link no rodape de todo e-mail
+- Controle: tabela `playbook_emails` (lead_id + sequencia unico) e coluna `leads_playbook.descadastrado_em`
 
-Se optar por email, montar template no padrao VOLO (Barlow + Jakarta + cream/ink/gold) com botao de download apontando pra `/downloads/playbook-atendimento-conversao.pdf`.
+**Variaveis na Vercel:** `RESEND_API_KEY`, `NEXT_PUBLIC_SITE_URL`, `URL_PRODUTO_PLAYBOOK`
+(a URL do produto e variavel justamente pra trocar sem deploy; hoje aponta pra
+`danieltorrespmv.com/do-whatsapp-a-cadeira-consulta`).
+
+**Why:** antes o PDF so existia na pagina de obrigado. Quem fechava a aba perdia o material
+e Daniel nao tinha como reentregar. Agora chega no e-mail e a sequencia ainda leva pro Raio-X
+e pro produto pago.
+
+**How to apply:** pra mudar a copy, so `lib/email/playbook.ts`. Pra trocar o destino do produto,
+muda a variavel na Vercel (sem deploy). O cron so pega quem cadastrou na janela do dia certo,
+entao lead antigo nunca recebe a sequencia de tras pra frente.
+
+Ver [[project_negocios]] e [[feedback_portal_auto_deploy]].
