@@ -30,7 +30,7 @@
 - [Rebrand VOLO → Clínicas de Alto Voo](project_rebrand_alto_voo.md) — nome novo decidido 2026-07-25, escopo (visual, onde aplicar, apelido curto) ainda em aberto
 - [Auto-deploy do portal Volo](feedback_portal_auto_deploy.md) — apos toda mudanca no ~/Daniel Torres/volo/portal/, commit+push automatico. Ele testa direto em produção.
 - [Follow-up automatico WhatsApp](project_followup_whatsapp.md) — sequencia de follow-up via Meta Cloud API pra CRM do Sistema Clinico. PAUSADO 2026-07-28 aguardando Daniel fazer burocracia Meta.
-- [Playbook · email automatico pendente](project_playbook_email_pendente.md) — LEMBRAR de perguntar sobre envio automatico do PDF depois de finalizar as paginas /playbook e /playbook/obrigado
+- [Playbook · sequencia de e-mail automatica](project_playbook_email_pendente.md) — NO AR desde 2026-09-21 via Resend. Entrega na hora + 3 e-mails (dias 2, 4, 7) levando pro Raio-X e pro produto
 - [Carrossel automatico](project_carrossel_automatico.md) — sistema autonomo: gera 4/dia, Daniel aprova 2 (slots 12:30 e 19:30), rejeitar regenera infinito. Auto-post Meta ainda pausado
 - [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — script Playwright local + painel /admin/prospeccao. Alvo 10 leads/dia. Bot de DM Instagram esta proibido
 - [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
