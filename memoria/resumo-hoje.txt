@@ -1,35 +1,34 @@
-DATA: 2026-09-24
+DATA: 2026-09-25
 
-STATUS · 24/09/2026
+STATUS — sexta-feira, 25/09/2026
 
 📅 Agenda de hoje
-- 09h30 Enviar Leads Tráfego (mandar leads pra Victória)
-- 17h00 Análise de Métricas
-(arquivo do Sistema da Clínica tá atualizado, mas não trouxe compromisso nenhum hoje)
+- 09:30 Enviar Leads Tráfego (enviar leads de formulário pra Victória entrar em contato)
+- 15:00 Reunião Biomédica
+- 17:00 Análise de Métricas
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Termos ao fechar orçamento
-- 4 reels (semana 7 a 11)
 - Enviar documento Metlife
-- Iniciar campanha de indicação (leva 1 pessoa, ela fecha, ganha 1 sessão de peptídeos + 10% de cashback no maior valor)
 - Incluir eventos no WhatsApp ao confirmar consulta
-- Criar agente hat gpt (complemento do infoproduto)
-- Devolver seringa (essa aparece duplicada duas vezes no painel, mas é a mesma tarefa)
+- Criar Agente hat gpt (complemento infoproduto)
+- Devolver seringa
+- Corrida
 
 📧 E-mails que precisam de você
-- Nenhum e-mail de pessoa real pendente hoje. Só automático e newsletter (GitHub, OpenAI, LinkedIn, trivago, Shopee, Apple, Google, G4 Educação, entre outros), nada que precise de resposta sua.
+- Nenhum e-mail de pessoa real pendente hoje — a caixa só tem newsletter, promoção e notificação automática (Shopee, Vivo, Trivago, LATAM, GitHub, OpenAI etc)
 
 🟢 Ativo agora
-- Sistema da Clínica: já em produção (clinicasaltovoo.vercel.app), com agenda, CRM, financeiro, funil e funil de prospecção rodando
-- Prospecção de clínicas: script roda todo dia às 10h, buscando 1 cidade por vez, alvo de 10 leads/dia
-- Carrossel automático: gerando 4 por dia, você aprova 2 (12h30 e 19h30)
+- Aceleração Clínica 4D (mentoria): em estruturação, é a prioridade de lançamento dos 90 dias
+- Sistema da Clínica: build em andamento, Módulo 1 (CRM/Comercial) com schema pronto
+- Carrossel automático: rodando sozinho, gera 4 por dia e espera sua aprovação nos slots de 12:30 e 19:30
+- Prospecção HOF: script rodando, meta de 10 leads/dia
 
 ⏸️ Pausado
-- Follow-up automático via WhatsApp: parado desde julho esperando você fazer a parte burocrática da Meta (verificação de negócio, criar app etc)
-- Portal 4D (área de membros): parado desde junho, antes da fase de deixar o cliente editar os próprios entregáveis
+- Follow-up automático WhatsApp: parado desde 28/07 esperando você resolver a burocracia da Meta
+- Portal 4D (plataforma de membros): parado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como manda o PDF pro lead (e-mail via Resend, WhatsApp via Meta, ou tirar a promessa da copy)
-- Follow-up WhatsApp só volta depois que você resolver a burocracia da Meta
-- Rebrand Alto Vôo: falta decidir se e quando entram as fases de voo (Decolagem, Subida, Cruzeiro, Pouso) no material
+- Rebrand VOLO → Clínicas de Alto Voo: nome já decidido, mas o escopo (visual, onde aplicar, apelido curto) ainda tá em aberto
+- Playbook: depois de finalizar as páginas /playbook e /playbook/obrigado, falta decidir sobre o envio automático do PDF
