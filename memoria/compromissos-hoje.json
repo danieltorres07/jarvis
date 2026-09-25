@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-09-24T09:53:53.223Z",
-  "data": "2026-09-24",
-  "compromissos": [],
+  "atualizado_em": "2026-09-25T09:53:52.437Z",
+  "data": "2026-09-25",
+  "compromissos": [
+    {
+      "titulo": "Reunião Biomédica",
+      "data": "2026-09-25",
+      "hora_inicio": "15:00:00",
+      "hora_fim": "16:00:00",
+      "observacoes": null
+    }
+  ],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -12,15 +20,7 @@
       "concluida": false
     },
     {
-      "titulo": "4 reels (semana 7 a 11)",
-      "concluida": false
-    },
-    {
       "titulo": "Enviar documento Metlife",
-      "concluida": false
-    },
-    {
-      "titulo": "Iniciar campanha de indicação (levar 1 pessoa e ela fechar, ganha 1 sessão peptídeos + 10% cashback maior valor)",
       "concluida": false
     },
     {
@@ -36,7 +36,7 @@
       "concluida": false
     },
     {
-      "titulo": "Devolver seringa",
+      "titulo": "Corrida",
       "concluida": false
     }
   ]
