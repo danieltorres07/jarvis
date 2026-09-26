@@ -1,15 +1,7 @@
 {
-  "atualizado_em": "2026-09-25T09:53:52.437Z",
-  "data": "2026-09-25",
-  "compromissos": [
-    {
-      "titulo": "Reunião Biomédica",
-      "data": "2026-09-25",
-      "hora_inicio": "15:00:00",
-      "hora_fim": "16:00:00",
-      "observacoes": null
-    }
-  ],
+  "atualizado_em": "2026-09-26T09:53:52.687Z",
+  "data": "2026-09-26",
+  "compromissos": [],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -17,10 +9,6 @@
     },
     {
       "titulo": "Termos ao fechar orçamento",
-      "concluida": false
-    },
-    {
-      "titulo": "Enviar documento Metlife",
       "concluida": false
     },
     {
@@ -32,11 +20,23 @@
       "concluida": false
     },
     {
+      "titulo": "Corrida",
+      "concluida": false
+    },
+    {
+      "titulo": "Criar documentos pós procedimentos",
+      "concluida": false
+    },
+    {
       "titulo": "Devolver seringa",
       "concluida": false
     },
     {
       "titulo": "Corrida",
+      "concluida": false
+    },
+    {
+      "titulo": "Transferência Kwid",
       "concluida": false
     }
   ]
