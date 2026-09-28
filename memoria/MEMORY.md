@@ -36,3 +36,5 @@
 - [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
 - [COPYWRITER.md obrigatorio](feedback_copywriter_obrigatorio.md) — TODA copy/texto do projeto passa por ~/COPYWRITER.md sem exceção. Placeholder tecnico = "PLACEHOLDER", nunca frase inventada.
 - [Operação Comercial Completa · prospecção](project_operacao_comercial_prospeccao.md) — funil 12 etapas + campos CRM + scripts prontos (abordagem/pitch/reativação/consulta) + preço R$2.500/Sprint, diverge do pricing em project_sprint_caixa
+- [Animacao no portal e JS, nunca CSS](feedback_animacao_js_nao_css.md) — CSS/SMIL nao roda no aparelho do Daniel; usar requestAnimationFrame e testar no WebKit com reduzir-movimento ligado
+- [Testar local antes de subir](feedback_testar_antes_de_subir.md) — ajuste visual: comparar variantes lado a lado localmente; quando ele diz que esta errado, medir em vez de deduzir
