@@ -1,10 +1,12 @@
-DATA: 2026-09-27
+DATA: 2026-09-28
 
-STATUS — domingo, 27/09/2026
+STATUS — segunda-feira, 28/09/2026
 
 📅 Agenda de hoje
-- Sem compromissos na agenda hoje (Google Calendar vazio, confirmado pelo próprio e-mail de aviso do Google)
-- Arquivo memoria/compromissos-hoje.json está atualizado (data bate com hoje), mas a lista de compromissos do Sistema da Clínica também veio vazia
+- 09:30 – Enviar Leads Tráfego (mandar leads de formulário pra Victória entrar em contato)
+- 11:30 – Médico mãe (Hospital Madre Teresa)
+- 14:00 – Aula de inglês (compromisso do Sistema da Clínica)
+- 17:00 – Análise de Métricas (ver número do dia anterior com Victória, mensagens, agendamentos)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -18,19 +20,19 @@ STATUS — domingo, 27/09/2026
 - Transferência Kwid
 
 📧 E-mails que precisam de você
-- Nenhum e-mail de pessoa real pendente hoje — a caixa de hoje só tem newsletter, promoção e notificação automática (Aliexpress, Vivareal, Zap Imóveis, Indeed, LinkedIn, Cemig, Hostinger, Copart, Cakto, WordPress, Azul, DAZ3D, aviso do próprio Google Calendar)
+- Nenhum e-mail de pessoa real pendente hoje — a caixa só tem newsletter, promoção e notificação automática (DAZ3D, Casio, Vivareal, Zap Imóveis, AliExpress, WordPress/comentário, Twilio, Cinemark, LinkedIn, aviso do próprio Google Calendar)
 
 🟢 Ativo agora
-- Aceleração Clínica 4D (mentoria): em estruturação, é a prioridade de lançamento dos 90 dias
-- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, módulos de agenda/pacientes/financeiro/funil já construídos
+- Aceleração Clínica 4D (mentoria): em estruturação, prioridade de lançamento dos 90 dias
+- Sistema da Clínica: sistema próprio substituindo o Clinicorp, módulo 1 (CRM/Comercial) com schema pronto, construção rolando
 - Carrossel automático: rodando sozinho, gera 4 por dia e espera sua aprovação nos slots de 12:30 e 19:30
 - Prospecção HOF: script rodando, meta de 10 leads/dia
-- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes
+- Sprint de Caixa 30 dias: primeira turma com uma amiga, pricing dos próximos ainda em aberto
 
 ⏸️ Pausado
 - Follow-up automático WhatsApp: parado desde 28/07 esperando você resolver a burocracia da Meta
 - Portal 4D (plataforma de membros): parado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
 
 ⚠️ Precisa de você
-- Rebrand VOLO → Clínicas de Alto Vôo: nome já decidido, mas o escopo (visual, onde aplicar, apelido curto) ainda tá em aberto
-- Playbook: depois de finalizar as páginas /playbook e /playbook/obrigado, falta decidir qual dos 3 caminhos pro envio automático do PDF (Resend, WhatsApp Meta ou tirar a promessa da copy)
+- Rebrand VOLO → Clínicas de Alto Voo: nome já decidido, mas o escopo (visual, onde aplicar, apelido curto) ainda tá em aberto
+- Playbook: depois de finalizar as páginas /playbook e /playbook/obrigado, falta decidir qual dos 3 caminhos pro envio automático do PDF
