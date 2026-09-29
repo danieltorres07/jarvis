@@ -1,15 +1,7 @@
 {
-  "atualizado_em": "2026-09-28T09:53:53.315Z",
-  "data": "2026-09-28",
-  "compromissos": [
-    {
-      "titulo": "aula ingles",
-      "data": "2026-09-28",
-      "hora_inicio": "14:00:00",
-      "hora_fim": "16:00:00",
-      "observacoes": null
-    }
-  ],
+  "atualizado_em": "2026-09-29T09:53:52.905Z",
+  "data": "2026-09-29",
+  "compromissos": [],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -20,23 +12,11 @@
       "concluida": false
     },
     {
-      "titulo": "Incluir eventos no WhatsApp ao confirmar consulta",
-      "concluida": false
-    },
-    {
       "titulo": "Criar Agente hat gpt (complemento infoproduto)",
       "concluida": false
     },
     {
-      "titulo": "Corrida",
-      "concluida": false
-    },
-    {
       "titulo": "Criar documentos pós procedimentos",
-      "concluida": false
-    },
-    {
-      "titulo": "Devolver seringa",
       "concluida": false
     },
     {
