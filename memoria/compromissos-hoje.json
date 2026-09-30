@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-09-29T09:53:52.905Z",
-  "data": "2026-09-29",
+  "atualizado_em": "2026-09-30T09:53:52.581Z",
+  "data": "2026-09-30",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -25,6 +25,14 @@
     },
     {
       "titulo": "Transferência Kwid",
+      "concluida": false
+    },
+    {
+      "titulo": "Mudar playbook para diagnóstico",
+      "concluida": false
+    },
+    {
+      "titulo": "Gravar criativo",
       "concluida": false
     }
   ]
