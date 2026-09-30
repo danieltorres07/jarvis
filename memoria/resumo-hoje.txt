@@ -1,12 +1,11 @@
-DATA: 2026-09-29
+DATA: 2026-09-30
 
-STATUS — 29/09/2026
+STATUS — 30/09/2026
 
 📅 Agenda de hoje
-- 05:30 Devocional LGND
-- 09:30 Enviar Leads Tráfego (mandar os leads de formulário pra Victória entrar em contato)
-- 17:00 Análise de Métricas (número do dia anterior com Victória, mensagens, agendamentos)
-Sem compromissos do Sistema da Clínica hoje (arquivo tá atualizado, mas a lista veio vazia).
+- 09:30 Enviar Leads Tráfego
+- 17:00 Análise de Métricas
+(o arquivo compromissos-hoje.json tá atualizado pra hoje, mas a lista de compromissos do Sistema da Clínica veio vazia)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -15,21 +14,20 @@ Sem compromissos do Sistema da Clínica hoje (arquivo tá atualizado, mas a list
 - Criar documentos pós procedimentos
 - Corrida
 - Transferência Kwid
+- Mudar playbook para diagnóstico
+- Gravar criativo
 
 📧 E-mails que precisam de você
-Nenhum. Só chegou promoção, newsletter e notificação automática hoje, nada de gente real escrevendo pra você.
+Nenhum e-mail de pessoa real chegou nas últimas 24h. Só teve notificação automática, newsletter e promoção (calendário do Google, lojas, Indeed, LinkedIn, aniversário de fornecedor etc), então não tem nada real pra você responder hoje.
 
 🟢 Ativo agora
-- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes rodando, faltam os lotes de fechamento (régua de orçamento aberto, roteiro de consulta, cardápio de objeções) e o orçamento padrão
-- Carrossel automático: gerando 4 por dia, você aprova 2, auto-post ainda manual porque a Meta API tá pausada
-- Prospecção HOF: cron rodando 10h, funil B2B ativo no clinica-sistema, meta 10 leads/dia
-- Sistema da Clínica: no ar em clinicasaltovoo.vercel.app, módulos de agenda, pacientes, financeiro, funil e follow-ups já construídos
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e prospecção já construídos
+- Carrossel automático: rodando, gera 4 por dia e você aprova 2 (12:30 e 19:30)
+- Prospecção HOF: coletor rodando 1 cidade por dia, meta de 10 leads/dia
 
 ⏸️ Pausado
-- Follow-up automático via WhatsApp: parado desde 28/07 esperando você terminar a burocracia da Meta (verificação de negócio, app, templates)
-- Portal 4D (área de membros): parado desde 10/06, antes da fase de cliente editar os próprios entregáveis
+- Portal 4D (plataforma de membros): pausado desde 10/06, antes da fase de cliente editar entregáveis
+- Auto-post do carrossel no Instagram: ainda depende da Meta Cloud API liberar
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como o PDF vai ser entregue automaticamente (e-mail via Resend, WhatsApp Meta, ou tirar a promessa da copy)
-- Follow-up WhatsApp só volta a andar quando você fechar a parte da Meta
-- Bolão Royals: tem a Ingrid de Morais inscrita de verdade (72 palpites) esperando você confirmar o pagamento no painel, e um cadastro de teste pra excluir
+- Follow-up automático via WhatsApp: pausado desde 28/07 esperando você resolver a burocracia da Meta Cloud API
