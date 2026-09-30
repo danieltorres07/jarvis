@@ -8,11 +8,11 @@ metadata:
   modified: 2026-09-17T14:15:05.612Z
 ---
 
-**Path do projeto:** `~/aceleracao-4d/`
+**Path do projeto (corrigido 2026-09-29):** `~/Daniel Torres/volo/portal/`. A pasta `~/aceleracao-4d/` NAO EXISTE MAIS — o Portal 4D foi absorvido pelo portal Volo, que hoje e um app unico. As telas do 4D vivem em `app/admin/clientes/`, `app/admin/padroes/`, `app/admin/produtos/`, `app/admin/pedidos/`, `app/admin/entrar-como/`. Producao: https://clinicasaltovoo.vercel.app/
 
-**Stack:** Next.js 16.2 + Supabase (sa-east-1) + TypeScript + Tailwind 4. Mesmo padrão dos projetos `bolao-royals/` e `clinica-sistema/`.
+**Stack:** Next.js 16.2 + Supabase (sa-east-1) + TypeScript + Tailwind 4. Mesmo padrão do projeto `bolao-royals/`. (`clinica-sistema/` foi apagado da máquina.)
 
-**Supabase:** projeto "Portal 4D" id `sjiwgihoozkeiguslayx`, região São Paulo. Credenciais em `~/aceleracao-4d/.env.local` (gitignored).
+**Supabase:** projeto "Portal 4D" id `sjiwgihoozkeiguslayx`, região São Paulo. Credenciais em `~/Daniel Torres/volo/portal/.env.local` (gitignored).
 
 **O que está pronto (até 2026-06-10):**
 - Schema completo: clientes, convites, padrões, instâncias, diagnósticos, marcos, admins, sessões + produtos, módulos, acessos
@@ -34,7 +34,7 @@ metadata:
 - Fase 12: Deploy Vercel + DNS (Daniel quer usar subdomínio dele)
 - Fase 10: Conteúdo Trilha Técnica Linda (sessão separada com ela)
 
-**Servidor dev:** `cd ~/aceleracao-4d && npm run dev` → http://localhost:3000
+**Servidor dev:** `cd ~/Daniel\ Torres/volo/portal && npm run dev` → http://localhost:3000
 
 **Why:** Daniel quer parar de enviar PDFs/scripts manualmente pra cada cliente. Plataforma é catálogo central + cópia editável por cliente, sem vazar entre clientes (padrão → instância).
 

@@ -20,8 +20,8 @@
 - [Apresentacao Harmo Clinic (recepcao)](project_harmoclinic_apresentacao.md) — deck TV em loop, fontes Vandermark+Kumbh, fotos do PDF, export 4K, pendencias em PENDENTES.txt
 - [Stack visual de apresentacao (template canonico)](reference_layout_apresentacao.md) — caminho de referencia pra qualquer deck institucional 16:9 (call, programatico, deck). Reusar generate.py + fontes + helpers
 - [Bolao Royal's Copa 2026](project_bolao_royals.md) — sistema web de bolao pra Royal's Barbershop (Next.js+Supabase+Vercel), prazo 11/06/2026, modelo sem-senha com PIN, pagamento Pix via WhatsApp
-- [Sistema da Clinica](project_sistema_clinica.md) — sistema interno proprio substituindo Clinicorp, modular/paralelo, Next+Supabase, Modulo 1 (CRM/Comercial) schema pronto, build no Sonnet
-- [Portal 4D · plataforma de membros](project_portal_4d.md) — ~/aceleracao-4d/ Next+Supabase. Pausado 2026-06-10 antes da Fase 7 (cliente editar entregaveis). Admin + auth cliente + area Hotmart-style funcionando.
+- [Sistema da Clinica](project_sistema_clinica.md) — vive DENTRO do portal Volo (`~/Daniel Torres/volo/portal/`, app/admin/sistema-clinico). `~/clinica-sistema` foi apagado
+- [Portal 4D · plataforma de membros](project_portal_4d.md) — absorvido pelo portal Volo (`~/Daniel Torres/volo/portal/`). `~/aceleracao-4d` nao existe mais. Pausado antes da Fase 7
 - [Diagnóstico de Partida · padrão oficial](project_diagnostico_partida_padrao.md) — 10 blocos, multi-select em tudo, obs opcional por pergunta, sem classificações. Vive em app/admin/clientes/[id]/diagnostico-partida/ no portal 4d
 - [Mentoria Láureo · precificação e negociação](project_mentoria_precificacao.md) — tabela interna: 1 mentoria R$6k, 2 juntas R$11k, +consultoria Daniel R$15k. Negociação: R$12k/10k/9k. Não entra na apresentação.
 - [Arquitetura canônica das Praxis](reference_arquitetura_praxis.md) — Praxis I é o template do Programa Principium. II, III, IV devem seguir mesmo tamanho/ritmo/padrão visual/abertura (Como utilizar) e encerramento (Erros + Objetivo desta Praxis).
@@ -32,9 +32,10 @@
 - [Follow-up automatico WhatsApp](project_followup_whatsapp.md) — sequencia de follow-up via Meta Cloud API pra CRM do Sistema Clinico. PAUSADO 2026-07-28 aguardando Daniel fazer burocracia Meta.
 - [Playbook · sequencia de e-mail automatica](project_playbook_email_pendente.md) — NO AR desde 2026-09-21 via Resend. Entrega na hora + 3 e-mails (dias 2, 4, 7) levando pro Raio-X e pro produto
 - [Carrossel automatico](project_carrossel_automatico.md) — sistema autonomo: gera 4/dia, Daniel aprova 2 (slots 12:30 e 19:30), rejeitar regenera infinito. Auto-post Meta ainda pausado
-- [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — script Playwright local + painel /admin/prospeccao. Alvo 10 leads/dia. Bot de DM Instagram esta proibido
+- [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — QUEBRADA desde set/2026 (env aponta pra pasta apagada, 0 lead). Destino certo: funil leads-prospeccao no CRM do Volo
 - [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
 - [COPYWRITER.md obrigatorio](feedback_copywriter_obrigatorio.md) — TODA copy/texto do projeto passa por ~/COPYWRITER.md sem exceção. Placeholder tecnico = "PLACEHOLDER", nunca frase inventada.
 - [Operação Comercial Completa · prospecção](project_operacao_comercial_prospeccao.md) — funil 12 etapas + campos CRM + scripts prontos (abordagem/pitch/reativação/consulta) + preço R$2.500/Sprint, diverge do pricing em project_sprint_caixa
 - [Animacao no portal e JS, nunca CSS](feedback_animacao_js_nao_css.md) — CSS/SMIL nao roda no aparelho do Daniel; usar requestAnimationFrame e testar no WebKit com reduzir-movimento ligado
 - [Testar local antes de subir](feedback_testar_antes_de_subir.md) — ajuste visual: comparar variantes lado a lado localmente; quando ele diz que esta errado, medir em vez de deduzir
+- [Valor sempre em faixa de protocolo](feedback_valor_faixa_protocolo.md) — copy nunca mostra a clinica respondendo preco de procedimento isolado; faixa + consulta de avaliacao

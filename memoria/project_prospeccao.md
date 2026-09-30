@@ -1,6 +1,6 @@
 ---
 name: prospeccao
-description: Sistema de prospeccao B2B de clinicas HOF via Google Maps + planilha manual. Coletor Python local + funil kanban no clinica-sistema
+description: Prospeccao B2B de clinicas HOF via Google Maps. QUEBRADA desde set/2026: coletor aponta pra pasta apagada. Destino certo e o funil leads-prospeccao no CRM do portal Volo
 metadata: 
   node_type: memory
   type: project
@@ -8,18 +8,31 @@ metadata:
   modified: 2026-09-09T22:19:31.338Z
 ---
 
-**Sistema criado em 2026-09-09. Refatorado 2026-09-09: migrado do portal Volo pro clinica-sistema.**
+**Sistema criado em 2026-09-09. Refatorado no mesmo dia: migrado do portal Volo pro clinica-sistema. Essa migracao se perdeu na pratica, porque o clinica-sistema foi apagado depois. Por isso quebrou.**
 
 **Objetivo:** Daniel prospectar clinicas HOF pra vender mentoria (Programa 4D) + infoproduto (Playbook R$ 97). Volume alvo: 10 leads/dia.
 
-**Arquitetura atual (pós-migração):**
-- `~/Daniel Torres/prospeccao/coletar.py` — script Python com Playwright headed, grava no Supabase do **clinica-sistema** (não mais no Volo).
-- `~/Daniel Torres/prospeccao/importar-planilha.py` — importa CSV da planilha manual (`~/Daniel Torres/planilhas/prospeccao-instagram/index.html`) pro Supabase.
+**ESTADO REAL (auditado 2026-09-29): O COLETOR ESTA QUEBRADO E NAO COLETA NADA DESDE MEADOS DE SETEMBRO.**
+
+11 de 18 execucoes do worker falharam. Causa: `coletar.py` linha 40 tem `ENV_PATH = /Users/danieltorres/clinica-sistema/.env.local`, e essa pasta FOI APAGADA. O worker roda todo dia as 10h, falha em silencio, ninguem e avisado. Zero lead entrou.
+
+**Onde o destino vivo realmente esta (nao confundir, tem 3 nomes parecidos):**
+- `leads_prospeccao` — o que o script tenta gravar. Vivia no Supabase do clinica-sistema APAGADO. Alvo morto.
+- `prospeccao_leads` — tabela ANTIGA no Supabase do Volo (migration 096). Parou de receber gravacao em 09/09. Deprecada, nao usar.
+- **funil `leads-prospeccao` no CRM do portal Volo — ESTE e o destino certo.** Grava em `contatos` + `sc_funil_cartoes`, campos custom formalizados na migration 097 (instagram, cidade, clinica_propria, sinal_operacao, gancho, clinica, uf, data_primeira_abordagem, ultima_interacao). UI em `app/admin/sistema-clinico/crm/[funil]/`, tratamento especial do slug em `CartaoDetalhesModal.tsx` e `_gerenciar.tsx`.
+
+**Conserto pendente (nao executado ainda, aguardando OK do Daniel):**
+1. Apontar `ENV_PATH` pra `~/Daniel Torres/volo/portal/.env.local` (tem SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY validos).
+2. Trocar o destino de gravacao de `leads_prospeccao` pro par `contatos` + `sc_funil_cartoes` no funil `leads-prospeccao`, respeitando a regra de 1 cartao por funil por contato.
+3. Dedup: hoje e por `google_place_id`. Precisa decidir onde esse campo mora no schema novo.
+4. Fazer o worker gritar quando falhar, em vez de morrer em silencio no log.
+
+**Arquitetura dos arquivos (esses continuam validos):**
+- `~/Daniel Torres/prospeccao/coletar.py` — Playwright headed, Google Maps + enriquecimento Instagram.
+- `~/Daniel Torres/prospeccao/importar-planilha.py` — importa CSV da planilha manual.
 - `~/Daniel Torres/prospeccao/cidades.txt` — 60+ cidades BR.
-- `~/Daniel Torres/prospeccao/worker-diario.sh` + LaunchAgent `com.danieltorres.prospeccao` — roda todo dia às 10h, 1 cidade/dia.
-- `~/clinica-sistema/db/schema-leads-prospeccao.sql` — tabelas `leads_prospeccao` + `leads_prospeccao_buscas`.
-- `/funil-prospeccao` no clinica-sistema — kanban B2B com estagios: novo → abordada → respondeu → dor → call_marcada → call_feita → fechado → descartado.
-- `/funil-prospeccao/[id]` — detalhe com botao "Enviar DM" que copia msg + abre ig.me + marca abordada.
+- `~/Daniel Torres/prospeccao/worker-diario.sh` + LaunchAgent `com.danieltorres.prospeccao` — 10h, 1 cidade/dia.
+- Log: `~/Daniel Torres/prospeccao/worker.log` (e onde as falhas aparecem).
 
 **Gating:** `/funil` (Playbook Atendimento) e `/funil-prospeccao` só aparecem se `NEXT_PUBLIC_ADMIN=1` no `.env.local` do clinica-sistema. Server-side redirect via `notFound()` se env estiver off.
 
