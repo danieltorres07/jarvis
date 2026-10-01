@@ -39,3 +39,4 @@
 - [Animacao no portal e JS, nunca CSS](feedback_animacao_js_nao_css.md) — CSS/SMIL nao roda no aparelho do Daniel; usar requestAnimationFrame e testar no WebKit com reduzir-movimento ligado
 - [Testar local antes de subir](feedback_testar_antes_de_subir.md) — ajuste visual: comparar variantes lado a lado localmente; quando ele diz que esta errado, medir em vez de deduzir
 - [Valor sempre em faixa de protocolo](feedback_valor_faixa_protocolo.md) — copy nunca mostra a clinica respondendo preco de procedimento isolado; faixa + consulta de avaliacao
+- [Upload no Supabase Storage](reference_supabase_storage_upload.md) — precisa do header apikey junto do Authorization, senao 403
