@@ -1,11 +1,10 @@
-DATA: 2026-09-30
+DATA: 2026-10-01
 
-STATUS — 30/09/2026
+STATUS — 01/10/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego
-- 17:00 Análise de Métricas
-(o arquivo compromissos-hoje.json tá atualizado pra hoje, mas a lista de compromissos do Sistema da Clínica veio vazia)
+- 09:30 Enviar Leads Tráfego (mandar leads de formulário pra Victória entrar em contato)
+- 17:00 Análise de Métricas (ver número do dia anterior com Victória — novas mensagens, agendamentos, meta)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -14,20 +13,21 @@ STATUS — 30/09/2026
 - Criar documentos pós procedimentos
 - Corrida
 - Transferência Kwid
-- Mudar playbook para diagnóstico
 - Gravar criativo
 
 📧 E-mails que precisam de você
-Nenhum e-mail de pessoa real chegou nas últimas 24h. Só teve notificação automática, newsletter e promoção (calendário do Google, lojas, Indeed, LinkedIn, aniversário de fornecedor etc), então não tem nada real pra você responder hoje.
+- Nenhum e-mail de uma pessoa real pendente hoje. As 19 mensagens não lidas são tudo automático/promocional (notificação de agenda, newsletter, Hostinger, Skool, LinkedIn, Shopee, Decathlon, AliExpress etc).
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e prospecção já construídos
-- Carrossel automático: rodando, gera 4 por dia e você aprova 2 (12:30 e 19:30)
-- Prospecção HOF: coletor rodando 1 cidade por dia, meta de 10 leads/dia
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), rodando no dia a dia da clínica
+- Carrossel automático: gerando 4 carrosséis por dia, você aprova 2
+- Prospecção HOF: cron diário buscando leads de clínicas (1 cidade/dia)
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes
 
 ⏸️ Pausado
-- Portal 4D (plataforma de membros): pausado desde 10/06, antes da fase de cliente editar entregáveis
-- Auto-post do carrossel no Instagram: ainda depende da Meta Cloud API liberar
+- Follow-up automático WhatsApp: esperando você terminar a burocracia da Meta Business (verificação, app, templates)
+- Portal 4D (plataforma de membros): pausado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
 
 ⚠️ Precisa de você
-- Follow-up automático via WhatsApp: pausado desde 28/07 esperando você resolver a burocracia da Meta Cloud API
+- Playbook: decidir como vai sair o envio automático do PDF pro lead — e-mail via Resend, WhatsApp (depende da Meta, mesma pendência do follow-up) ou tirar essa promessa da copy
+- Rebrand Alto Vôo: escopo ainda em aberto — quando aplicar as fases de voo (Decolagem/Subida/Cruzeiro/Pouso) e se/quando re-renderizar o material antigo que ainda está como Praxis/Principium
