@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-09-30T09:53:52.581Z",
-  "data": "2026-09-30",
+  "atualizado_em": "2026-10-01T09:53:52.864Z",
+  "data": "2026-10-01",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -25,10 +25,6 @@
     },
     {
       "titulo": "Transferência Kwid",
-      "concluida": false
-    },
-    {
-      "titulo": "Mudar playbook para diagnóstico",
       "concluida": false
     },
     {
