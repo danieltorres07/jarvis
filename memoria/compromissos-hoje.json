@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-10-02T09:53:53.166Z",
-  "data": "2026-10-02",
+  "atualizado_em": "2026-10-03T09:53:53.046Z",
+  "data": "2026-10-03",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -29,14 +29,6 @@
     },
     {
       "titulo": "Gravar criativo",
-      "concluida": false
-    },
-    {
-      "titulo": "Atualizar todos os scripts/documentos para a nova linguagem",
-      "concluida": false
-    },
-    {
-      "titulo": "Atualizar gerador de carrosséis: CTA pra comentar no meio dos slides, não no final",
       "concluida": false
     }
   ]
