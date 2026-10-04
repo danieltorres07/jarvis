@@ -1,11 +1,10 @@
-DATA: 2026-10-02
+DATA: 2026-10-04
 
-STATUS — 02/10
+STATUS — 04/10/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar os leads do formulário pra Victória)
-- 17:00 Análise de Métricas (ver os números do dia com a Victória)
-Sem compromisso adicional do Sistema da Clínica hoje (arquivo atualizado, lista vazia).
+- Nenhum compromisso no Google Calendar hoje (o próprio Google já confirmou isso de manhã).
+- O arquivo do Painel/Sistema da Clínica também não tem compromisso pra hoje (a data do arquivo confere, tá atualizado).
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -15,25 +14,22 @@ Sem compromisso adicional do Sistema da Clínica hoje (arquivo atualizado, lista
 - Corrida
 - Transferência Kwid
 - Gravar criativo
-- Atualizar todos os scripts/documentos para a nova linguagem
-- Atualizar gerador de carrosséis: CTA pra comentar no meio dos slides, não no final
 
 📧 E-mails que precisam de você
-Nenhum e-mail de pessoa real pendente hoje. O que chegou foi tudo automático (Hostinger, Shopee, LinkedIn, boleto da AllCare, newsletter, etc), nada que precise de resposta sua.
+- Nenhum. As 10 não lidas de hoje são tudo automático (notificação de agenda, nota fiscal do Google Workspace, promoção de imóvel, loja, vaga de emprego). Ninguém te escreveu direto hoje.
 
 🟢 Ativo agora
-- Sistema da Clínica: rodando em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e follow-ups já no ar
-- Sprint de Caixa 30 dias: caso ativo com a Dra. Brenda Guedes, faltam os entregáveis de fechamento (régua de orçamento aberto, roteiro de consulta, cardápio de objeções)
-- Carrossel automático: gerando 4 carrosséis por dia, esperando você aprovar 2 pra postar
-- Programa de Aceleração 4D: consultoria em estruturação, com o Sprint 30 dias e o programa de 12 meses no catálogo
+- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, construindo módulo por módulo (agenda, financeiro, funil e prospecção já no ar).
+- Carrossel automático: gerando 4 carrosséis por dia, você aprova 2 (slots 12:30 e 19:30).
+- Prospecção de clínicas: cron diário rodando, 1 cidade por dia, funil dentro do sistema da clínica.
+- Caso Dra. Brenda Guedes (sprint de caixa 30 dias): em andamento, faltam os entregáveis de fechamento (lote 3) e o orçamento padrão (lote 4).
+- Rebrand Clínicas de Alto Vôo: valendo em todo material novo.
 
 ⏸️ Pausado
-- Portal 4D (plataforma de membros): parado desde 10/06, antes da fase de cliente editar entregável
-- Follow-up automático no WhatsApp: parado desde 28/07, esperando você resolver a burocracia com a Meta
-- Postagem automática no Instagram: ainda travada pela Meta Cloud API, por enquanto é aprovar e postar manual
+- Follow-up automático no WhatsApp: parado esperando você terminar a burocracia da Meta (verificação de negócio + criação do app).
+- Área de membros (plataforma que recebia clientes da consultoria): parada desde junho, antes da fase de cliente editar o próprio material.
 
 ⚠️ Precisa de você
-- Aprovar os carrosséis do dia (escolher 2 dos 4 gerados)
-- Resolver a burocracia da Meta pra destravar o follow-up automático e o auto-post
-- Mandar os exemplos de mensagem de "Conexão" (pós primeiro atendimento) pra equipe seguir
-- As 9 tarefas pendentes do painel, com destaque pro Plano de Comissionamento e os Termos ao fechar orçamento
+- Decidir o caminho pra mandar o PDF do Playbook automático pro cliente: e-mail, WhatsApp (depende da burocracia da Meta) ou tirar essa promessa da copy.
+- As duas perguntas do follow-up automático no WhatsApp: qual número usar e se a Victoria também vê o histórico de mensagens.
+- Mandar os exemplos de "Conexão" (mensagem pro paciente de primeiro atendimento) pra eu produzir esse material do sprint de caixa.
