@@ -40,4 +40,5 @@
 - [Testar local antes de subir](feedback_testar_antes_de_subir.md) — ajuste visual: comparar variantes lado a lado localmente; quando ele diz que esta errado, medir em vez de deduzir
 - [Valor sempre em faixa de protocolo](feedback_valor_faixa_protocolo.md) — copy nunca mostra a clinica respondendo preco de procedimento isolado; faixa + consulta de avaliacao
 - [Upload no Supabase Storage](reference_supabase_storage_upload.md) — precisa do header apikey junto do Authorization, senao 403
-- [Carrossel sempre meio a meio](feedback_carrossel_meio_a_meio.md) — 50% texto e 50% com foto; nunca forçar --formato em lote
+- [Carrossel sempre meio a meio](feedback_carrossel_meio_a_meio.md) — 70% com foto e 30% texto; nunca forçar --formato em lote
+- [Mensagem de retomada](feedback_mensagem_retomada.md) — proibido "aconteceu algo?"/"estou aqui pra ajudar"; precisa de motivo real, queixa nomeada e pergunta aberta
