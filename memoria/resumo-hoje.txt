@@ -1,10 +1,11 @@
-DATA: 2026-10-04
+DATA: 2026-10-05
 
-STATUS — 04/10/2026
+STATUS — 05/10/2026
 
 📅 Agenda de hoje
-- Nenhum compromisso no Google Calendar hoje (o próprio Google já confirmou isso de manhã).
-- O arquivo do Painel/Sistema da Clínica também não tem compromisso pra hoje (a data do arquivo confere, tá atualizado).
+- 09:30 Enviar Leads Tráfego (passar leads de formulário pra Victória)
+- 17:00 Análise de Métricas (números do dia anterior com Victória, mensagens, agendamentos)
+- Arquivo do Sistema da Clínica tá atualizado, mas não tem compromisso nenhum lançado lá hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -16,20 +17,18 @@ STATUS — 04/10/2026
 - Gravar criativo
 
 📧 E-mails que precisam de você
-- Nenhum. As 10 não lidas de hoje são tudo automático (notificação de agenda, nota fiscal do Google Workspace, promoção de imóvel, loja, vaga de emprego). Ninguém te escreveu direto hoje.
+- Nenhum. As 12 não lidas de hoje são tudo automático (Google Agenda, pesquisa Vivo, promoção, imóveis, LinkedIn, Asaas, etc), ninguém te escreveu direto hoje.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, construindo módulo por módulo (agenda, financeiro, funil e prospecção já no ar).
-- Carrossel automático: gerando 4 carrosséis por dia, você aprova 2 (slots 12:30 e 19:30).
-- Prospecção de clínicas: cron diário rodando, 1 cidade por dia, funil dentro do sistema da clínica.
-- Caso Dra. Brenda Guedes (sprint de caixa 30 dias): em andamento, faltam os entregáveis de fechamento (lote 3) e o orçamento padrão (lote 4).
-- Rebrand Clínicas de Alto Vôo: valendo em todo material novo.
+- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e prospecção B2B rodando dentro dele
+- Carrossel automático: gerando 4 por dia, você aprova 2 (12:30 e 19:30). Auto-post no Instagram ainda pausado, aprovado = agenda com horário pra postagem manual
+- Sprint de Caixa 30 dias / Programa 4D: caso em andamento com a Dra. Brenda Guedes, faltam os lotes 3 e 4 de entregáveis (régua de orçamento aberto, roteiro de consulta, cardápio de objeções, orçamento padrão)
+- Apresentação da Harmo Clinic pra TV da recepção: em construção, pendências registradas em PENDENTES.txt
 
 ⏸️ Pausado
-- Follow-up automático no WhatsApp: parado esperando você terminar a burocracia da Meta (verificação de negócio + criação do app).
-- Área de membros (plataforma que recebia clientes da consultoria): parada desde junho, antes da fase de cliente editar o próprio material.
+- Portal 4D (plataforma de membros): parado desde 10/06 antes da Fase 7 (cliente editar entregável)
+- Follow-up automático via WhatsApp: parado desde 28/07, esperando você fazer a burocracia da Meta Business
 
 ⚠️ Precisa de você
-- Decidir o caminho pra mandar o PDF do Playbook automático pro cliente: e-mail, WhatsApp (depende da burocracia da Meta) ou tirar essa promessa da copy.
-- As duas perguntas do follow-up automático no WhatsApp: qual número usar e se a Victoria também vê o histórico de mensagens.
-- Mandar os exemplos de "Conexão" (mensagem pro paciente de primeiro atendimento) pra eu produzir esse material do sprint de caixa.
+- Playbook: falta decidir como vai mandar o PDF pro contato (e-mail via Resend, WhatsApp Meta, ou tirar essa promessa da copy)
+- Follow-up WhatsApp: só volta quando você verificar a conta Meta Business e criar o app
