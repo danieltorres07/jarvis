@@ -42,3 +42,4 @@
 - [Upload no Supabase Storage](reference_supabase_storage_upload.md) — precisa do header apikey junto do Authorization, senao 403
 - [Carrossel sempre meio a meio](feedback_carrossel_meio_a_meio.md) — 70% com foto e 30% texto; nunca forçar --formato em lote
 - [Mensagem de retomada](feedback_mensagem_retomada.md) — proibido "aconteceu algo?"/"estou aqui pra ajudar"; precisa de motivo real, queixa nomeada e pergunta aberta
+- [Landing = visual clean da LP WhatsApp a Consulta](feedback_landing_visual_clean.md) — LP nova copia o CSS de do-whatsapp-a-cadeira-consulta, nao neobrutalista; nunca eyebrow antes das secoes
