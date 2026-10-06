@@ -1,11 +1,12 @@
-DATA: 2026-10-05
+DATA: 2026-10-06
 
-STATUS — 05/10/2026
+STATUS — 06/10/2026
 
 📅 Agenda de hoje
+- 05:30 Devocional LGND
 - 09:30 Enviar Leads Tráfego (passar leads de formulário pra Victória)
 - 17:00 Análise de Métricas (números do dia anterior com Victória, mensagens, agendamentos)
-- Arquivo do Sistema da Clínica tá atualizado, mas não tem compromisso nenhum lançado lá hoje
+- 20:00 Reunião com Hiremárcia Mendes (mentoria) — biomédica formada há 1 ano, tem insegurança
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -17,18 +18,18 @@ STATUS — 05/10/2026
 - Gravar criativo
 
 📧 E-mails que precisam de você
-- Nenhum. As 12 não lidas de hoje são tudo automático (Google Agenda, pesquisa Vivo, promoção, imóveis, LinkedIn, Asaas, etc), ninguém te escreveu direto hoje.
+- Nenhum. As não lidas de hoje são tudo automático (drogaria, Google Agenda, Hostinger, LinkedIn, Copart, Indeed, G-Shock, Casio, nota fiscal, newsletters, promoção de voo etc), ninguém te escreveu direto hoje.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e prospecção B2B rodando dentro dele
+- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e prospecção rodando dentro dele
 - Carrossel automático: gerando 4 por dia, você aprova 2 (12:30 e 19:30). Auto-post no Instagram ainda pausado, aprovado = agenda com horário pra postagem manual
 - Sprint de Caixa 30 dias / Programa 4D: caso em andamento com a Dra. Brenda Guedes, faltam os lotes 3 e 4 de entregáveis (régua de orçamento aberto, roteiro de consulta, cardápio de objeções, orçamento padrão)
-- Apresentação da Harmo Clinic pra TV da recepção: em construção, pendências registradas em PENDENTES.txt
 
 ⏸️ Pausado
 - Portal 4D (plataforma de membros): parado desde 10/06 antes da Fase 7 (cliente editar entregável)
 - Follow-up automático via WhatsApp: parado desde 28/07, esperando você fazer a burocracia da Meta Business
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como vai mandar o PDF pro contato (e-mail via Resend, WhatsApp Meta, ou tirar essa promessa da copy)
-- Follow-up WhatsApp: só volta quando você verificar a conta Meta Business e criar o app
+- Reunião de hoje às 20h com a Hiremárcia — ela tá insegura, vale se preparar pra isso
+- Sprint de Caixa: o entregável "Conexão" (paciente de 1º atendimento) tá esperando você mandar os exemplos seus pra poder produzir
+- Follow-up WhatsApp só volta quando você verificar a conta Meta Business e criar o app
