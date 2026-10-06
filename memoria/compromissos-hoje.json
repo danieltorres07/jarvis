@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-10-05T09:53:53.026Z",
-  "data": "2026-10-05",
-  "compromissos": [],
+  "atualizado_em": "2026-10-06T09:53:53.167Z",
+  "data": "2026-10-06",
+  "compromissos": [
+    {
+      "titulo": "Reunião Hiremárcia Mendes - mentoria",
+      "data": "2026-10-06",
+      "hora_inicio": "20:00:00",
+      "hora_fim": "21:00:00",
+      "observacoes": "Biomedica formada a 1 ano, tem insegurança "
+    }
+  ],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
