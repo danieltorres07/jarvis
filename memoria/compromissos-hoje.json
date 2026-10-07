@@ -1,15 +1,7 @@
 {
-  "atualizado_em": "2026-10-06T09:53:53.167Z",
-  "data": "2026-10-06",
-  "compromissos": [
-    {
-      "titulo": "Reunião Hiremárcia Mendes - mentoria",
-      "data": "2026-10-06",
-      "hora_inicio": "20:00:00",
-      "hora_fim": "21:00:00",
-      "observacoes": "Biomedica formada a 1 ano, tem insegurança "
-    }
-  ],
+  "atualizado_em": "2026-10-07T09:53:53.034Z",
+  "data": "2026-10-07",
+  "compromissos": [],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -33,10 +25,6 @@
     },
     {
       "titulo": "Transferência Kwid",
-      "concluida": false
-    },
-    {
-      "titulo": "Gravar criativo",
       "concluida": false
     }
   ]
