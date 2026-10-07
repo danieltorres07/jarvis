@@ -43,3 +43,4 @@
 - [Carrossel sempre meio a meio](feedback_carrossel_meio_a_meio.md) — 70% com foto e 30% texto; nunca forçar --formato em lote
 - [Mensagem de retomada](feedback_mensagem_retomada.md) — proibido "aconteceu algo?"/"estou aqui pra ajudar"; precisa de motivo real, queixa nomeada e pergunta aberta
 - [Landing = visual clean da LP WhatsApp a Consulta](feedback_landing_visual_clean.md) — LP nova copia o CSS de do-whatsapp-a-cadeira-consulta, nao neobrutalista; nunca eyebrow antes das secoes
+- [LP Sprint 30 dias](project_lp_sprint_30_dias.md) — no ar em clinicasaltovoo.vercel.app/sprint-30-dias com formulario -> CRM Leads Daniel; fonte em landings/, copia pra portal/public
