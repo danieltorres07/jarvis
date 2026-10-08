@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-10-07T09:53:53.034Z",
-  "data": "2026-10-07",
-  "compromissos": [],
+  "atualizado_em": "2026-10-08T09:53:52.130Z",
+  "data": "2026-10-08",
+  "compromissos": [
+    {
+      "titulo": "Olho - Paciente Izabella",
+      "data": "2026-10-08",
+      "hora_inicio": "09:30:00",
+      "hora_fim": "10:00:00",
+      "observacoes": null
+    }
+  ],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -9,14 +17,6 @@
     },
     {
       "titulo": "Termos ao fechar orçamento",
-      "concluida": false
-    },
-    {
-      "titulo": "Criar Agente hat gpt (complemento infoproduto)",
-      "concluida": false
-    },
-    {
-      "titulo": "Criar documentos pós procedimentos",
       "concluida": false
     },
     {
