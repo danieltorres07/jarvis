@@ -1,36 +1,31 @@
-DATA: 2026-10-07
+DATA: 2026-10-08
 
-STATUS — quarta, 07/10/2026
+STATUS — 08/10/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar os leads do formulário pra Victória)
-- 17:00 Análise de Métricas (ver número do dia anterior com Victória: mensagens, agendamentos, meta)
-
-O arquivo do Sistema da Clínica tá atualizado pra hoje, mas a lista de compromissos dele veio vazia (sem nada extra marcado lá).
+- 09:30 Enviar Leads Tráfego (mandar leads de formulário pra Victória entrar em contato)
+- 09:30 Olho - Paciente Izabella (Sistema da Clínica)
+- 17:00 Análise de Métricas (ver números do dia anterior com Victória: novas mensagens, agendamentos, meta)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Termos ao fechar orçamento
-- Criar Agente hat gpt (complemento infoproduto)
-- Criar documentos pós procedimentos
 - Corrida
 - Transferência Kwid
 
 📧 E-mails que precisam de você
-Hoje não tem nenhum e-mail de pessoa real esperando resposta. Os 23 não lidos são tudo automático/promocional (Figma, Google Agenda, Evernote, AliExpress, Webmotors, leilão de carro, farmácia, empréstimo, vagas do LinkedIn etc).
+- Nenhum. Só chegou automático/promocional/newsletter hoje (calendário, GitHub, Gamma, G4, passagens, lojas) — nada de uma pessoa real escrevendo pra você.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), com agenda, pacientes, financeiro e funil já rodando no dia a dia.
-- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando. Falta montar o lote de fechamento (régua de orçamento aberto, roteiro de consulta, objeções).
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups já rodando.
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, gargalo em Fechamento e Agendamento.
 - Carrossel automático: gerando 4 por dia, você aprova 2 (slots 12:30 e 19:30).
-- Prospecção HOF: cron rodando 1 cidade por dia, funil B2B dentro do clinica-sistema.
+- Prospecção HOF: cron diário rodando 1 cidade/dia, funil em /funil-prospeccao.
 
 ⏸️ Pausado
-- Follow-up automático via WhatsApp: esperando você resolver a parte burocrática da Meta (verificação de empresa etc).
-- Portal 4D: parado antes da fase do cliente poder editar os entregáveis.
-- Rebrand Alto Vôo: nomenclatura já trocada no essencial, mas as fases (decolagem, subida...) ainda em aberto, você pediu pra não esquentar com isso por enquanto.
+- Follow-up automático por WhatsApp: parado desde 28/07, esperando você terminar a burocracia da Meta (Business Verification, app, templates).
+- Portal 4D (área de membros): pausado desde 10/06, antes da parte do cliente editar os entregáveis.
 
 ⚠️ Precisa de você
-- Playbook: decidir como vai mandar o PDF pro lead automaticamente (e-mail via Resend, WhatsApp Meta, ou tirar essa promessa da copy).
-- Lote 4 do Sprint de Caixa ("Conexão"): só produz quando você mandar os exemplos.
-- Fora isso, nenhum e-mail ou pendência urgente hoje.
+- Playbook: falta decidir como manda o PDF pro lead depois que ele se cadastra — e-mail via Resend, WhatsApp (depende da Meta, que tá parada) ou tirar essa promessa da copy.
+- Sprint Caixa: o lote "Conexão" (mensagens pro paciente de primeiro atendimento) tá esperando você mandar os exemplos antes de eu produzir.
