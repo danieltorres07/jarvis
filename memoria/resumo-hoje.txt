@@ -1,11 +1,11 @@
-DATA: 2026-10-08
+DATA: 2026-10-09
 
-STATUS — 08/10/2026
+STATUS — 09/10/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar leads de formulário pra Victória entrar em contato)
-- 09:30 Olho - Paciente Izabella (Sistema da Clínica)
-- 17:00 Análise de Métricas (ver números do dia anterior com Victória: novas mensagens, agendamentos, meta)
+- 09:30 Enviar Leads Tráfego (mandar leads de formulário pra Victória)
+- 17:00 Análise de Métricas (ver número do dia com Victória, agendamentos e mensagens)
+- Sistema da Clínica: sem compromisso cadastrado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -14,18 +14,17 @@ STATUS — 08/10/2026
 - Transferência Kwid
 
 📧 E-mails que precisam de você
-- Nenhum. Só chegou automático/promocional/newsletter hoje (calendário, GitHub, Gamma, G4, passagens, lojas) — nada de uma pessoa real escrevendo pra você.
+- Nenhum. Só caiu newsletter, notificação de plataforma (LinkedIn, calendário, Atlassian) e promoção de viagem/loja. Nada de pessoa real escrevendo pra você hoje.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups já rodando.
-- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, gargalo em Fechamento e Agendamento.
-- Carrossel automático: gerando 4 por dia, você aprova 2 (slots 12:30 e 19:30).
-- Prospecção HOF: cron diário rodando 1 cidade/dia, funil em /funil-prospeccao.
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups já rodando
+- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando, Fechamento e Agendamento ainda travados, falta fazer o lote 3 (régua de orçamento aberto, roteiro de consulta, objeções de fechamento)
+- Carrossel automático: rodando a rotina diária, gera 4 e você aprova 2
 
 ⏸️ Pausado
-- Follow-up automático por WhatsApp: parado desde 28/07, esperando você terminar a burocracia da Meta (Business Verification, app, templates).
-- Portal 4D (área de membros): pausado desde 10/06, antes da parte do cliente editar os entregáveis.
+- Portal 4D (plataforma de membros): parado desde junho, antes da fase de cliente editar entregável
+- Follow-up automático WhatsApp: parado esperando você resolver a burocracia da Meta
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como manda o PDF pro lead depois que ele se cadastra — e-mail via Resend, WhatsApp (depende da Meta, que tá parada) ou tirar essa promessa da copy.
-- Sprint Caixa: o lote "Conexão" (mensagens pro paciente de primeiro atendimento) tá esperando você mandar os exemplos antes de eu produzir.
+- Rebrand VOLO → Clínicas de Alto Voo: escopo (onde aplicar, apelido curto) ainda em aberto
+- Follow-up WhatsApp só volta quando você fizer a parte da Meta
