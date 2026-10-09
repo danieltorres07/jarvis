@@ -45,3 +45,4 @@
 - [Landing = visual clean da LP WhatsApp a Consulta](feedback_landing_visual_clean.md) — LP nova copia o CSS de do-whatsapp-a-cadeira-consulta, nao neobrutalista; nunca eyebrow antes das secoes
 - [LP Sprint 30 dias](project_lp_sprint_30_dias.md) — no ar em clinicasaltovoo.vercel.app/sprint-30-dias com formulario -> CRM Leads Daniel; fonte em landings/, copia pra portal/public
 - [Conciliacao Harmoclinic](project_conciliacao_harmoclinic.md) — dashboard soma bruto por data_pagamento; existe 2a maquininha e 2a conta Pix fora do Itau/Rede
+- [Programa AI Expert · clone do Daniel](project_ai_expert.md) — tudo em ~/Daniel Torres/AI EXPERT/ (nunca entregaveis/); oferta Clínica Travada R$ 497, produto feito do zero, personagem = clone do Daniel; 4 skills prontas, falta semana zero, order bumps e personagem feminina
