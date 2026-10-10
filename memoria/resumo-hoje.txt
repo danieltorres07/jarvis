@@ -1,11 +1,10 @@
-DATA: 2026-10-09
+DATA: 2026-10-10
 
-STATUS — 09/10/2026
+STATUS — 10/10/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar leads de formulário pra Victória)
-- 17:00 Análise de Métricas (ver número do dia com Victória, agendamentos e mensagens)
-- Sistema da Clínica: sem compromisso cadastrado pra hoje
+- Nenhum compromisso no Google Calendar pra hoje (sábado) — confirmado pelo próprio aviso do Google Agenda
+- Sistema da Clínica: arquivo de compromissos atualizado, sem nada marcado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -14,17 +13,19 @@ STATUS — 09/10/2026
 - Transferência Kwid
 
 📧 E-mails que precisam de você
-- Nenhum. Só caiu newsletter, notificação de plataforma (LinkedIn, calendário, Atlassian) e promoção de viagem/loja. Nada de pessoa real escrevendo pra você hoje.
+- Nenhum. Só caiu newsletter, promoção (Shopee, Decathlon, Webmotors, Azul, Copa, AliExpress, Simon), notificação de plataforma (LinkedIn, Atlassian/Loom, Google Agenda, Google Business Profile) e nota fiscal. Nada de pessoa real escrevendo pra você hoje.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups já rodando
-- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando, Fechamento e Agendamento ainda travados, falta fazer o lote 3 (régua de orçamento aberto, roteiro de consulta, objeções de fechamento)
-- Carrossel automático: rodando a rotina diária, gera 4 e você aprova 2
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups rodando
+- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando, Fechamento e Agendamento ainda travados, falta o lote 3 (régua de orçamento aberto, roteiro de consulta, objeções de fechamento)
+- Carrossel automático: rotina diária rodando, gera 4 e você aprova 2
+- Apresentação Harmo Clinic (TV recepção): em andamento, pendências listadas no PENDENTES.txt do projeto
 
 ⏸️ Pausado
 - Portal 4D (plataforma de membros): parado desde junho, antes da fase de cliente editar entregável
 - Follow-up automático WhatsApp: parado esperando você resolver a burocracia da Meta
 
 ⚠️ Precisa de você
-- Rebrand VOLO → Clínicas de Alto Voo: escopo (onde aplicar, apelido curto) ainda em aberto
-- Follow-up WhatsApp só volta quando você fizer a parte da Meta
+- Follow-up WhatsApp só volta quando você fizer a parte da Meta (Business Verification, app, templates)
+- Rebrand VOLO → Clínicas de Alto Vôo: escopo (onde aplicar, apelido curto) ainda em aberto
+- Playbook (landing + obrigado): falta você decidir como vai entregar o PDF automaticamente — e-mail via Resend, WhatsApp (depende da Meta) ou tirar a promessa da copy
