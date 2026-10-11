@@ -1,10 +1,10 @@
-DATA: 2026-10-10
+DATA: 2026-10-11
 
-STATUS — 10/10/2026
+STATUS — 11/10/2026
 
 📅 Agenda de hoje
-- Nenhum compromisso no Google Calendar pra hoje (sábado) — confirmado pelo próprio aviso do Google Agenda
-- Sistema da Clínica: arquivo de compromissos atualizado, sem nada marcado pra hoje
+- Nenhum compromisso no Google Calendar pra hoje (domingo) — confirmado pelo próprio aviso do Google Agenda
+- Sistema da Clínica: arquivo de compromissos atualizado hoje de manhã, sem nada marcado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -13,13 +13,15 @@ STATUS — 10/10/2026
 - Transferência Kwid
 
 📧 E-mails que precisam de você
-- Nenhum. Só caiu newsletter, promoção (Shopee, Decathlon, Webmotors, Azul, Copa, AliExpress, Simon), notificação de plataforma (LinkedIn, Atlassian/Loom, Google Agenda, Google Business Profile) e nota fiscal. Nada de pessoa real escrevendo pra você hoje.
+- Nenhum. Só caiu newsletter, promoção (DAZ3D, Hostinger, VivaReal, ZAP Imóveis, AliExpress, Azul, Carrefour, Copart, Midea, Club All) e notificação automática (Google Agenda, LinkedIn vagas, nota fiscal da Varejão das Tintas). Nada de pessoa real escrevendo pra você hoje.
 
 🟢 Ativo agora
 - Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups rodando
 - Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando, Fechamento e Agendamento ainda travados, falta o lote 3 (régua de orçamento aberto, roteiro de consulta, objeções de fechamento)
 - Carrossel automático: rotina diária rodando, gera 4 e você aprova 2
 - Apresentação Harmo Clinic (TV recepção): em andamento, pendências listadas no PENDENTES.txt do projeto
+- Caminho do Cliente 4D: entregáveis sendo produzidos em lotes
+- Prospecção HOF: coletor rodando, meta de 10 leads/dia
 
 ⏸️ Pausado
 - Portal 4D (plataforma de membros): parado desde junho, antes da fase de cliente editar entregável
