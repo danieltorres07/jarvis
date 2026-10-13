@@ -1,33 +1,35 @@
-DATA: 2026-10-11
+DATA: 2026-10-13
 
-STATUS — 11/10/2026
+STATUS — terça, 13/10/2026
 
 📅 Agenda de hoje
-- Nenhum compromisso no Google Calendar pra hoje (domingo) — confirmado pelo próprio aviso do Google Agenda
-- Sistema da Clínica: arquivo de compromissos atualizado hoje de manhã, sem nada marcado pra hoje
+- 05:30 Devocional LGND
+- 09:30 Enviar Leads Tráfego
+- 17:00 Análise de Métricas
+- Painel da clínica: nenhum compromisso registrado hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Termos ao fechar orçamento
 - Corrida
 - Transferência Kwid
+- Trena - Recepção e Placa
 
 📧 E-mails que precisam de você
-- Nenhum. Só caiu newsletter, promoção (DAZ3D, Hostinger, VivaReal, ZAP Imóveis, AliExpress, Azul, Carrefour, Copart, Midea, Club All) e notificação automática (Google Agenda, LinkedIn vagas, nota fiscal da Varejão das Tintas). Nada de pessoa real escrevendo pra você hoje.
+- Nenhum. Os 18 e-mails não lidos de hoje/ontem são tudo automático (newsletter, LinkedIn, promoções, Serasa, Vivo etc), nada de pessoa real escrevendo pra você.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e follow-ups rodando
-- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando, Fechamento e Agendamento ainda travados, falta o lote 3 (régua de orçamento aberto, roteiro de consulta, objeções de fechamento)
-- Carrossel automático: rotina diária rodando, gera 4 e você aprova 2
-- Apresentação Harmo Clinic (TV recepção): em andamento, pendências listadas no PENDENTES.txt do projeto
-- Caminho do Cliente 4D: entregáveis sendo produzidos em lotes
-- Prospecção HOF: coletor rodando, meta de 10 leads/dia
+- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes rodando, faltam os lotes 3 (régua de resgate, roteiro de consulta, cardápio de objeções de fechamento) e 4 (orçamento padrão)
+- Carrossel automático: gerando 4/dia, você aprova 2 nos slots de 12:30 e 19:30
+- Prospecção HOF: cron diário 10h, funil B2B rodando no clinica-sistema
+- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, módulos de agenda/pacientes/financeiro/funil já no ar
 
 ⏸️ Pausado
-- Portal 4D (plataforma de membros): parado desde junho, antes da fase de cliente editar entregável
-- Follow-up automático WhatsApp: parado esperando você resolver a burocracia da Meta
+- Portal 4D (plataforma de membros): pausado desde 10/06, antes da fase do cliente editar entregáveis
+- Follow-up automático WhatsApp: pausado desde 28/07 aguardando você resolver a burocracia da Meta
 
 ⚠️ Precisa de você
-- Follow-up WhatsApp só volta quando você fizer a parte da Meta (Business Verification, app, templates)
-- Rebrand VOLO → Clínicas de Alto Vôo: escopo (onde aplicar, apelido curto) ainda em aberto
-- Playbook (landing + obrigado): falta você decidir como vai entregar o PDF automaticamente — e-mail via Resend, WhatsApp (depende da Meta) ou tirar a promessa da copy
+- Lote "Conexão" do Sprint de Caixa travado: só produz depois que você mandar os exemplos dele
+- Diagnóstico da Brenda saiu com número errado (bug de máscara de R$ já corrigido) — precisa re-preencher os 3 campos de valor
+- Decisão pendente sobre envio automático do PDF nas páginas /playbook e /playbook/obrigado
+- Rebrand VOLO → Clínicas de Alto Voo: nome já decidido, mas escopo (onde aplicar, apelido curto) ainda em aberto
