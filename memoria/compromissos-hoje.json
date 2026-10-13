@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-10-12T09:53:53.120Z",
-  "data": "2026-10-12",
+  "atualizado_em": "2026-10-13T09:53:53.138Z",
+  "data": "2026-10-13",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -17,6 +17,10 @@
     },
     {
       "titulo": "Transferência Kwid",
+      "concluida": false
+    },
+    {
+      "titulo": "Trena - Recepcao e Placa",
       "concluida": false
     }
   ]
