@@ -17,6 +17,7 @@ Sistema autonomo de carrossel decidido em 2026-09-04.
 - Rejeitar dispara regeneracao infinita do mesmo tema
 - Botao Arquivar manda tema pro banco de reserva
 - Temas: eu gero (5 pilares + voz Daniel, COPYWRITER.md)
+- CTA: desde 2026-10-14 fixo em todo carrossel, briefing do Jarvis nao muda mais o CTA. Ver [[feedback-cta-rx26-padrao]]
 
 **Auto-post Instagram:** ainda depende da Meta Cloud API pausada por burocracia. Enquanto isso, aprovado = agenda com horario, postagem manual.
 

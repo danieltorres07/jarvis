@@ -47,3 +47,5 @@
 - [Conciliacao Harmoclinic](project_conciliacao_harmoclinic.md) — dashboard soma bruto por data_pagamento; existe 2a maquininha e 2a conta Pix fora do Itau/Rede
 - [Programa AI Expert · clone do Daniel](project_ai_expert.md) — tudo em ~/Daniel Torres/AI EXPERT/ (nunca entregaveis/); oferta Clínica Travada R$ 497, produto feito do zero, personagem = clone do Daniel; 4 skills prontas, falta semana zero, order bumps e personagem feminina
 - [Humor acido nos Reels](feedback_humor_acido_reels.md) — nova pegada do perfil: titulo de dica + 5 respostas acidas desde a 1a, final explosivo tipo "Responde satanas!"; nunca educado
+- [CTA fixo RX26 em todo carrossel](feedback_cta_rx26_padrao.md) — salvar/compartilhar fixo no meio + 'comente **RX26** que te envio no direct' no ultimo slide, palavras exatas
+- [Concorrente @luanamariamarina](reference_luana_concorrente.md) — formula de carrossel dela, o que o Daniel adotou, pendencias (prints, eventos)

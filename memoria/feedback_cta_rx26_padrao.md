@@ -18,3 +18,5 @@ Todo carrossel (automatico ou manual) tem dois pedidos, com estas palavras EXATA
 **Why:** havia 6 variacoes de CTA espalhadas (PB26, PLAYBOOK, TICKET...). Daniel quer todo post capturando lead igual a Luana. A frase do meio foi pedido dele: "estilo dela mesmo", falando de profissional da harmonizacao.
 
 **How to apply:** o gerador aplica sozinho (`padronizar_ctas`/`padronizar_legenda` em `_master/gerar-automatico.py`). Fila antiga: `_master/padronizar-fila.py --aplicar` (rodar com PATH="/usr/bin:$PATH", o python do homebrew nao tem Playwright). Temas sem historia real do Daniel levam "MODO: ACAO" no angulo, senao o modo historia inventa "o dia que eu...". Relacionado: [[carrossel-automatico]].
+
+Se o modelo passa de 9 slides, `_caber_no_teto` pede reescrita (cortar no escuro sumia com o item 3 de capa que prometia 3 coisas). Toda leva nova: revisar se a capa promete N e entrega N, e perguntar ao Daniel quando a capa/legenda conta historia em 1a pessoa.
