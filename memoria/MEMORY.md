@@ -50,3 +50,5 @@
 - [CTA fixo RX26 em todo carrossel](feedback_cta_rx26_padrao.md) — salvar/compartilhar fixo no meio + 'comente **RX26** que te envio no direct' no ultimo slide, palavras exatas
 - [Concorrente @luanamariamarina](reference_luana_concorrente.md) — formula de carrossel dela, o que o Daniel adotou, pendencias (prints, eventos)
 - [Numeros reais do sistema no carrossel](feedback_numeros_reais_sistema.md) — numero da clinica vem do sistema clinico automatico (sem perguntar), Daniel corrige na aprovacao; o que fica fora e por que
+- [Agendamento: disponibilidade e depois 2 horarios](feedback_agendamento_horarios.md) — pergunta dia/periodo, oferece 2 horarios concretos; nunca deixar "que dia voce tem disponibilidade?" solto
+- [LP v3 Do WhatsApp a Consulta](project_lp_whatsapp_consulta_v3.md) — oficial na Hostinger (danieltorrespmv.com/do-whatsapp-a-cadeira-consulta/), copia Vercel a remover, prova "mais de 40 clinicas"
