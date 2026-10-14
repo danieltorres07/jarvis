@@ -49,3 +49,4 @@
 - [Humor acido nos Reels](feedback_humor_acido_reels.md) — nova pegada do perfil: titulo de dica + 5 respostas acidas desde a 1a, final explosivo tipo "Responde satanas!"; nunca educado
 - [CTA fixo RX26 em todo carrossel](feedback_cta_rx26_padrao.md) — salvar/compartilhar fixo no meio + 'comente **RX26** que te envio no direct' no ultimo slide, palavras exatas
 - [Concorrente @luanamariamarina](reference_luana_concorrente.md) — formula de carrossel dela, o que o Daniel adotou, pendencias (prints, eventos)
+- [Numeros reais do sistema no carrossel](feedback_numeros_reais_sistema.md) — numero da clinica vem do sistema clinico automatico (sem perguntar), Daniel corrige na aprovacao; o que fica fora e por que
