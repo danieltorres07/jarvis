@@ -54,3 +54,5 @@
 - [LP v3 Do WhatsApp a Consulta](project_lp_whatsapp_consulta_v3.md) — oficial na Hostinger (danieltorrespmv.com/do-whatsapp-a-cadeira-consulta/), copia Vercel a remover, prova "mais de 40 clinicas"
 - [Hook de Reels e fala dele](feedback_hook_reels_falado.md) — hook sempre Daniel conversando em 1a pessoa ("o dia em que eu..." + ponte pra consulta); tela = frase falada, nunca placar/titulo
 - [Automacao TikTok](project_tiktok_automacao.md) — app TikTok for Developers em cadastro (Laureo), termos/privacidade/verificacao no ar; FUNCIONANDO desde 16/10: post do IG vai como RASCUNHO pro app do TikTok (Sandbox, sem revisao), chega em Mensagens > Notificacoes do sistema
+- [Editor de videos (skill propria)](project_editor_videos.md) — editor-videos-daniel criada 16/10/2026, motion noir + 4K/4:5; VSL Raio-X em ~/Daniel Torres/videos/vsl, teste 30s aguardando ok
+- [Video no visual noir](feedback_video_visual_noir.md) — motion de video segue o noir das landings (Fraunces+DM Sans), nunca o neobrutalista do CLAUDE.md
