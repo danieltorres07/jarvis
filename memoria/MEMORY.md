@@ -53,3 +53,4 @@
 - [Agendamento: disponibilidade e depois 2 horarios](feedback_agendamento_horarios.md) — pergunta dia/periodo, oferece 2 horarios concretos; nunca deixar "que dia voce tem disponibilidade?" solto
 - [LP v3 Do WhatsApp a Consulta](project_lp_whatsapp_consulta_v3.md) — oficial na Hostinger (danieltorrespmv.com/do-whatsapp-a-cadeira-consulta/), copia Vercel a remover, prova "mais de 40 clinicas"
 - [Hook de Reels e fala dele](feedback_hook_reels_falado.md) — hook sempre Daniel conversando em 1a pessoa ("o dia em que eu..." + ponte pra consulta); tela = frase falada, nunca placar/titulo
+- [Automacao TikTok](project_tiktok_automacao.md) — app TikTok for Developers em cadastro (Laureo), termos/privacidade/verificacao no ar; falta Sandbox + credenciais, depois construir OAuth e post. Decidido: so Sandbox, posta privado, sem revisao (regra proibe uso interno)
