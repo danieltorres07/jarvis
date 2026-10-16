@@ -31,7 +31,7 @@
 - [Auto-deploy do portal Volo](feedback_portal_auto_deploy.md) — apos toda mudanca no ~/Daniel Torres/volo/portal/, commit+push automatico. Ele testa direto em produção.
 - [Follow-up automatico WhatsApp](project_followup_whatsapp.md) — sequencia de follow-up via Meta Cloud API pra CRM do Sistema Clinico. PAUSADO 2026-07-28 aguardando Daniel fazer burocracia Meta.
 - [Playbook · sequencia de e-mail automatica](project_playbook_email_pendente.md) — NO AR desde 2026-09-21 via Resend. Entrega na hora + 3 e-mails (dias 2, 4, 7) levando pro Raio-X e pro produto
-- [Carrossel automatico](project_carrossel_automatico.md) — sistema autonomo: gera 4/dia, Daniel aprova 2 (slots 12:30 e 19:30), rejeitar regenera infinito. Auto-post Meta ainda pausado
+- [Carrossel automatico](project_carrossel_automatico.md) — sistema autonomo: gera 7/dia, 5 posts/dia (10:30, 12:30, 15:30, 17:30, 19:00) desde 19/10, Jarvis avisa 30min antes se faltar aprovado, rejeitar regenera infinito. Auto-post no ar via launchd
 - [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — QUEBRADA desde set/2026 (env aponta pra pasta apagada, 0 lead). Destino certo: funil leads-prospeccao no CRM do Volo
 - [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
 - [COPYWRITER.md obrigatorio](feedback_copywriter_obrigatorio.md) — TODA copy/texto do projeto passa por ~/COPYWRITER.md sem exceção. Placeholder tecnico = "PLACEHOLDER", nunca frase inventada.
@@ -52,3 +52,4 @@
 - [Numeros reais do sistema no carrossel](feedback_numeros_reais_sistema.md) — numero da clinica vem do sistema clinico automatico (sem perguntar), Daniel corrige na aprovacao; o que fica fora e por que
 - [Agendamento: disponibilidade e depois 2 horarios](feedback_agendamento_horarios.md) — pergunta dia/periodo, oferece 2 horarios concretos; nunca deixar "que dia voce tem disponibilidade?" solto
 - [LP v3 Do WhatsApp a Consulta](project_lp_whatsapp_consulta_v3.md) — oficial na Hostinger (danieltorrespmv.com/do-whatsapp-a-cadeira-consulta/), copia Vercel a remover, prova "mais de 40 clinicas"
+- [Hook de Reels e fala dele](feedback_hook_reels_falado.md) — hook sempre Daniel conversando em 1a pessoa ("o dia em que eu..." + ponte pra consulta); tela = frase falada, nunca placar/titulo
