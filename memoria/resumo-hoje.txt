@@ -1,11 +1,10 @@
-DATA: 2026-10-16
+DATA: 2026-10-17
 
-STATUS — 16/10/2026 (sexta-feira)
+STATUS — 17/10/2026 (sábado)
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (passar leads pra Victória entrar em contato)
-- 17:00 Análise de Métricas
-- Sistema da Clínica (Painel Daniel) não trouxe compromissos extras hoje
+- Sem nenhum compromisso marcado no Google Calendar hoje (o próprio Google mandou aviso de "nenhum evento programado pra hoje")
+- Sistema da Clínica (Painel Daniel) também não trouxe compromissos extras pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -15,7 +14,7 @@ STATUS — 16/10/2026 (sexta-feira)
 - CRM Prospecção
 
 📧 E-mails que precisam de você
-- Nenhum. Só caiu newsletter, notificação de plataforma (Vercel, Google Play, TikTok, Manychat fatura) e promoção hoje — nada de pessoa real escrevendo pra você.
+- VIP OFFICE (Michele Melo, pós-venda): tentou te ligar e não conseguiu, quer saber como está a busca pelo escritório
 
 🟢 Ativo agora
 - Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, módulos de agenda/pacientes/financeiro/funil/follow-ups rodando
@@ -24,9 +23,10 @@ STATUS — 16/10/2026 (sexta-feira)
 - Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, lote 3 (fechamento) ainda a fazer
 
 ⏸️ Pausado
-- Follow-up automático WhatsApp: parado desde 28/07 esperando você resolver a burocracia da Meta
+- Follow-up automático WhatsApp: parado desde 28/07, esperando você resolver a burocracia da Meta
 - Portal 4D (plataforma de membros): pausado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
 
 ⚠️ Precisa de você
-- Playbook /playbook: falta decidir como manda o PDF pro lead (Resend, WhatsApp Meta, ou tirar a promessa da copy)
+- VIP OFFICE: responder a Michele sobre a busca do escritório
+- Playbook: falta decidir como manda o PDF pro lead (Resend, WhatsApp Meta, ou tirar a promessa da copy)
 - Apresentação recepção Harmo Clinic: esperando você mandar as fotos originais em alta pra trocar as extraídas do PDF
