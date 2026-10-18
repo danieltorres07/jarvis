@@ -1,6 +1,6 @@
-DATA: 2026-10-17
+DATA: 2026-10-18
 
-STATUS — 17/10/2026 (sábado)
+STATUS — 18/10/2026 (domingo)
 
 📅 Agenda de hoje
 - Sem nenhum compromisso marcado no Google Calendar hoje (o próprio Google mandou aviso de "nenhum evento programado pra hoje")
@@ -14,7 +14,7 @@ STATUS — 17/10/2026 (sábado)
 - CRM Prospecção
 
 📧 E-mails que precisam de você
-- VIP OFFICE (Michele Melo, pós-venda): tentou te ligar e não conseguiu, quer saber como está a busca pelo escritório
+- Nenhum e-mail de pessoa real pendente hoje — só automático (cobrança/pagamento confirmado no Asaas, alerta de segurança do Asaas, notificação do Google Agenda e um monte de promoção/newsletter)
 
 🟢 Ativo agora
 - Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, módulos de agenda/pacientes/financeiro/funil/follow-ups rodando
@@ -27,6 +27,5 @@ STATUS — 17/10/2026 (sábado)
 - Portal 4D (plataforma de membros): pausado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
 
 ⚠️ Precisa de você
-- VIP OFFICE: responder a Michele sobre a busca do escritório
 - Playbook: falta decidir como manda o PDF pro lead (Resend, WhatsApp Meta, ou tirar a promessa da copy)
 - Apresentação recepção Harmo Clinic: esperando você mandar as fotos originais em alta pra trocar as extraídas do PDF
