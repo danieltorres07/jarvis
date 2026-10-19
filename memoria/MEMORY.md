@@ -57,3 +57,5 @@
 - [Editor de videos (skill propria)](project_editor_videos.md) — editor-videos-daniel criada 16/10/2026, motion noir + 4K/4:5; VSL Raio-X em ~/Daniel Torres/videos/vsl, VSL no ar na tela processando do Raio-X (180 s ate o botao)
 - [Video no visual noir](feedback_video_visual_noir.md) — motion de video segue o noir das landings (Fraunces+DM Sans), nunca o neobrutalista do CLAUDE.md
 - [Carrossel com imagem provocante](feedback_carrossel_imagem_provocante.md) — hook nasce da metafora da foto (fumaca, gelo, reflexo); Higgsfield so gera quando o carrossel precisa
+- [Casos reais Harmoclinic](project_casos_reais_harmoclinic.md) — historias confirmadas pelo Daniel (preco x custo, agenda cheia de botox, follow-up com foto, parcelar sem desconto, valor na cadeira) pra usar em 1a pessoa
+- [Resposta a paciente que compara preco](feedback_resposta_comparacao_preco.md) — pergunta o que viu, mostra o que entra no valor (estrutura, experiencia, seguranca, pos, acompanhamento), etapas da clinica, so depois faixa
