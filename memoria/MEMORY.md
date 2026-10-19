@@ -59,3 +59,5 @@
 - [Carrossel com imagem provocante](feedback_carrossel_imagem_provocante.md) — hook nasce da metafora da foto (fumaca, gelo, reflexo); Higgsfield so gera quando o carrossel precisa
 - [Casos reais Harmoclinic](project_casos_reais_harmoclinic.md) — historias confirmadas pelo Daniel (preco x custo, agenda cheia de botox, follow-up com foto, parcelar sem desconto, valor na cadeira) pra usar em 1a pessoa
 - [Resposta a paciente que compara preco](feedback_resposta_comparacao_preco.md) — pergunta o que viu, mostra o que entra no valor (estrutura, experiencia, seguranca, pos, acompanhamento), etapas da clinica, so depois faixa
+- [Foto gerada: seria, metafora, fidelidade 100%](feedback_foto_gerada_seria_metafora.md) — foto do Daniel por IA sem sorriso, cena-metafora do tema, NUNCA mudar rosto/barba/cabelo/pele (sempre com fotos reais de referencia)
+- [Dica sempre com mensagem pronta](feedback_dica_com_mensagem_pronta.md) — todo passo de chamar/retomar traz a mensagem exata; follow-up com foto da secretaria com a Dra.
