@@ -52,7 +52,7 @@
 - [Numeros reais do sistema no carrossel](feedback_numeros_reais_sistema.md) — numero da clinica vem do sistema clinico automatico (sem perguntar), Daniel corrige na aprovacao; o que fica fora e por que
 - [Agendamento: disponibilidade e depois 2 horarios](feedback_agendamento_horarios.md) — pergunta dia/periodo, oferece 2 horarios concretos; nunca deixar "que dia voce tem disponibilidade?" solto
 - [LP v3 Do WhatsApp a Consulta](project_lp_whatsapp_consulta_v3.md) — oficial na Hostinger (danieltorrespmv.com/do-whatsapp-a-cadeira-consulta/), copia Vercel a remover, prova "mais de 40 clinicas"
-- [Hook de Reels e fala dele](feedback_hook_reels_falado.md) — hook sempre Daniel conversando em 1a pessoa ("o dia em que eu..." + ponte pra consulta); tela = frase falada, nunca placar/titulo
+- [Hook de Reels contra-intuitivo](feedback_hook_reels_falado.md) — desde 19/10/2026: abre com ela se reconhecendo na dor + virada contra-intuitiva, solucao depois; substituiu o hook em 1a pessoa
 - [Automacao TikTok](project_tiktok_automacao.md) — app TikTok for Developers em cadastro (Laureo), termos/privacidade/verificacao no ar; FUNCIONANDO desde 16/10: post do IG vai como RASCUNHO pro app do TikTok (Sandbox, sem revisao), chega em Mensagens > Notificacoes do sistema
 - [Editor de videos (skill propria)](project_editor_videos.md) — editor-videos-daniel criada 16/10/2026, motion noir + 4K/4:5; VSL Raio-X em ~/Daniel Torres/videos/vsl, VSL no ar na tela processando do Raio-X (180 s ate o botao)
 - [Video no visual noir](feedback_video_visual_noir.md) — motion de video segue o noir das landings (Fraunces+DM Sans), nunca o neobrutalista do CLAUDE.md
