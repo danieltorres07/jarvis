@@ -63,3 +63,4 @@
 - [Dica sempre com mensagem pronta](feedback_dica_com_mensagem_pronta.md) — todo passo de chamar/retomar traz a mensagem exata; follow-up com foto da secretaria com a Dra.
 - [Reel formato 4 ruim + 4 bom](feedback_reel_formato_4ruim_4bom.md) — molde aprovado 19/10 (adaptado da @finaart_denim): mesma acao ruim 4x com consequencias diferentes, depois 4 acoes boas
 - [Relatorio CEO diario e semanal](project_relatorio_ceo.md) — push com numeros do CRM e da clinica; PEDIDO 19/10/2026, ainda nao construido
+- [Skill IA Do WhatsApp à Consulta](project_skill_whatsapp_consulta.md) — entrega a mais pra todo comprador, Claude+ChatGPT, generica pra qualquer clinica, ficha em 3 blocos antes de responder
