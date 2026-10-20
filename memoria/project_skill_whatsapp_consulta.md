@@ -16,3 +16,5 @@ E uma entrega a mais pra TODO comprador do Do WhatsApp à Consulta (Daniel nao q
 
 **Why:** a mesma skill vai pra todo mundo, entao nada pode pressupor como e a clinica.
 **How to apply:** em qualquer ajuste, manter a ficha em 3 blocos antes de responder paciente, perguntar quando faltar dado, nunca inventar. Se editar SKILL.md/references, regenerar `chatgpt/base-do-metodo.md`, conferir instrucoes do GPT < 8000 caracteres e re-zipar. Relacionado: [[feedback-valor-faixa-protocolo]], [[feedback-agendamento-horarios]].
+
+Tambem entregue as alunas do Metodo Alto Voo (produto `metodo-alto-voo` / Laureo Hub no portal): aula `skill-de-atendimento` no modulo Decolagem (ordem 4, depois de Objecoes), PDF em `portal/public/materiais/decolagem/skill-de-atendimento.pdf`. E-mail de aviso enviado 2026-10-20 pras 4 alunas ativas via Resend. Se o PDF mudar, recopiar pra esse caminho tambem. Produto `do-whatsapp-a-consulta` no portal e uma casca vazia (sem aulas nem acessos), Daniel NAO quer usar.
