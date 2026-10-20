@@ -18,3 +18,5 @@ E pra eu poder entender, e saber como te direcionar da melhor forma, me fala: vo
 **Why:** preco de procedimento isolado ancora a paciente no item mais barato e transforma a clinica em tabela de preco. Faixa de protocolo mantem a decisao no plano de tratamento, que e onde o ticket se constroi. Daniel corrigiu isso em 2026-09-28 num carrossel que eu tinha deixado com "preenchimento labial entre R$ 1.200 e R$ 1.800".
 
 **How to apply:** a paciente PODE perguntar pelo procedimento isolado, isso e natural e pode aparecer na copy. Quem nunca responde no isolado e a clinica. A regra completa esta em ~/COPYWRITER.md na secao "VALOR NO WHATSAPP: NUNCA PROCEDIMENTO ISOLADO". Vale pra carrossel, reels, script de WhatsApp, PDF e qualquer peca. Ver [[feedback-copywriter-obrigatorio]].
+
+**Ordem (19/10):** quando ela pergunta o preco, a clinica RESPONDE a faixa primeiro e so depois faz a pergunta (Daniel reprovou conversa que pulou o valor e foi direto perguntar). Agendamento so depois de responder o que ela disse: quer marcar? dia/periodo? 2 horarios. Proibido o cliche "faz sentido" em qualquer copy (filtro VERSUS_PROIBIDAS).

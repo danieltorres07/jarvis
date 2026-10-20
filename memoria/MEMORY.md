@@ -61,3 +61,4 @@
 - [Resposta a paciente que compara preco](feedback_resposta_comparacao_preco.md) — pergunta o que viu, mostra o que entra no valor (estrutura, experiencia, seguranca, pos, acompanhamento), etapas da clinica, so depois faixa
 - [Foto gerada: seria, metafora, fidelidade 100%](feedback_foto_gerada_seria_metafora.md) — foto do Daniel por IA sem sorriso, cena-metafora do tema, NUNCA mudar rosto/barba/cabelo/pele (sempre com fotos reais de referencia)
 - [Dica sempre com mensagem pronta](feedback_dica_com_mensagem_pronta.md) — todo passo de chamar/retomar traz a mensagem exata; follow-up com foto da secretaria com a Dra.
+- [Reel formato 4 ruim + 4 bom](feedback_reel_formato_4ruim_4bom.md) — molde aprovado 19/10 (adaptado da @finaart_denim): mesma acao ruim 4x com consequencias diferentes, depois 4 acoes boas
