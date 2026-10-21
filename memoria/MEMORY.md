@@ -67,4 +67,5 @@
 - [Campanha Meta Ads via API](project_meta_ads_campanha.md) — BM de anuncios e OUTRA (nao a do WhatsApp); aguardando token em ~/Daniel Torres/.meta-ads.env; criar sempre pausado; desde 20/10 noite objetivo TRAFEGO (landing page view), Leads pausado
 - [Movimento Láureo · caminhada 08/11](project_movimento_laureo.md) — evento beneficente: pastas, cards, relatório no link, formulário de tamanho no portal, link Asaas
 - [Abertura do Daniel manda](feedback_abertura_do_daniel.md) — se ele ditou a abertura do vídeo, roteiro começa do jeito dele (conversa/história), nunca trocado por hook de fórmula
+- [Projeto Teste · prospecção Instagram](project_projeto_teste_prospeccao.md) — ~/Daniel Torres/projeto-teste, Fase 1 semiautomática pronta (20 DMs/dia, sem afiliados), usado via Remote Control no celular; falta OpenAI, ICP e Chrome logado
 - [Padrão de edição: ritmo ddiasmatt + cores noir](feedback_padrao_edicao_ritmo.md) — base de toda edição desde 21/10: legenda cinética frenética (moldura, estrela, zoom, som) com preto/creme/dourado, nunca a paleta do Mateus
