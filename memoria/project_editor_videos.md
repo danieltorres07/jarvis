@@ -14,3 +14,5 @@ Primeiro projeto: `~/Daniel Torres/videos/vsl/` = video de espera do Raio-X (4:0
 
 **Why:** Daniel quer VSL na landing (horizontal) e no mobile (escolhi 4:5 pra nao esconder o botao da landing no celular).
 **How to apply:** proximo video dele = usar a skill, copiar project.json do VSL. Sugerir remover a skill do Mateus do app pra nao disparar no lugar. Relacionado: [[project-lp-whatsapp-consulta-v3]], [[feedback-copywriter-obrigatorio]].
+
+**21/10/2026 · vídeo só com a voz (sem rosto):** voz clonada "Daniel-Torres" no Higgsfield (element 1e8ddc71-eade-41d5-9679-4954d2a48488, seed_audio) APROVADA pelo Daniel. Projeto `~/Daniel Torres/videos/desabafo-motion/` (Desabafo do Raio-X, 9:16): Daniel pediu o vídeo inteiro legendado em legenda cinética (cada palavra com dinâmica, ênfase dourada, risco nas tentativas), SEM legenda fixa. Áudios por bloco em videos/voz-teste/desabafo/ (narracao_completa 99s, narracao_curta 53s).
