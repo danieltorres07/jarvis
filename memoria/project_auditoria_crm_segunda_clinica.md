@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T20:44:11.565Z
+  modified: 2026-10-22T21:19:28.522Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -60,7 +60,13 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
 - Furo achado e corrigido nos testes: navegação interna abria página não permitida. A permissão agora é checada no `proxy.ts`, que consulta o banco.
 - O portal Volo tem a mesma falha (permissão só no layout, e o `x-pathname` nunca chega). Levar a correção pra lá precisa do ok do Daniel.
 - Projeto Supabase antigo "sistema clínica" (`rzmutalq…`): fora do ar desde pelo menos 9/9/2026, liberado pra apagar. O worker de prospecção ainda tentava usar ele.
-- Pendente: teste do fluxo comercial ponta a ponta, permissão por página também nas server actions (hoje a action aceita qualquer membro), ensaio de backup e restauração.
+- Fluxo comercial testado ponta a ponta com `npm run teste:comercial`: 18 de 18 passando (commit `1c3f31a`).
+- Defeitos de negócio corrigidos no CRM Clínicas que **também existem no portal Volo de produção**. Levar pra lá só com o ok do Daniel:
+  1. a comissão conta parcela de boleto ainda não paga (`comissoes.ts`, que filtra por `data` sem olhar `status`);
+  2. a data sugerida no `PagamentoModal` usa UTC e vira o dia seguinte depois das 21h;
+  3. o "Orçamentos fechados" e o ticket médio do dashboard contam pagamentos em vez de orçamentos (`analytics.ts`);
+  4. a permissão por página da equipe não funciona.
+- Pendente: permissão por página também nas server actions; ensaio de backup e restauração.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
