@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T21:54:55.153Z
+  modified: 2026-10-22T22:02:43.214Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -30,7 +30,8 @@ Andamento da Fase 0 (autorizada em 22/10/2026):
   - a view do estoque passou a usar `security_invoker`;
   - perderam EXECUTE pela chave pública só as funções do sistema; `unaccent` (extensão) ficou de fora;
   - `teste-chave-publica.sh` saiu com 0 falhas.
-- **Ainda pendente:** desligar o signup no painel (Authentication > "Allow new users to sign up").
+- Signup do Supabase desligado (`disable_signup=True`, conferido em 22/10/2026). Revalidação no mesmo dia: o teste da chave pública deu 0 falhas, `/admin/raiox` respondeu 307 e criar-acesso respondeu 401.
+- Se aparecer alerta de outra conversa dizendo que "CPF/raiox continua aberto", é informação velha: está tudo corrigido e verificado.
 
 - Repo `danieltorres07/volo` é privado.
 - Repo `danieltorres07/jarvis` é público. O cron `jarvis-sync` grava nele `compromissos` e `tarefas_admin` todo dia. Aguardando decisão do Daniel.
