@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T18:58:32.864Z
+  modified: 2026-10-22T19:07:04.108Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -25,10 +25,12 @@ Andamento da Fase 0 (autorizada em 22/10/2026):
   - `criar-acesso` exige admin ou `MENTORADAS_TOKEN`;
   - crons travados sem `CRON_SECRET`.
 - Senha da Linda trocada no banco e senhas tiradas do código.
-- **Pendente com o Daniel:**
-  - rodar `~/Daniel Torres/volo/auditorias/fase0-banco.sql` no SQL Editor (bloco 1 é leitura, bloco 2 é a correção);
-  - desligar o signup no painel;
-  - depois rodar `teste-chave-publica.sh` até zerar.
+- Banco fechado em 22/10/2026:
+  - o Daniel rodou o bloco 2, que removeu as policies `realtime_select_*`, `diag_partida_all` (anon ALL) e as duas de `leads_paciente_ideal`;
+  - a view do estoque passou a usar `security_invoker`;
+  - perderam EXECUTE pela chave pública só as funções do sistema; `unaccent` (extensão) ficou de fora;
+  - `teste-chave-publica.sh` saiu com 0 falhas.
+- **Ainda pendente:** desligar o signup no painel (Authentication > "Allow new users to sign up").
 
 Depois vem a Fase 1 (CRM genérico), feita etapa por etapa:
 - uma instalação por clínica;
