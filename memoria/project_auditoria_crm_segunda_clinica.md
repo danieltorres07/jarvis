@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T19:07:04.108Z
+  modified: 2026-10-22T19:24:07.500Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -32,7 +32,17 @@ Andamento da Fase 0 (autorizada em 22/10/2026):
   - `teste-chave-publica.sh` saiu com 0 falhas.
 - **Ainda pendente:** desligar o signup no painel (Authentication > "Allow new users to sign up").
 
-Depois vem a Fase 1 (CRM genérico), feita etapa por etapa:
+- Repo `danieltorres07/volo` é privado.
+- Repo `danieltorres07/jarvis` é público. O cron `jarvis-sync` grava nele `compromissos` e `tarefas_admin` todo dia. Aguardando decisão do Daniel.
+
+Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
+- 3 commits feitos em 22/10/2026: base `1dfc0f8`, limpeza A `0b9f69a`, limpeza B `92dbf94`.
+- Ficou CRM + funil + orçamentos + receita (`lancamentos`) + comissões + metas + relatórios do CRM.
+- Usa 24 tabelas.
+- Follow-up WhatsApp atrás da env `WHATSAPP_FOLLOWUP_ATIVO`.
+- Próximo: banco novo (migração única + seed neutro), depois segurança (login do dono, limite de tentativas, páginas permitidas no servidor), depois Fase 2 (branding).
+
+Fase 1 (CRM genérico), feita etapa por etapa:
 - uma instalação por clínica;
 - módulos: CRM/funil + financeiro comercial (receita prevista e realizada, comissão, receita por paciente, CAC por canal).
 
