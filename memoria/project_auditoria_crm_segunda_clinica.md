@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T21:45:55.880Z
+  modified: 2026-10-22T21:54:55.153Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -73,11 +73,14 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
   - `npm run backup`;
   - `npm run homolog:ensaio-backup`: backup, apaga tudo, restaura e confere; passou limpo, com cerca de 25 s de backup e 52 s de restauração.
 - Fase 1 concluída em 22/10/2026.
-- Próximo, autorizado pelo Daniel em 22/10/2026: levar as 4 correções pro portal Volo de produção, testando antes. São elas:
-  1. permissão por página da equipe (no proxy);
-  2. comissão só sobre o que foi recebido;
-  3. data local no pagamento;
-  4. dashboard contando orçamentos distintos.
+- As 4 correções estão **no ar no portal Volo** desde 22/10/2026 às 18:52 (commit `c5d407a`):
+  - páginas da equipe checadas no `middleware.ts` (a checagem do layout saiu);
+  - login da equipe indo direto pra primeira página permitida;
+  - comissão só sobre o que foi recebido;
+  - data local no pagamento;
+  - dashboard contando orçamentos distintos (outubro: 33 virou 22, ticket médio de R$ 1.020 pra R$ 1.530).
+- Antes do deploy, a Linda ficou com `paginas_permitidas = null` (vê tudo), por decisão do Daniel. A Victória já via tudo.
+- No portal ainda **não** tem permissão por página nas ações do servidor, só nas telas. Seria a próxima melhoria, se ele quiser.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
