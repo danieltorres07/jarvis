@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T17:30:58.822Z
+  modified: 2026-10-22T18:58:32.864Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -17,6 +17,22 @@ Ficou pendente a autorização dele pra Fase 0, que mexe em produção. Os vazam
 - **`/admin/raiox` aberto sem login.**
 - **`/api/mentoradas/criar-acesso` sem autenticação.**
 - **Senhas expostas no repo:** a da Linda na migração 078 e a da equipe Harmo em `scripts/isolar-equipe-harmoclinic.ts`.
+
+Andamento da Fase 0 (autorizada em 22/10/2026):
+- No ar e verificado em prod (commit `0bb97e1`):
+  - sino via server action (`app/actions/sistema-clinico/sino.ts`);
+  - `/admin/raiox` exige admin;
+  - `criar-acesso` exige admin ou `MENTORADAS_TOKEN`;
+  - crons travados sem `CRON_SECRET`.
+- Senha da Linda trocada no banco e senhas tiradas do código.
+- **Pendente com o Daniel:**
+  - rodar `~/Daniel Torres/volo/auditorias/fase0-banco.sql` no SQL Editor (bloco 1 é leitura, bloco 2 é a correção);
+  - desligar o signup no painel;
+  - depois rodar `teste-chave-publica.sh` até zerar.
+
+Depois vem a Fase 1 (CRM genérico), feita etapa por etapa:
+- uma instalação por clínica;
+- módulos: CRM/funil + financeiro comercial (receita prevista e realizada, comissão, receita por paciente, CAC por canal).
 
 **Why:** dado de saúde exposto, risco LGPD.
 
