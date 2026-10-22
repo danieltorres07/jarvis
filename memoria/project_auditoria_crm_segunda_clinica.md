@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T19:41:27.713Z
+  modified: 2026-10-22T19:49:11.360Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -45,7 +45,16 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
   - Novos Leads (slug `novos-leads`, usado pelo gatilho do Facebook) e Recuperação de Leads;
   - 8 etapas iguais às da Harmo: Entrada, Em Contato, Respondeu, Agendado, Desmarcou/Faltou, Atendido, Fechou, Perdeu;
   - sem a cadência D+ dele; a clínica cria outros funis e etapas na tela.
-- Próximo: segurança (login do dono com token, limite de tentativas, páginas permitidas no servidor, primeiro usuário, `.env.example`). Depois Fase 2 (branding, logo e cor).
+- Segurança pronta (commit `9be9f1e`):
+  - login único em `/entrar`; o dono é um membro com `eh_dono`; `ADMIN_SENHA` não existe mais;
+  - limite de tentativas no login;
+  - `/primeiro-acesso` protegido por `CODIGO_INSTALACAO`;
+  - tela Equipe;
+  - páginas permitidas aplicadas no `template.tsx`, com `proxy.ts`;
+  - Lead Ads filtrado por `FB_PAGE_ID`;
+  - nenhuma chave pública exposta.
+- Falta testar ponta a ponta (login, permissões, fluxo comercial), o que precisa de um projeto Supabase de homologação.
+- Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
 - uma instalação por clínica;
