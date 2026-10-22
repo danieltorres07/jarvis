@@ -69,5 +69,6 @@
 - [Abertura do Daniel manda](feedback_abertura_do_daniel.md) — se ele ditou a abertura do vídeo, roteiro começa do jeito dele (conversa/história), nunca trocado por hook de fórmula
 - [Projeto Teste · prospecção Instagram](project_projeto_teste_prospeccao.md) — ~/Daniel Torres/projeto-teste, Fase 1 semiautomática pronta (20 DMs/dia, sem afiliados), usado via Remote Control no celular; falta OpenAI, ICP e Chrome logado
 - [Padrão de edição: ritmo ddiasmatt + cores noir](feedback_padrao_edicao_ritmo.md) — base de toda edição desde 21/10: legenda cinética frenética (moldura, estrela, zoom, som) com preto/creme/dourado, nunca a paleta do Mateus
+- [Reel quadro branco = padrão novo](feedback_reel_quadro_branco.md) — desde 22/10: split + quadro escuro + bonequinho se desenhando + fita + tela creme, no noir; Daniel achou melhor que todos os anteriores
 - [Auditoria CRM 2a clinica](project_auditoria_crm_segunda_clinica.md) — 22/10/2026: contatos (CPF) legivel pela chave publica em prod, /admin/raiox aberto; Fase 0 aguardando autorizacao
 - [Raio-X formulario curto](project_raiox_form_curto.md) — 22/10/2026: 19 -> 13 telas, versao_form=curto no motor, pixel Diag_P1..P13 (nao comparar com antes)
