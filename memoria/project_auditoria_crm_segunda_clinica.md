@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T23:44:54.845Z
+  modified: 2026-10-22T23:50:05.177Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -99,10 +99,11 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
   - Testes passando: `teste:importacao` 20 de 20 e `teste:importacao-e2e` 12 de 12.
 - **Fase 2 concluída.**
 - Next do CRM Clínicas atualizado de 16.2.9 pra 16.4.2 (commit `a89a67f`), porque tinha uma falha crítica de bypass do middleware/proxy.
-- **O portal da Harmo continua no Next 16.2.9, vulnerável.**
-  - Numa cópia isolada, o build com 16.4.2 passou (só avisa que "middleware" está obsoleto).
-  - Falta a autorização do Daniel pra subir.
-  - O `sharp` do portal (TikTok) também está com alerta alto e precisa de atualização maior.
+- Portal da Harmo atualizado pro Next 16.4.2, com autorização do Daniel (commit `21b1c63`, no ar desde 22/10/2026 às 20:48).
+  - Feito numa cópia isolada; as travas do middleware foram testadas contra a homologação antes do push.
+  - A pasta local do portal ficou 1 commit atrás do `origin`. A outra sessão (que roda `next dev` ali) precisa dar `git pull` e `npm install`.
+- Pendente no portal: o `sharp` (TikTok) tem alerta alto e precisa de atualização de versão maior.
+- Pendente no portal: renomear `middleware.ts` pra `proxy.ts`. Por enquanto é só aviso de obsoleto.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
