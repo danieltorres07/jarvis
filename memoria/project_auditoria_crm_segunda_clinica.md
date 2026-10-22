@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T23:18:33.323Z
+  modified: 2026-10-22T23:44:54.845Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -93,7 +93,16 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
     - **canal:** o "como conheceu" do cadastro, normalizado; Lead Ads entra como Tráfego Pago.
   - Defeito de UI achado e corrigido: o modo público não escondia os valores da tabela.
 - A bateria E2E inteira passou duas vezes seguidas (70 de 70). Os testes esperam até 45 s, porque a homologação é lenta a partir do Mac.
-- Próxima frente da Fase 2: importação de pacientes por planilha.
+- Fase 2.3 pronta (commit `1af64ce`): importação de contatos por CSV ou xlsx.
+  - Quem já existe (mesmo WhatsApp ou CPF) só recebe campos vazios; nada é sobrescrito.
+  - A autorização de mensagens vem desmarcada por padrão.
+  - Testes passando: `teste:importacao` 20 de 20 e `teste:importacao-e2e` 12 de 12.
+- **Fase 2 concluída.**
+- Next do CRM Clínicas atualizado de 16.2.9 pra 16.4.2 (commit `a89a67f`), porque tinha uma falha crítica de bypass do middleware/proxy.
+- **O portal da Harmo continua no Next 16.2.9, vulnerável.**
+  - Numa cópia isolada, o build com 16.4.2 passou (só avisa que "middleware" está obsoleto).
+  - Falta a autorização do Daniel pra subir.
+  - O `sharp` do portal (TikTok) também está com alerta alto e precisa de atualização maior.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
