@@ -1,33 +1,36 @@
-DATA: 2026-10-21
+DATA: 2026-10-22
 
-STATUS — 21 de outubro de 2026
+STATUS — 22 de outubro de 2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar os leads do formulário pra Victória)
-- 17:00 Análise de Métricas (ver número do dia com Victória, agendamento e novas mensagens)
+- 09:30 Enviar Leads Tráfego (mandar leads de formulário pra Victória)
+- 14:00 Reunião Biomédica Kessia
+- 17:00 Análise de Métricas
+- O arquivo memoria/compromissos-hoje.json está atualizado (data de hoje), mas não tem nenhum compromisso extra do Sistema da Clínica cadastrado
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Termos ao fechar orçamento
 - Corrida
 - Transferência Kwid
-- CRM Prospecção
+- CRM PROSPECÇÃO
+- Criar campanha de infoproduto usando dados da campanha já feita no perfil da Linda
 
 📧 E-mails que precisam de você
-- Nenhum. Tudo que chegou hoje e ontem foi automático: notificação do Calendar, promoção (Daz3D, Viva Real, Copart, Zap Imóveis, Webmotors, AliExpress, Vivo, BDMG), vaga (Indeed, LinkedIn), confirmação de pagamento no Asaas (2) e relatório de campanha do Raio-X ads. Nada de uma pessoa escrevendo direto pra você.
+- Hoje não tem nenhum e-mail de pessoa real pendente — as 28 mensagens não lidas são tudo automático (notificação de agenda, AliExpress, LinkedIn, Copart, Supabase quota, relatório automático do Raio-X ads, Hostinger, Vercel, Skool etc.)
 
 🟢 Ativo agora
-- Aceleração Clínica 4D: produto principal da consultoria, em estruturação, método nas 4 fases (Demanda, Atendimento, Domínio, Retenção)
-- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes (clínica Combo)
-- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, substituindo o Clinicorp módulo por módulo
-- Carrossel automático: gerando 4 carrosséis por dia, você aprova 2 (slots 12:30 e 19:30)
-- Prospecção HOF: cron diário rodando às 10h, buscando leads de clínica no Google Maps
+- Sistema da Clínica: rodando em produção (clinicasaltovoo.vercel.app), módulos de agenda/pacientes/financeiro/funil/prospecção já construídos
+- Carrossel automático: gerando 4 por dia, você aprova 2 (slots 12:30 e 19:30)
+- Prospecção HOF: cron diário às 10h buscando 1 cidade/dia, funil em /funil-prospeccao
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes (gargalo em Fechamento e Agendamento)
+- Programa de Aceleração Clínica 4D: catálogo fechado (Mentoria 12m como produto principal + Sprint 30d como porta de entrada)
 
 ⏸️ Pausado
-- Follow-up automático de WhatsApp: parado esperando você fechar a burocracia do Meta Business (verificação + app + templates)
-- Portal 4D (área de membros): parado desde 10/06, antes da fase de cliente editar entregável
+- Follow-up automático via WhatsApp: parado esperando você terminar a burocracia da Meta (Business Verification + criar app + templates)
+- Portal 4D (plataforma de membros): pausado antes da Fase 7 (cliente editar entregáveis), desde 10/06
+- Envio automático do PDF do Playbook: ainda não decidido qual caminho usar
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como vai entregar o PDF pro lead (e-mail via Resend, WhatsApp pela Meta API, ou tirar essa promessa da copy)
-- Apresentação da recepção da Harmo Clinic: esperando você mandar as fotos originais em alta (logo, antes/depois) pra trocar as que vieram do PDF
-- As 5 tarefas do Painel listadas em cima, nenhuma tem dado de prazo registrado
+- Playbook: decidir entre e-mail via Resend, WhatsApp (Meta) ou tirar a promessa da copy
+- Follow-up WhatsApp: falta você fechar a Business Verification da Meta e decidir número do WhatsApp (atual ou novo) + se a Victória vê o histórico de mensagens
