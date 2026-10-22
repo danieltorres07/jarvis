@@ -1,18 +1,22 @@
 ---
 name: project-campanha-crm-30-10
-description: Campanha orgânica 26/10 a 01/11/2026 que abre na sexta 30/10 a nova versão do Do WhatsApp à Consulta (método + assistente IA + CRM + implantação 30 dias); roteiros em ~/Daniel Torres/reels/semana-2026-10-26/
+description: Campanha 26/10 a 01/11/2026 que lança o Atende & Vende (R$ 2.497, Hotmart) na sexta 30/10; roteiros e página em ~/Daniel Torres/reels/semana-2026-10-26/
 metadata:
-  node_type: memory
   type: project
-  originSessionId: 1e398dcd-7085-408c-ac5b-29b509408d0b
-  modified: 2026-10-22T22:12:34.518Z
 ---
 
-Pedido em 22/10/2026. Semana de 2 Reels/dia (seg a sex, 11:30 e 20:30, sexta 18:30 a oferta) + Stories diários, CTA único "comenta CRM" (ManyChat a configurar). Link sai na sexta 30/10. A Fase 0 da [[project_auditoria_crm_segunda_clinica]] foi fechada e conferida em prod em 22/10. Fica pendente só a conversa com o advogado sobre o vazamento anterior à correção. O CRM das clínicas é uma instalação por clínica.
+Oferta aprovada pelo Daniel e pelo estrategista dele (ChatGPT) em 22/10/2026. Não rediscutir nome, preço, reuniões nem estrutura.
+- **Atende & Vende**, Implantação Comercial para Clínicas de HOF. R$ 2.497, pagamento único, pela Hotmart.
+- Inclui o método Do WhatsApp à Consulta, a assistente de IA (sugere a resposta, a equipe envia), o CRM no Vercel + Supabase da própria clínica e 6 reuniões de 45 min: diagnóstico, treinamento e 4 semanais.
+- Os 30 dias começam no treinamento. A instalação leva 5 dias úteis depois de chegarem os acessos.
+- Depois dos 30 dias a clínica fica com licença de uso, sem transferência de código. Não prometer mensalidade zero eterna.
+- Upgrade pra quem comprou o método antigo: R$ 2.497 menos o valor pago.
 
-Produto (Daniel, 22/10): "Do WhatsApp à Consulta melhorado". Tem todas as etapas do atendimento, a assistente de IA que ajuda a secretária a responder (a skill existente, ver [[project-skill-whatsapp-consulta]]; ela sugere e a secretária manda) e um CRM adaptável pra qualquer clínica (ele estava finalizando). O robô automático no WhatsApp fica fora. Preço, nome final, prazo e custos de terceiros estavam em aberto.
+A sexta tem duas versões. Na A o checkout abre, só se o teste externo do CRM numa segunda clínica for aprovado. Na B fica lista de interesse, sem cobrança.
 
-Formatos de Reel que ele fixou: A (rápido aplicável), B (narrativo) e quadro branco. Edição só quando ele pedir.
+São 20 posts no feed: 10 Reels, 5 carrosséis (o automático cai pra 1 por dia útil, às 17:30) e 5 de humor com IA. O CTA dos conteúdos é "comenta CRM", e o Atende & Vende é apresentado no direct.
 
-**Why:** é a abertura comercial da prioridade "lançar Do WhatsApp à Consulta".
-**How to apply:** ajustes nos roteiros vão nos arquivos da pasta; [DEFINIR]/[CONFIRMAR] ainda abertos lá. Depois da semana, cruzar métricas do 04-operacao.md.
+A Fase 0 da [[project_auditoria_crm_segunda_clinica]] foi fechada em 22/10. Ficou pendente a conversa com o advogado sobre o vazamento anterior.
+
+**Why:** é o lançamento principal do trimestre.
+**How to apply:** fazer ajustes nos .md da pasta, rodar gerar-html.py e republicar a página. Pra auditoria no ChatGPT, regerar campanha-26-10-para-auditoria.md. Os campos abertos estão na aba Pendências.

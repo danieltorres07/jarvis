@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T22:22:50.896Z
+  modified: 2026-10-22T23:18:33.323Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -86,7 +86,14 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
 - Limite conhecido: o painel vira tema claro por filtro (invert + hue-rotate). Cores vivas (azul royal, rosa, lilás, vermelho, amarelo) não saem idênticas dentro do sistema, e a tela avisa.
   - A solução de verdade seria um tema claro real, sem filtro; é uma refatoração grande e fica pendente de decisão.
   - Saem exatas: dourado, verdes, rose gold, nude, laranja e preto.
-- Próximas frentes da Fase 2: financeiro comercial (CAC e retorno por canal) e importação de pacientes por planilha.
+- Fase 2.2 pronta (commit `99c17e1`): página Marketing com investimento por canal, CAC e retorno. `npm run teste:marketing` passa 12 de 12.
+  - Regras de conta:
+    - **lead:** contato criado no período;
+    - **conquistado:** o primeiro pagamento recebido da história dele cai no período;
+    - **canal:** o "como conheceu" do cadastro, normalizado; Lead Ads entra como Tráfego Pago.
+  - Defeito de UI achado e corrigido: o modo público não escondia os valores da tabela.
+- A bateria E2E inteira passou duas vezes seguidas (70 de 70). Os testes esperam até 45 s, porque a homologação é lenta a partir do Mac.
+- Próxima frente da Fase 2: importação de pacientes por planilha.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
