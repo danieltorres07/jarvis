@@ -72,3 +72,4 @@
 - [Reel quadro branco = padrão novo](feedback_reel_quadro_branco.md) — desde 22/10: split + quadro escuro + bonequinho se desenhando + fita + tela creme, no noir; Daniel achou melhor que todos os anteriores
 - [Auditoria CRM 2a clinica](project_auditoria_crm_segunda_clinica.md) — 22/10/2026: contatos (CPF) legivel pela chave publica em prod, /admin/raiox aberto; Fase 0 aguardando autorizacao
 - [Raio-X formulario curto](project_raiox_form_curto.md) — 22/10/2026: 19 -> 13 telas, versao_form=curto no motor, pixel Diag_P1..P13 (nao comparar com antes)
+- [Video aprovado vai pra PRONTOS](feedback_videos_prontos_limpeza.md) — TODO video editado: final em ~/Daniel Torres/videos/PRONTOS/, apagar versao sem audio/quadros/previas/masters depois do ok, fica so o final + codigo
