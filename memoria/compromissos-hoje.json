@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-10-21T09:53:52.717Z",
-  "data": "2026-10-21",
+  "atualizado_em": "2026-10-22T09:53:52.509Z",
+  "data": "2026-10-22",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -21,6 +21,10 @@
     },
     {
       "titulo": "CRM PROSPECÇÃO",
+      "concluida": false
+    },
+    {
+      "titulo": "Criar campanha de infoproduto usando dados da campanha já feita no perfil da Linda",
       "concluida": false
     }
   ]
