@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T21:19:28.522Z
+  modified: 2026-10-22T21:45:55.880Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -66,7 +66,18 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
   2. a data sugerida no `PagamentoModal` usa UTC e vira o dia seguinte depois das 21h;
   3. o "Orçamentos fechados" e o ticket médio do dashboard contam pagamentos em vez de orçamentos (`analytics.ts`);
   4. a permissão por página da equipe não funciona.
-- Pendente: permissão por página também nas server actions; ensaio de backup e restauração.
+- Permissão por página nas ações do servidor pronta (commit `93306e3`, `npm run teste:acoes`, 11 de 11):
+  - `garanteSistemaClinico(paginas)`;
+  - as listas de páginas de cada ação são geradas por `testes/mapa-acoes.py`.
+- Backup e ensaio de desastre prontos (commit `434c4c6`):
+  - `npm run backup`;
+  - `npm run homolog:ensaio-backup`: backup, apaga tudo, restaura e confere; passou limpo, com cerca de 25 s de backup e 52 s de restauração.
+- Fase 1 concluída em 22/10/2026.
+- Próximo, autorizado pelo Daniel em 22/10/2026: levar as 4 correções pro portal Volo de produção, testando antes. São elas:
+  1. permissão por página da equipe (no proxy);
+  2. comissão só sobre o que foi recebido;
+  3. data local no pagamento;
+  4. dashboard contando orçamentos distintos.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
