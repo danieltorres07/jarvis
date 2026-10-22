@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-22T19:24:07.500Z
+  modified: 2026-10-22T19:41:27.713Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -40,7 +40,12 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
 - Ficou CRM + funil + orçamentos + receita (`lancamentos`) + comissões + metas + relatórios do CRM.
 - Usa 24 tabelas.
 - Follow-up WhatsApp atrás da env `WHATSAPP_FOLLOWUP_ATIVO`.
-- Próximo: banco novo (migração única + seed neutro), depois segurança (login do dono, limite de tentativas, páginas permitidas no servidor), depois Fase 2 (branding).
+- Banco novo pronto (commit `52c9e66`): `db/instalacao/01_estrutura`, `02_seguranca`, `03_padrao`, com o teste `npm run teste:banco` (PGlite) passando 11 de 11.
+- Funis padrão decididos pelo Daniel em 22/10/2026:
+  - Novos Leads (slug `novos-leads`, usado pelo gatilho do Facebook) e Recuperação de Leads;
+  - 8 etapas iguais às da Harmo: Entrada, Em Contato, Respondeu, Agendado, Desmarcou/Faltou, Atendido, Fechou, Perdeu;
+  - sem a cadência D+ dele; a clínica cria outros funis e etapas na tela.
+- Próximo: segurança (login do dono com token, limite de tentativas, páginas permitidas no servidor, primeiro usuário, `.env.example`). Depois Fase 2 (branding, logo e cor).
 
 Fase 1 (CRM genérico), feita etapa por etapa:
 - uma instalação por clínica;
