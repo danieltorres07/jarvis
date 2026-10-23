@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-23T01:45:14.925Z
+  modified: 2026-10-23T02:34:21.897Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -83,9 +83,8 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
 - Antes do deploy, a Linda ficou com `paginas_permitidas = null` (vê tudo), por decisão do Daniel. A Victória já via tudo.
 - No portal ainda **não** tem permissão por página nas ações do servidor, só nas telas. Seria a próxima melhoria, se ele quiser.
 - Fase 2.1 do CRM Clínicas pronta (commit `19e273f`): tela Aparência com nome, logo e cor; `npm run teste:aparencia` passa 16 de 16.
-- Limite conhecido: o painel vira tema claro por filtro (invert + hue-rotate). Cores vivas (azul royal, rosa, lilás, vermelho, amarelo) não saem idênticas dentro do sistema, e a tela avisa.
-  - A solução de verdade seria um tema claro real, sem filtro; é uma refatoração grande e fica pendente de decisão.
-  - Saem exatas: dourado, verdes, rose gold, nude, laranja e preto.
+- Tema claro real, sem filtro (commit `1203be5`, 22/10/2026, demo atualizada): `app/tema-claro.css` é GERADO por `scripts/gerar-tema-claro.mjs` (rodar de novo, com o app de pé na 3996, sempre que tela nova usar classe de cor nova). Cores fixas inline do painel já convertidas. Qualquer cor de marca sai exata (teste mede azul royal, rosa, vermelho no pixel). Portais (modais em document.body) nunca passaram pelo filtro e ficaram como estavam.
+  - O portal da Harmo continua com o filtro (não foi levado pra lá).
 - Fase 2.2 pronta (commit `99c17e1`): página Marketing com investimento por canal, CAC e retorno. `npm run teste:marketing` passa 12 de 12.
   - Regras de conta:
     - **lead:** contato criado no período;
