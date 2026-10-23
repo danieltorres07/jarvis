@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-23T02:34:21.897Z
+  modified: 2026-10-23T02:34:26.211Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -110,9 +110,7 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
   - Credenciais e logins em `~/crm-instalacoes/clinica-demo/instalacao.txt`.
   - Repopular com `node scripts/demo/popular-demo.mjs ~/crm-instalacoes/clinica-demo --refazer`.
 - Correção achada pela demo: a conversão do Marketing passou a ser por coorte (leads do período que já pagaram), sem passar de 100%.
-- Próximos itens pedidos pelo Daniel, em ordem:
-  - (3) minuta de contrato + termo LGPD baseada no que o sistema faz;
-  - (4) trocar o filtro de inversão por tema claro de verdade.
+- Lista do Daniel (instalador, demo, contrato+LGPD, tema claro real): os 4 itens concluídos em 22/10/2026.
 - Pendente no portal: o `sharp` (TikTok) tem alerta alto e precisa de atualização de versão maior.
 - Pendente no portal: renomear `middleware.ts` pra `proxy.ts`. Por enquanto é só aviso de obsoleto.
 - Próximo: homologação com dados fictícios, depois Fase 2 (branding, logo e cor) e Fase 3 (financeiro comercial e CAC).
