@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-23T02:34:26.211Z
+  modified: 2026-10-23T17:29:02.225Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -84,7 +84,12 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
 - No portal ainda **não** tem permissão por página nas ações do servidor, só nas telas. Seria a próxima melhoria, se ele quiser.
 - Fase 2.1 do CRM Clínicas pronta (commit `19e273f`): tela Aparência com nome, logo e cor; `npm run teste:aparencia` passa 16 de 16.
 - Tema claro real, sem filtro (commit `1203be5`, 22/10/2026, demo atualizada): `app/tema-claro.css` é GERADO por `scripts/gerar-tema-claro.mjs` (rodar de novo, com o app de pé na 3996, sempre que tela nova usar classe de cor nova). Cores fixas inline do painel já convertidas. Qualquer cor de marca sai exata (teste mede azul royal, rosa, vermelho no pixel). Portais (modais em document.body) nunca passaram pelo filtro e ficaram como estavam.
-  - O portal da Harmo continua com o filtro (não foi levado pra lá).
+- Demo enxuta (commit `71b0c6f`, 23/10/2026, pedido do Daniel): sem Início, Dashboard é a página inicial com a Meta do mês no topo, menu em grupos Vendas/Dinheiro/Ajustes; permissão gravada "inicio" vale como "dashboard".
+- Port pra Harmo (23/10/2026, Daniel escolheu: tema claro, Marketing, segurança extra; NÃO levar Aparência nem login único):
+  - Pronto e testado na branch `port-crm-clinicas`, worktree em scratchpad (commits `813844d` tema + `3b3d6a3` Marketing/ações/limite login).
+  - Logo HC continua invertida de propósito (arquivo é versão fundo escuro). Status da agenda saem com a cor desenhada (agendado = preto, antes branco quase invisível).
+  - Depende do SQL `~/Daniel Torres/volo/auditorias/2026-10-23-harmo-marketing-e-login.sql` (cria investimentos_marketing + tentativas_login). Sem ele a página Marketing dá erro; login segue normal.
+  - Ainda NÃO subiu: aguardando Daniel rodar o SQL.
 - Fase 2.2 pronta (commit `99c17e1`): página Marketing com investimento por canal, CAC e retorno. `npm run teste:marketing` passa 12 de 12.
   - Regras de conta:
     - **lead:** contato criado no período;
