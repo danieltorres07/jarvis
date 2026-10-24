@@ -1,26 +1,10 @@
 {
-  "atualizado_em": "2026-10-23T09:53:53.002Z",
-  "data": "2026-10-23",
-  "compromissos": [
-    {
-      "titulo": "Visita a instituição",
-      "data": "2026-10-23",
-      "hora_inicio": "10:00:00",
-      "hora_fim": "12:00:00",
-      "observacoes": null
-    }
-  ],
+  "atualizado_em": "2026-10-24T09:53:53.414Z",
+  "data": "2026-10-24",
+  "compromissos": [],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
-      "concluida": false
-    },
-    {
-      "titulo": "Termos ao fechar orçamento",
-      "concluida": false
-    },
-    {
-      "titulo": "Corrida",
       "concluida": false
     },
     {
@@ -28,11 +12,7 @@
       "concluida": false
     },
     {
-      "titulo": "CRM PROSPECÇÃO",
-      "concluida": false
-    },
-    {
-      "titulo": "Criar campanha de infoproduto usando dados da campanha já feita no perfil da Linda",
+      "titulo": "Termos ao fechar orçamento",
       "concluida": false
     }
   ]
