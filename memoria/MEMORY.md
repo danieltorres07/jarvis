@@ -15,8 +15,6 @@
 - [Voz Daniel seca, nao narrativa](feedback_voz_seca.md) — em script/objecao/ensino tecnico, cortante e direto, sem warmup nem cena
 - [Scripts construidos pergunta a pergunta](feedback_scripts_construcao_colaborativa.md) — nunca escrever entregavel com voz sozinho; cada script tem seu proprio formulario, definido com Daniel antes
 - [Handle Instagram do Daniel](feedback_handle_instagram_daniel.md) — sempre @danieltorres.b (nunca @danieltorres), vale em todo carrossel/PDF/caption
-- [Conclave](project_conclave.md) — clube de networking high-ticket (R$250k anuidade). Daniel entrou como closer, quer virar lider e depois frente/socio
-- [Painel oficial Conclave](reference_conclave_painel.md) — URL do painel operacional do Conclave (tiers, comissao, calendario, pilares, metas)
 - [Apresentacao Harmo Clinic (recepcao)](project_harmoclinic_apresentacao.md) — deck TV em loop, fontes Vandermark+Kumbh, fotos do PDF, export 4K, pendencias em PENDENTES.txt
 - [Stack visual de apresentacao (template canonico)](reference_layout_apresentacao.md) — caminho de referencia pra qualquer deck institucional 16:9 (call, programatico, deck). Reusar generate.py + fontes + helpers
 - [Bolao Royal's Copa 2026](project_bolao_royals.md) — sistema web de bolao pra Royal's Barbershop (Next.js+Supabase+Vercel), prazo 11/06/2026, modelo sem-senha com PIN, pagamento Pix via WhatsApp
@@ -64,7 +62,7 @@
 - [Reel formato 4 ruim + 4 bom](feedback_reel_formato_4ruim_4bom.md) — molde aprovado 19/10 (adaptado da @finaart_denim): mesma acao ruim 4x com consequencias diferentes, depois 4 acoes boas
 - [Relatorio CEO diario e semanal](project_relatorio_ceo.md) — push com numeros do CRM e da clinica; PEDIDO 19/10/2026, ainda nao construido
 - [Skill IA Do WhatsApp à Consulta](project_skill_whatsapp_consulta.md) — entrega a mais pra todo comprador; skill Claude + Projeto ChatGPT (GPT morreu); ficha em 3 blocos; montar-entrega.sh gera zip+PDF
-- [Campanha Meta Ads via API](project_meta_ads_campanha.md) — BM de anuncios e OUTRA (nao a do WhatsApp); aguardando token em ~/Daniel Torres/.meta-ads.env; criar sempre pausado; desde 20/10 noite objetivo TRAFEGO (landing page view), Leads pausado
+- [Campanha Meta Ads via API](project_meta_ads_campanha.md) — BM de anuncios e OUTRA (nao a do WhatsApp); aguardando token em ~/Daniel Torres/.meta-ads.env; criar sempre pausado; desde 23/10 só Semelhante R$50 + Playbook R$30 (Leads otimizando DiagnosticoStart = 1a resposta), CAPI no ar
 - [Movimento Láureo · caminhada 08/11](project_movimento_laureo.md) — evento beneficente: pastas, cards, relatório no link, formulário de tamanho no portal, link Asaas
 - [Abertura do Daniel manda](feedback_abertura_do_daniel.md) — se ele ditou a abertura do vídeo, roteiro começa do jeito dele (conversa/história), nunca trocado por hook de fórmula
 - [Projeto Teste · prospecção Instagram](project_projeto_teste_prospeccao.md) — ~/Daniel Torres/projeto-teste, Fase 1 semiautomática pronta (20 DMs/dia, sem afiliados), usado via Remote Control no celular; falta OpenAI, ICP e Chrome logado
@@ -74,3 +72,4 @@
 - [Raio-X formulario curto](project_raiox_form_curto.md) — 22/10/2026: 19 -> 13 telas, versao_form=curto no motor, pixel Diag_P1..P13 (nao comparar com antes)
 - [Video aprovado vai pra PRONTOS](feedback_videos_prontos_limpeza.md) — TODO video editado: final em ~/Daniel Torres/videos/PRONTOS/, apagar versao sem audio/quadros/previas/masters depois do ok, fica so o final + codigo
 - [Campanha Atende & Vende 30/10](project_campanha_crm_30_10.md) — lançamento R$ 2.497 Hotmart sexta 30/10, versões A/B, 20 posts; roteiros+página em ~/Daniel Torres/reels/semana-2026-10-26/
+- [Reels: molde Afonso (curto) e Luana (longo)](feedback_reels_moldes_afonso_luana.md) — curtos com certeza+passo a passo+"Manda esse vídeo pra sua secretária"; longos abrem com a CENA do dia a dia em "você", nunca com tese

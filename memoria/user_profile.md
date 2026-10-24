@@ -5,7 +5,7 @@ type: user
 originSessionId: 9b3d238a-0758-4c79-b519-14fc49682f56
 modified: 2026-09-15T13:25:20.461Z
 ---
-- Daniel Torres, Contagem/MG (possivel mudanca para SP - avisar quando acontecer)
+- Daniel Torres, Contagem/MG
 - Casado, sem filhos. Esposa e a profissional injetora da clinica de harmonizacao facial
 - Periodo produtivo: tarde e noite
 - Nao programa - supervisiona o Claude Code
