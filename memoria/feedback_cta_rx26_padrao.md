@@ -8,6 +8,8 @@ metadata:
   modified: 2026-10-14T15:38:02.975Z
 ---
 
+**ATUALIZACAO 2026-10-24: a palavra passou a ser CRM26** (Daniel aprovou trocar RX26 por CRM26, mesmas palavras da frase). Quem comenta CRM26 recebe no direct a explicacao do sistema (CRM) e entra na lista do Atende & Vende. Gerador automatico, TikTok e CLAUDE.md atualizados. ManyChat precisa ter a palavra CRM26 configurada. Onde abaixo diz RX26, leia CRM26.
+
 Decidido em 2026-10-14, depois da analise da @luanamariamarina ([[reference-luana-concorrente]]).
 
 Todo carrossel (automatico ou manual) tem dois pedidos, com estas palavras EXATAS:

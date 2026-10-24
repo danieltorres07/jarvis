@@ -45,13 +45,13 @@
 - [Conciliacao Harmoclinic](project_conciliacao_harmoclinic.md) — dashboard soma bruto por data_pagamento; existe 2a maquininha e 2a conta Pix fora do Itau/Rede
 - [Programa AI Expert · clone do Daniel](project_ai_expert.md) — tudo em ~/Daniel Torres/AI EXPERT/ (nunca entregaveis/); oferta Clínica Travada R$ 497, produto feito do zero, personagem = clone do Daniel; 4 skills prontas, falta semana zero, order bumps e personagem feminina
 - [Humor acido nos Reels](feedback_humor_acido_reels.md) — nova pegada do perfil: titulo de dica + 5 respostas acidas desde a 1a, final explosivo tipo "Responde satanas!"; nunca educado
-- [CTA fixo RX26 em todo carrossel](feedback_cta_rx26_padrao.md) — salvar/compartilhar fixo no meio + 'comente **RX26** que te envio no direct' no ultimo slide, palavras exatas
+- [CTA fixo CRM26 em todo carrossel](feedback_cta_rx26_padrao.md) — desde 24/10 a palavra e CRM26 (era RX26); salvar/compartilhar fixo no meio + 'comente **CRM26** que te envio no direct' no ultimo slide
 - [Concorrente @luanamariamarina](reference_luana_concorrente.md) — formula de carrossel dela, o que o Daniel adotou, pendencias (prints, eventos)
 - [Numeros reais do sistema no carrossel](feedback_numeros_reais_sistema.md) — numero da clinica vem do sistema clinico automatico (sem perguntar), Daniel corrige na aprovacao; o que fica fora e por que
 - [Agendamento: disponibilidade e depois 2 horarios](feedback_agendamento_horarios.md) — pergunta dia/periodo, oferece 2 horarios concretos; nunca deixar "que dia voce tem disponibilidade?" solto
 - [LP v3 Do WhatsApp a Consulta](project_lp_whatsapp_consulta_v3.md) — oficial na Hostinger (danieltorrespmv.com/do-whatsapp-a-cadeira-consulta/), copia Vercel a remover, prova "mais de 40 clinicas"
 - [Hook de Reels · 3 tipos](feedback_hook_reels_falado.md) — confissao com causa nomeada / ordem contra o mercado / resultado sem o obvio; proibido abrir descrevendo a cena dela ou com pergunta de coach
-- [Automacao TikTok](project_tiktok_automacao.md) — app TikTok for Developers em cadastro (Laureo), termos/privacidade/verificacao no ar; FUNCIONANDO desde 16/10: post do IG vai como RASCUNHO pro app do TikTok (Sandbox, sem revisao), chega em Mensagens > Notificacoes do sistema; desde 19/10 legenda e ultimo slide proprios ("me manda RX26 no direct")
+- [Automacao TikTok](project_tiktok_automacao.md) — app TikTok for Developers em cadastro (Laureo), termos/privacidade/verificacao no ar; FUNCIONANDO desde 16/10: post do IG vai como RASCUNHO pro app do TikTok (Sandbox, sem revisao), chega em Mensagens > Notificacoes do sistema; desde 19/10 legenda e ultimo slide proprios ("me manda CRM26 no direct", era RX26)
 - [Editor de videos (skill propria)](project_editor_videos.md) — editor-videos-daniel criada 16/10/2026, motion noir + 4K/4:5; VSL Raio-X em ~/Daniel Torres/videos/vsl, VSL no ar na tela processando do Raio-X (180 s ate o botao)
 - [Video no visual noir](feedback_video_visual_noir.md) — motion de video segue o noir das landings (Fraunces+DM Sans), nunca o neobrutalista do CLAUDE.md
 - [Carrossel com imagem provocante](feedback_carrossel_imagem_provocante.md) — hook nasce da metafora da foto (fumaca, gelo, reflexo); Higgsfield so gera quando o carrossel precisa
@@ -73,3 +73,5 @@
 - [Video aprovado vai pra PRONTOS](feedback_videos_prontos_limpeza.md) — TODO video editado: final em ~/Daniel Torres/videos/PRONTOS/, apagar versao sem audio/quadros/previas/masters depois do ok, fica so o final + codigo
 - [Campanha Atende & Vende 30/10](project_campanha_crm_30_10.md) — lançamento R$ 2.497 Hotmart sexta 30/10, versões A/B, 20 posts; roteiros+página em ~/Daniel Torres/reels/semana-2026-10-26/
 - [Reels: molde Afonso (curto) e Luana (longo)](feedback_reels_moldes_afonso_luana.md) — curtos com certeza+passo a passo+"Manda esse vídeo pra sua secretária"; longos abrem com a CENA do dia a dia em "você", nunca com tese
+- [Foco em clinicas no metodo Jun](project_foco_clinicas_metodo_jun.md) — publico fixo HOF, "nao nichar" so no assunto; 80% clinica / 20% historia pessoal
+- [Numeros da clinica e sistema continuo](project_sistema_continuo_conteudo.md) — 40 dias: faturamento +60%, ticket +40% (nao 80%); sem lancamento com data; ciclo 1 26/10-24/11, Reels no carro no centro
