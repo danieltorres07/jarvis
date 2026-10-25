@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-10-25T12:45:35.000Z",
+  "gerado_em": "2026-10-25T14:47:14.945Z",
   "avisar": true,
-  "slot": "10:30",
+  "slot": "12:30",
   "aprovados": 0,
   "pendentes": 15,
-  "mensagem": "Post das 10:30 sem nada aprovado. 15 esperando na fila, aprova agora que ainda sai no horário."
+  "mensagem": "Post das 12:30 sem nada aprovado. 15 esperando na fila, aprova agora que ainda sai no horário."
 }
