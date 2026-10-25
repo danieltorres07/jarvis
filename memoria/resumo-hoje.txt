@@ -1,10 +1,10 @@
-DATA: 2026-10-24
+DATA: 2026-10-25
 
-STATUS — 24/10/2026
+STATUS — 25/10/2026
 
 📅 Agenda de hoje
-- Nenhum compromisso no Google Calendar
-- Sistema da Clínica (Painel Daniel) também não tem nada marcado pra hoje
+- Nenhum compromisso no Google Calendar (o próprio Google confirmou por e-mail que hoje está livre)
+- Arquivo do Sistema da Clínica está atualizado pra hoje, mas também não tem compromisso nenhum lançado nele
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -12,18 +12,18 @@ STATUS — 24/10/2026
 - Termos ao fechar orçamento
 
 📧 E-mails que precisam de você
-- Nada hoje. Só promoção e notificação automática (Asaas, Raio-X ads, newsletters, etc.) — nenhum e-mail de pessoa real esperando resposta
+- Nenhum. Os 11 e-mails não lidos de hoje/ontem são todos automáticos (calendário, Daz3D, AliExpress, LinkedIn x2, G4 Educação x2, leilão Copart, recibo Apple, newsletter Azul, Dreamstime) — nenhum veio de uma pessoa escrevendo direto pra você
 
 🟢 Ativo agora
-- Sistema da Clínica: CRM rodando em produção (clinicasaltovoo.vercel.app), seguindo a construção dos módulos
-- Carrossel automático: gerando 4 por dia, você aprova 2 (slots 12:30 e 19:30)
-- Prospecção HOF: rodando todo dia às 10h, buscando leads de clínica em 1 cidade por dia
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes (clínica Combo). Falta reconferir os 3 campos de R$ no diagnóstico (tinha um bug de máscara que zerava a estimativa, já corrigido)
+- Carrossel automático: sistema gerando 4 carrosséis por dia, você aprova 2. Auto-post no Instagram ainda depende da Meta Cloud API
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e prospecção já no ar
+- Programa de Aceleração 4D: método (Demanda/Atendimento/Domínio/Retenção) e catálogo (Sprint 30d + Mentoria 12m) fechados, servindo de base pra tudo
 
 ⏸️ Pausado
+- Follow-up automático WhatsApp: parado desde 28/07, esperando você rodar a burocracia da Meta Business (verificação, app, templates)
 - Portal 4D (área de membros): parado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
-- Follow-up WhatsApp: parado desde 28/07, esperando você terminar a burocracia da Meta Business
 
 ⚠️ Precisa de você
-- As 3 tarefas do painel acima
-- Rebrand Clínicas de Alto Vôo: escopo ainda em aberto (onde aplicar, apelido curto)
-- Playbook: falta decidir como vai mandar o PDF pro lead (e-mail via Resend, WhatsApp ou tirar a promessa da copy)
+- Playbook: decidir qual dos 3 caminhos pro envio automático do PDF pro lead (e-mail via Resend, WhatsApp via Meta, ou tirar a promessa da copy)
+- Follow-up WhatsApp só volta a andar quando você fizer os passos da Meta Business
