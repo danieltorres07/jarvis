@@ -1,10 +1,11 @@
-DATA: 2026-10-25
+DATA: 2026-10-26
 
-STATUS — 25/10/2026
+STATUS — 26/10/2026
 
 📅 Agenda de hoje
-- Nenhum compromisso no Google Calendar (o próprio Google confirmou por e-mail que hoje está livre)
-- Arquivo do Sistema da Clínica está atualizado pra hoje, mas também não tem compromisso nenhum lançado nele
+- 09:30 Enviar Leads Tráfego (passar leads de formulário pra Victória)
+- 17:00 Análise de Métricas (número do dia anterior com Victória, mensagens, agendamentos)
+- Sistema da Clínica não tem nenhum compromisso registrado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -12,18 +13,18 @@ STATUS — 25/10/2026
 - Termos ao fechar orçamento
 
 📧 E-mails que precisam de você
-- Nenhum. Os 11 e-mails não lidos de hoje/ontem são todos automáticos (calendário, Daz3D, AliExpress, LinkedIn x2, G4 Educação x2, leilão Copart, recibo Apple, newsletter Azul, Dreamstime) — nenhum veio de uma pessoa escrevendo direto pra você
+- Nenhum e-mail de pessoa real hoje. Só automático: aviso de calendário, Raio-X de ads (seu próprio sistema), cobrança confirmada (Asaas), renovação Hostinger, e newsletter/promoção (Zap Imóveis, Vivareal, G4 Educação, Daz3D, Dreamstime, LinkedIn, Ulta)
 
 🟢 Ativo agora
-- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes (clínica Combo). Falta reconferir os 3 campos de R$ no diagnóstico (tinha um bug de máscara que zerava a estimativa, já corrigido)
-- Carrossel automático: sistema gerando 4 carrosséis por dia, você aprova 2. Auto-post no Instagram ainda depende da Meta Cloud API
-- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e prospecção já no ar
-- Programa de Aceleração 4D: método (Demanda/Atendimento/Domínio/Retenção) e catálogo (Sprint 30d + Mentoria 12m) fechados, servindo de base pra tudo
+- Sistema da Clínica: rodando em produção (clinicasaltovoo.vercel.app), substituindo o Clinicorp módulo por módulo
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, falta produzir o lote de fechamento
+- Carrossel automático: gerando 4 por dia, você aprova 2 (auto-post no Instagram ainda pausado)
 
 ⏸️ Pausado
-- Follow-up automático WhatsApp: parado desde 28/07, esperando você rodar a burocracia da Meta Business (verificação, app, templates)
-- Portal 4D (área de membros): parado desde 10/06, antes da Fase 7 (cliente editar entregáveis)
+- Portal 4D (plataforma de membros): pausado desde junho, antes da fase do cliente editar entregáveis
+- Follow-up automático WhatsApp: pausado esperando você resolver a burocracia da Meta
 
 ⚠️ Precisa de você
-- Playbook: decidir qual dos 3 caminhos pro envio automático do PDF pro lead (e-mail via Resend, WhatsApp via Meta, ou tirar a promessa da copy)
-- Follow-up WhatsApp só volta a andar quando você fizer os passos da Meta Business
+- Rebrand VOLO → Clínicas de Alto Voo: nome decidido, mas escopo (onde aplicar, apelido curto) ainda em aberto
+- Playbook: falta decidir o envio automático do PDF depois que /playbook e /playbook/obrigado ficarem prontas
+- As 3 tarefas do painel acima (comissionamento, Kwid, termos de orçamento) seguem sem decisão
