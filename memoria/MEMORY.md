@@ -80,4 +80,4 @@
 - [Visual sem cara de IA](feedback_visual_sem_cara_ia.md) — 26/10: rejeitou jornal e clean SaaS; aprovou estudo-estilo-sem-ia (Barlow Condensed, transcricao, assimetria, sem eyebrow/cards com icone)
 - [Follow-up Novos Leads · revisão](project_followup_novos_leads.md) — passada mensagem por mensagem 26/10; D+3 e D+20 ficaram pra reescrever; registro completo em ~/Daniel Torres/crm/
 - [Formatos Rafa Brito e Dailton](reference_formatos_rafa_brito_dailton.md) — formatos virais do mapa MindMeister (Contraste, Perguntas x Respostas, Classificacao, Preguicoso, Tela dividida, Novelinha...) em reels/sistema-continuo/formatos-referencia.md
-- [Estrategia 90 dias pendente](project_estrategia_90_dias_pendente.md) — 26/10 Daniel fecha estrategia de negocio online em outra conversa; so depois planejar, 1 semana por vez, nao criar nada antes
+- [Estrategia Negocio online 90 dias](project_estrategia_90_dias_pendente.md) — Atende & Vende Implantado vendido 1 a 1 (cliente oculto + DM Voss), meta 10 clinicas; conteudo 1 semana por vez, Reels Rafa Brito no molde Contraste
