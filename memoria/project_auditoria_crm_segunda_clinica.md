@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-26T02:06:58.693Z
+  modified: 2026-10-26T02:19:56.620Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -32,6 +32,8 @@ Andamento da Fase 0 (autorizada em 22/10/2026):
   - `teste-chave-publica.sh` saiu com 0 falhas.
 - Signup do Supabase desligado (`disable_signup=True`, conferido em 22/10/2026). Revalidação no mesmo dia: o teste da chave pública deu 0 falhas, `/admin/raiox` respondeu 307 e criar-acesso respondeu 401.
 - Se aparecer alerta de outra conversa dizendo que "CPF/raiox continua aberto", é informação velha: está tudo corrigido e verificado.
+- Reteste 25/10/2026 com `~/Daniel Torres/volo/auditorias/teste-chave-publica-v2.mjs` (com prova de controle: chave falsa 401, chave real aceita): Harmo prod 0 falhas nas 92 tabelas; demo 0 falhas (27 tabelas recusadas com 42501, funções de backup recusadas). Varredura das 38 rotas de API da Harmo achou `GET /api/diagnostico/[clienteId]` sem login (0 diagnósticos gravados, nada vazou). Correção pronta na branch local `fix-diagnostico-leitura` (commit `d8b76b4`, worktree scratchpad/harmo-diag), testada (403 sem login, 200 admin), AGUARDANDO OK do Daniel pra subir.
+- Harmo tem só UMA camada (RLS); anon ainda tem GRANT nas tabelas. SQL da segunda camada (REVOKE) em `auditorias/2026-10-25-harmo-segunda-camada.sql`, aguardando ele rodar. Realtime da agenda (única coisa com chave pública no navegador) já não recebe eventos desde a Fase 0.
 
 - Repo `danieltorres07/volo` é privado.
 - Repo `danieltorres07/jarvis` é público. O cron `jarvis-sync` grava nele `compromissos` e `tarefas_admin` todo dia. Aguardando decisão do Daniel.
