@@ -1,54 +1,27 @@
 ---
 name: prospeccao
-description: Prospeccao B2B de clinicas HOF via Google Maps. QUEBRADA desde set/2026: coletor aponta pra pasta apagada. Destino certo e o funil leads-prospeccao no CRM do portal Volo
-metadata: 
+description: "Prospeccao B2B de clinicas HOF via Google Maps -> CRM Volo (Leads Daniel / Prospect). CONSERTADO 26/10/2026, 20 clinicas/dia, Brasil todo com Grande BH por ultimo"
+metadata:
   node_type: memory
   type: project
-  originSessionId: d8bc2e71-d600-4b8a-bd1c-34498ec864ed
-  modified: 2026-09-09T22:19:31.338Z
+  originSessionId: bc9728fe-8561-4c48-873e-125aaffc694a
+  modified: 2026-10-26T21:25:49.647Z
 ---
 
-**Sistema criado em 2026-09-09. Refatorado no mesmo dia: migrado do portal Volo pro clinica-sistema. Essa migracao se perdeu na pratica, porque o clinica-sistema foi apagado depois. Por isso quebrou.**
+Consertado em 26/10/2026 (estava quebrado desde set/2026: env apontava pra pasta apagada e faltava `requests`).
 
-**Objetivo:** Daniel prospectar clinicas HOF pra vender mentoria (Programa 4D) + infoproduto (Playbook R$ 97). Volume alvo: 10 leads/dia.
+**Como funciona hoje:**
+- `~/Daniel Torres/prospeccao/coletar.py` roda com o Python de `.venv/` (requests + playwright), NUNCA o python3 do sistema.
+- LaunchAgent `com.danieltorres.prospeccao` às 10h chama `worker-diario.sh`, que roda `coletar.py --lote --limite 20`. Se falhar, notificação no Mac + "ERRO" no `worker.log`.
+- Destino: CRM do portal Volo, funil **Leads Daniel** (slug `playbook-atendimento-trafego`), etapa **Prospect**, `canal_origem = prospeccao_google_maps`. WhatsApp no contato, clinica/cidade/uf/instagram/sinal_operacao (nota Google) no cartão, endereço/site/link Maps/wa.me nas observações.
+- Só entra quem tem celular. Dedup: `estado.json` (place_ids vistos + data de cada cidade buscada), WhatsApp (últimos 11 dígitos em `contatos`) e @ (cartões do funil).
+- Ordem das cidades: `cidades.txt`, Brasil todo; Grande BH (BH, Contagem, Betim) por último, pedido do Daniel. Cidade não repete por 30 dias.
+- Teste 26/10: Curitiba, 5 clínicas entraram certinhas.
 
-**ESTADO REAL (auditado 2026-09-29): O COLETOR ESTA QUEBRADO E NAO COLETA NADA DESDE MEADOS DE SETEMBRO.**
+Funil antigo `leads-prospeccao` foi ARQUIVADO em 26/10 (cartões passaram pro Leads Daniel). Tabelas `prospeccao_leads`/`leads_prospeccao` são mortas.
 
-11 de 18 execucoes do worker falharam. Causa: `coletar.py` linha 40 tem `ENV_PATH = /Users/danieltorres/clinica-sistema/.env.local`, e essa pasta FOI APAGADA. O worker roda todo dia as 10h, falha em silencio, ninguem e avisado. Zero lead entrou.
+Relaciona com [[project-projeto-teste-prospeccao]] (robô do Instagram, que também alimenta o Leads Daniel).
 
-**Onde o destino vivo realmente esta (nao confundir, tem 3 nomes parecidos):**
-- `leads_prospeccao` — o que o script tenta gravar. Vivia no Supabase do clinica-sistema APAGADO. Alvo morto.
-- `prospeccao_leads` — tabela ANTIGA no Supabase do Volo (migration 096). Parou de receber gravacao em 09/09. Deprecada, nao usar.
-- **funil `leads-prospeccao` no CRM do portal Volo — ESTE e o destino certo.** Grava em `contatos` + `sc_funil_cartoes`, campos custom formalizados na migration 097 (instagram, cidade, clinica_propria, sinal_operacao, gancho, clinica, uf, data_primeira_abordagem, ultima_interacao). UI em `app/admin/sistema-clinico/crm/[funil]/`, tratamento especial do slug em `CartaoDetalhesModal.tsx` e `_gerenciar.tsx`.
+**Why:** Daniel quer lista de clínicas com WhatsApp pra mandar a 1ª mensagem na mão, dentro do CRM dele.
 
-**Conserto pendente (nao executado ainda, aguardando OK do Daniel):**
-1. Apontar `ENV_PATH` pra `~/Daniel Torres/volo/portal/.env.local` (tem SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY validos).
-2. Trocar o destino de gravacao de `leads_prospeccao` pro par `contatos` + `sc_funil_cartoes` no funil `leads-prospeccao`, respeitando a regra de 1 cartao por funil por contato.
-3. Dedup: hoje e por `google_place_id`. Precisa decidir onde esse campo mora no schema novo.
-4. Fazer o worker gritar quando falhar, em vez de morrer em silencio no log.
-
-**Arquitetura dos arquivos (esses continuam validos):**
-- `~/Daniel Torres/prospeccao/coletar.py` — Playwright headed, Google Maps + enriquecimento Instagram.
-- `~/Daniel Torres/prospeccao/importar-planilha.py` — importa CSV da planilha manual.
-- `~/Daniel Torres/prospeccao/cidades.txt` — 60+ cidades BR.
-- `~/Daniel Torres/prospeccao/worker-diario.sh` + LaunchAgent `com.danieltorres.prospeccao` — 10h, 1 cidade/dia.
-- Log: `~/Daniel Torres/prospeccao/worker.log` (e onde as falhas aparecem).
-
-**Gating:** `/funil` (Playbook Atendimento) e `/funil-prospeccao` só aparecem se `NEXT_PUBLIC_ADMIN=1` no `.env.local` do clinica-sistema. Server-side redirect via `notFound()` se env estiver off.
-
-**Delays anti-detecao (conservadores):**
-- 45-90s entre buscas
-- 4-8s entre cada card do Google Maps
-- 3-5min entre cidades
-
-**Fluxo diario Daniel:**
-1. Cron LaunchAgent roda 10h com 1 cidade não buscada nos últimos 7 dias.
-2. Abre `/funil-prospeccao` no clinica-sistema (localhost).
-3. Card "novo" → clica → editar (gancho, sinal de operação) → botao "Enviar DM" → copia msg + abre Instagram DM.
-4. Marca movimentação: abordada → respondeu → dor → call_marcada → call_feita → fechado.
-
-**Onde /admin/prospeccao antigo foi:** DELETADO do portal Volo em 2026-09-09. Tabelas antigas (`prospeccao_leads`, `prospeccao_buscas`) no Supabase Volo continuam existindo mas não recebem mais gravação — apagar quando conferir que nada mais aponta pra elas.
-
-**Why:** Unificar CRM: prospecção B2B (Daniel vendendo consultoria) vive no MESMO sistema que ele usa pra clínica dele (clinica-sistema). Antes estava em Supabase separado. Fonte única de verdade.
-
-**How to apply:** (1) nunca automatizar DM Instagram (banimento certo), (2) manter delays generosos, (3) qualidade > quantidade. Se ele pedir "mais leads" primeiro checar se ele ta consumindo os que tem. Se quiser mais volume, aumenta `max-cidades` no worker antes de mexer nos delays.
+**How to apply:** (1) nunca automatizar envio de WhatsApp/DM por aqui, (2) manter delays generosos, (3) não subir o limite de 20/dia sem pedido. A mensagem pronta de WhatsApp da etapa Prospect ainda não existe (só a de Instagram).
