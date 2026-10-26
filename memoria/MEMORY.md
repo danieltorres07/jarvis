@@ -81,3 +81,4 @@
 - [Follow-up Novos Leads · revisão](project_followup_novos_leads.md) — passada mensagem por mensagem 26/10; D+3 e D+20 ficaram pra reescrever; registro completo em ~/Daniel Torres/crm/
 - [Formatos Rafa Brito e Dailton](reference_formatos_rafa_brito_dailton.md) — formatos virais do mapa MindMeister (Contraste, Perguntas x Respostas, Classificacao, Preguicoso, Tela dividida, Novelinha...) em reels/sistema-continuo/formatos-referencia.md
 - [Estrategia Negocio online 90 dias](project_estrategia_90_dias_pendente.md) — Atende & Vende Implantado vendido 1 a 1 (cliente oculto + DM Voss), meta 10 clinicas; conteudo 1 semana por vez, Reels Rafa Brito no molde Contraste
+- [Operacao cliente oculto + Voss](project_operacao_cliente_oculto.md) — venda do Atende & Vende Implantado pelo Leads Daniel: fila do dia, cliente oculto pelo chip, DM com pedido de 'nao'; blocos A (feito 26/10) a D

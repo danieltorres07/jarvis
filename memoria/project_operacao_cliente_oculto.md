@@ -16,7 +16,7 @@ Leads Daniel tem DOIS caminhos (Daniel escolheu não separar o funil): prospecç
 
 Blocos (Daniel aprovou a ordem e quer ir conferindo cada um):
 - A FEITO 26/10: etapas, 10 primeiros na fila, 31 cartões de prospecção que já tinham DM em "DM enviada".
-- B: todas as mensagens por etapa como RASCUNHO (mais de 1 versão), Daniel revisa de uma vez. Oculto abre web.whatsapp.com (não wa.me) + botão copiar.
+- B FEITO 26/10: mensagens do copywriter gravadas como [RASCUNHO] em Prospect, Oculto enviado, Print analisado, DM enviada, Call marcada, Qualificado. Convenção no texto da etapa: --- separa versões, "# título" nomeia, [RASCUNHO] trava (botão Aprovar em Gerenciar). lib/crm/mensagens-etapa.ts + PainelMensagensEtapa.tsx. Só etapas do chip espalham versão por cartão; nas outras o botão usa a v1. DM usa {gancho} (bloco C preenche).
 - C: no cartão, enviar print e receber análise por IA + assistente de conversa (rótulo/pergunta). Portal já tem ANTHROPIC_API_KEY (Jarvis).
 - D: roteiro de call e objeções dentro do CRM.
 
