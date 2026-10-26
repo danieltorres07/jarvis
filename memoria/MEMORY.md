@@ -76,3 +76,4 @@
 - [Foco em clinicas no metodo Jun](project_foco_clinicas_metodo_jun.md) — publico fixo HOF, "nao nichar" so no assunto; 80% clinica / 20% historia pessoal
 - [Numeros da clinica e sistema continuo](project_sistema_continuo_conteudo.md) — 40 dias: faturamento +60%, ticket +40% (nao 80%); sem lancamento com data; ciclo 1 26/10-24/11, Reels no carro no centro
 - [Atende & Vende "tudo pronto"](project_atende_vende_pronto.md) — desde 26/10 vende solucao pronta (funis, mensagem por etapa, regua follow-up, botao Sugerir resposta com IA embutida), nao curso; mesmo nome, sem produto novo
+- [Estrategia de renda out/2026](project_estrategia_renda_out2026.md) — funil pago com produto de entrada + YouTube "IA na clinica" com afiliado; euro via clinicas BR no exterior; CRM outros nichos so apos corrigir seguranca
