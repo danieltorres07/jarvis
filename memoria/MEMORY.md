@@ -62,7 +62,7 @@
 - [Reel formato 4 ruim + 4 bom](feedback_reel_formato_4ruim_4bom.md) — molde aprovado 19/10 (adaptado da @finaart_denim): mesma acao ruim 4x com consequencias diferentes, depois 4 acoes boas
 - [Relatorio CEO diario e semanal](project_relatorio_ceo.md) — push com numeros do CRM e da clinica; PEDIDO 19/10/2026, ainda nao construido
 - [Skill IA Do WhatsApp à Consulta](project_skill_whatsapp_consulta.md) — entrega a mais pra todo comprador; skill Claude + Projeto ChatGPT (GPT morreu); ficha em 3 blocos; montar-entrega.sh gera zip+PDF
-- [Campanha Meta Ads via API](project_meta_ads_campanha.md) — BM de anuncios e OUTRA (nao a do WhatsApp); aguardando token em ~/Daniel Torres/.meta-ads.env; criar sempre pausado; desde 23/10 só Semelhante R$50 + Playbook R$30 (Leads otimizando DiagnosticoStart = 1a resposta), CAPI no ar
+- [Campanha Meta Ads via API](project_meta_ads_campanha.md) — BM de anuncios e OUTRA (nao a do WhatsApp); aguardando token em ~/Daniel Torres/.meta-ads.env; criar sempre pausado; TUDO PAUSADO desde 26/10 (otimizador desligado); próximo teste sugerido: formulário instantâneo ou anúncio pro direct
 - [Movimento Láureo · caminhada 08/11](project_movimento_laureo.md) — evento beneficente: pastas, cards, relatório no link, formulário de tamanho no portal, link Asaas
 - [Abertura do Daniel manda](feedback_abertura_do_daniel.md) — se ele ditou a abertura do vídeo, roteiro começa do jeito dele (conversa/história), nunca trocado por hook de fórmula
 - [Projeto Teste · prospecção Instagram](project_projeto_teste_prospeccao.md) — ~/Daniel Torres/projeto-teste, Fase 1 semiautomática pronta (20 DMs/dia, sem afiliados), usado via Remote Control no celular; falta OpenAI, ICP e Chrome logado
