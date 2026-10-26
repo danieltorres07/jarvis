@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-26T02:38:11.329Z
+  modified: 2026-10-26T15:41:52.514Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -97,6 +97,9 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
 - Modelo de venda decidido 23/10/2026: depois dos 30 dias a CLÍNICA é responsável por backup, contas, manutenção; Daniel não faz mais nada (só garantia legal CDC 90 dias contra defeito). Sem advogado: contrato escrito por mim com CDC/LGPD/Lei 9.609 (https://claude.ai/artifact/LmJYSSkmt82hP56gDdoqQU).
 - CRM Clínicas commit `4669278` (demo no ar com ele): tela Backup (zip + restaurar numa transação, 06_backup.sql), esqueci minha senha com código de recuperação, sinal de vida diário, lembrete semanal de backup, 9 correções (taxa da maquininha não era aplicada, auto-move pela rotina dava Acesso negado, etc). Bateria 207/207.
 - PROVÁVEL MESMO DEFEITO NA HARMO (não verificado lá): auto-move pela rotina diária chama moverCartao que exige sessão; taxas de Configurações gravam numa tabela e o pagamento lê outra.
+- 26/10/2026: app no celular no CRM Clínicas (commit `19ec9c1`, demo no ar): tela Hoje (meta + chamar hoje), barra Hoje·CRM·+·Contatos·Mais, instalável (manifest abre em Hoje). Corrigido lead pela busca do CRM (entrava com etapa vazia). Bateria tem 13 suítes (teste:app novo).
+- Vídeo tutorial PRONTO 26/10/2026: `~/Daniel Torres/videos/tutorial-crm/out/tutorial-crm.mp4` (15:55) + `out/capitulos/` (21 arquivos, um por tela do menu). Pipeline: preparar-gravacao.mjs (monta demo na homolog) → gravar.sh <cap> (gravador.mjs + .prep.sql) → montar.mjs (cartela noir, pausa da voz quando a tela atrasa, timelapse acima de 2,5 s). Narração = voz clonada Higgsfield por capítulo (voz/*.wav). Código de instalação da homolog trocado depois (o do vídeo não vale).
+- Rede do Mac: IPv6 instável derruba a conexão direta com o banco da homolog (db.*.supabase.co é só IPv6). Pooler IPv4 não achado por tentativa; se repetir, pedir ao Daniel o host do Session pooler no painel.
 - Entregáveis em `~/Daniel Torres/entregaveis/atende-e-vende/` (copy/, prints/, pdf.py, manual-de-uso.pdf 34 p, guia-de-cuidados.pdf 7 p). Vídeo tutorial em `~/Daniel Torres/videos/tutorial-crm/` (gravador.mjs + montar.mjs, voz clonada Higgsfield, prévia out/previa.mp4 aguardando aprovação; vídeo inteiro ~18 min, ~90 créditos).
 - Fase 2.2 pronta (commit `99c17e1`): página Marketing com investimento por canal, CAC e retorno. `npm run teste:marketing` passa 12 de 12.
   - Regras de conta:
