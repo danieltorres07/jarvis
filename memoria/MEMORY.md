@@ -75,3 +75,4 @@
 - [Reels: molde Afonso (curto) e Luana (longo)](feedback_reels_moldes_afonso_luana.md) — curtos com certeza+passo a passo+"Manda esse vídeo pra sua secretária"; longos abrem com a CENA do dia a dia em "você", nunca com tese
 - [Foco em clinicas no metodo Jun](project_foco_clinicas_metodo_jun.md) — publico fixo HOF, "nao nichar" so no assunto; 80% clinica / 20% historia pessoal
 - [Numeros da clinica e sistema continuo](project_sistema_continuo_conteudo.md) — 40 dias: faturamento +60%, ticket +40% (nao 80%); sem lancamento com data; ciclo 1 26/10-24/11, Reels no carro no centro
+- [Atende & Vende "tudo pronto"](project_atende_vende_pronto.md) — desde 26/10 vende solucao pronta (funis, mensagem por etapa, regua follow-up, botao Sugerir resposta com IA embutida), nao curso; mesmo nome, sem produto novo
