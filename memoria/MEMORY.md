@@ -30,7 +30,7 @@
 - [Follow-up automatico WhatsApp](project_followup_whatsapp.md) — sequencia de follow-up via Meta Cloud API pra CRM do Sistema Clinico. PAUSADO 2026-07-28 aguardando Daniel fazer burocracia Meta.
 - [Playbook · sequencia de e-mail automatica](project_playbook_email_pendente.md) — NO AR desde 2026-09-21 via Resend. Entrega na hora + 3 e-mails (dias 2, 4, 7) levando pro Raio-X e pro produto
 - [Carrossel automatico](project_carrossel_automatico.md) — sistema autonomo: gera 7/dia, 5 posts/dia (10:30, 12:30, 15:30, 17:30, 19:00) desde 19/10, Jarvis avisa 30min antes se faltar aprovado, rejeitar regenera infinito. Auto-post no ar via launchd
-- [Prospeccao HOF · coletor Google Maps + Instagram](project_prospeccao.md) — QUEBRADA desde set/2026 (env aponta pra pasta apagada, 0 lead). Destino certo: funil leads-prospeccao no CRM do Volo
+- [Prospeccao HOF · coletor Google Maps](project_prospeccao.md) — CONSERTADO 26/10: 20 clinicas/dia com WhatsApp direto no CRM (Leads Daniel / Prospect), Grande BH por ultimo
 - [COPYWRITER zerado · conversa gravada](feedback_regra_mae_conversa.md) — 2026-09-09 arquivo foi zerado. Nao existe mais numeracao de secoes. Regra unica: Daniel esta conversando com uma profissional na frente dele
 - [COPYWRITER.md obrigatorio](feedback_copywriter_obrigatorio.md) — TODA copy/texto do projeto passa por ~/COPYWRITER.md sem exceção. Placeholder tecnico = "PLACEHOLDER", nunca frase inventada.
 - [Operação Comercial Completa · prospecção](project_operacao_comercial_prospeccao.md) — funil 12 etapas + campos CRM + scripts prontos (abordagem/pitch/reativação/consulta) + preço R$2.500/Sprint, diverge do pricing em project_sprint_caixa
