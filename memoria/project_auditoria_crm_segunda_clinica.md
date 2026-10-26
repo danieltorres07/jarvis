@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8caeea24-3358-4f49-8bb9-936f631963e6
-  modified: 2026-10-23T17:37:08.889Z
+  modified: 2026-10-26T02:06:58.693Z
 ---
 
 Auditoria só leitura feita em 22/10/2026. O relatório está em `~/Daniel Torres/volo/auditorias/2026-10-22-crm-prontidao-segunda-clinica.md`, fora do repo de propósito, porque ele cita onde estão as senhas. Na mesma pasta ficou o `teste-chave-publica.sh`, que testa o que a chave pública consegue ler.
@@ -92,6 +92,10 @@ Fase 1 (CRM Clínicas), em `~/Daniel Torres/crm-clinicas/`, git só local:
   - Tema: rodar o gerador com o playwright do crm-clinicas (portal não tem playwright); seletor ignora `.sc-tema-claro` aninhado (balão 🎁 da agenda).
   - Ações: 148 com lista de páginas, 14 sem tela mapeada ficaram livres pra qualquer membro (ninguém da equipe é restrito hoje).
   - Push direto pra main precisa de liberação do Daniel (o classificador barra).
+- Modelo de venda decidido 23/10/2026: depois dos 30 dias a CLÍNICA é responsável por backup, contas, manutenção; Daniel não faz mais nada (só garantia legal CDC 90 dias contra defeito). Sem advogado: contrato escrito por mim com CDC/LGPD/Lei 9.609 (https://claude.ai/artifact/LmJYSSkmt82hP56gDdoqQU).
+- CRM Clínicas commit `4669278` (demo no ar com ele): tela Backup (zip + restaurar numa transação, 06_backup.sql), esqueci minha senha com código de recuperação, sinal de vida diário, lembrete semanal de backup, 9 correções (taxa da maquininha não era aplicada, auto-move pela rotina dava Acesso negado, etc). Bateria 207/207.
+- PROVÁVEL MESMO DEFEITO NA HARMO (não verificado lá): auto-move pela rotina diária chama moverCartao que exige sessão; taxas de Configurações gravam numa tabela e o pagamento lê outra.
+- Entregáveis em `~/Daniel Torres/entregaveis/atende-e-vende/` (copy/, prints/, pdf.py, manual-de-uso.pdf 34 p, guia-de-cuidados.pdf 7 p). Vídeo tutorial em `~/Daniel Torres/videos/tutorial-crm/` (gravador.mjs + montar.mjs, voz clonada Higgsfield, prévia out/previa.mp4 aguardando aprovação; vídeo inteiro ~18 min, ~90 créditos).
 - Fase 2.2 pronta (commit `99c17e1`): página Marketing com investimento por canal, CAC e retorno. `npm run teste:marketing` passa 12 de 12.
   - Regras de conta:
     - **lead:** contato criado no período;

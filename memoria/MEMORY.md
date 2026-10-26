@@ -69,7 +69,7 @@
 - [Padrão de edição: ritmo ddiasmatt + cores noir](feedback_padrao_edicao_ritmo.md) — base de toda edição desde 21/10: legenda cinética frenética (moldura, estrela, zoom, som) com preto/creme/dourado, nunca a paleta do Mateus
 - [Reel quadro branco = padrão novo](feedback_reel_quadro_branco.md) — desde 22/10: split + quadro escuro + bonequinho se desenhando + fita + tela creme, no noir; Daniel achou melhor que todos os anteriores
 - [Auditoria CRM 2a clinica](project_auditoria_crm_segunda_clinica.md) — 22/10/2026: contatos (CPF) legivel pela chave publica em prod, /admin/raiox aberto; Fase 0 aguardando autorizacao
-- [Raio-X formulario curto](project_raiox_form_curto.md) — 22/10/2026: 19 -> 13 telas, versao_form=curto no motor, pixel Diag_P1..P13 (nao comparar com antes)
+- [Raio-X formulario curto](project_raiox_form_curto.md) — 25/10: 12 telas com dados primeiro (lead no CRM na hora), versao_form=curto2; pixel Diag_P1..P12
 - [Video aprovado vai pra PRONTOS](feedback_videos_prontos_limpeza.md) — TODO video editado: final em ~/Daniel Torres/videos/PRONTOS/, apagar versao sem audio/quadros/previas/masters depois do ok, fica so o final + codigo
 - [Campanha Atende & Vende 30/10](project_campanha_crm_30_10.md) — lançamento R$ 2.497 Hotmart sexta 30/10, versões A/B, 20 posts; roteiros+página em ~/Daniel Torres/reels/semana-2026-10-26/
 - [Reels: molde Afonso (curto) e Luana (longo)](feedback_reels_moldes_afonso_luana.md) — curtos com certeza+passo a passo+"Manda esse vídeo pra sua secretária"; longos abrem com a CENA do dia a dia em "você", nunca com tese
