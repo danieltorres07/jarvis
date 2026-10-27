@@ -1,6 +1,6 @@
 ---
 name: feedback-hook-reels-falado
-description: "Hook de Reels do Daniel: 3 tipos aprovados (confissao com causa nomeada, ordem contra o mercado, resultado sem o obvio). Proibido abrir descrevendo a cena dela."
+description: "Hook de Reels/anúncio do Daniel: 4 tipos aprovados (confissao com causa, ordem contra o mercado, resultado sem o obvio, \"Sabe aquela...\" pergunta de reconhecimento). Proibido narrar a cena dela de fora em 3a pessoa."
 metadata:
   node_type: memory
   type: feedback
