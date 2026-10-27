@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: d8bc2e71-d600-4b8a-bd1c-34498ec864ed
-  modified: 2026-10-19T19:25:02.553Z
+  modified: 2026-10-27T02:04:49.470Z
 ---
 
 Definido em 2026-10-19, depois de duas rodadas reprovadas. O hook de Reels do Daniel e UM destes tres:
@@ -15,6 +15,8 @@ Definido em 2026-10-19, depois de duas rodadas reprovadas. O hook de Reels do Da
 **TIPO B, ordem contra o que o mercado prega.** Exemplo dele: "Pare de fazer atendimento humanizado. Nao vai te fazer vender mais." Ela discorda no primeiro segundo e fica pra ver como ele sustenta.
 
 **TIPO C, resultado sem o que todos acham obrigatorio.** Exemplos dele: "Como eu bati a meta do mes sem investir em trafego pago." / "Como eu recuperei R$X mil com uma mensagem."
+
+**TIPO D, "Sabe aquela..." (aprovado 2026-10-26, pedido dele pra anúncios).** Exemplo dele: "Sabe aquela paciente que pergunta o preço, você responde e ela desaparece?" A cena do dia a dia dela como PERGUNTA de reconhecimento, falando com ela em "você". Diferente do reprovado abaixo, que narra a cena de fora em 3a pessoa. Nos anúncios, este é o tipo preferido.
 
 **O QUE ELE REPROVOU, nao repetir:**
 - Abrir DESCREVENDO a cena dela de fora: "A paciente perguntou quanto fica, alguem respondeu o valor." / "Voce abre a agenda da semana que vem, tem buraco." Palavras dele: "isso nao segura nada", "esta muito direto".
