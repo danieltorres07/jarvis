@@ -9,7 +9,7 @@ metadata:
 ---
 
 Estrategia decidida em 26/10/2026 na conversa "Negocio online em 90 dias" (transcript ~/.claude/projects/-Users-danieltorres/bc9728fe-*.jsonl):
-- Produto = o CRM, oferta = solucao pronta: **Atende & Vende Implantado** (instala em 7 dias: mensagem pronta por etapa, regua de follow-up, assistente IA que sugere, treinamento 1h da secretaria, 30 dias de acompanhamento). 3 primeiras R$ 997 em troca de depoimento/numeros; 4a a 10a R$ 1.997. Garantia: mais consultas agendadas em 30 dias ou acompanha de graca ate ter. Meta 10 clinicas em 90 dias, 3h/dia.
+- Produto = o CRM, oferta = solucao pronta: **Atende & Vende Implantado** (implanta o comercial em 30 dias, mudado de 7 pra 30 em 26/10: mensagem pronta por etapa, regua de follow-up, assistente IA que sugere, treinamento 1h da secretaria, 30 dias de acompanhamento). 3 primeiras R$ 997 em troca de depoimento/numeros; 4a a 10a R$ 1.997. Garantia: mais consultas agendadas em 30 dias ou acompanha de graca ate ter. Meta 10 clinicas em 90 dias, 3h/dia.
 - Zero vendas ate 26/10; 1.200 seguidores; leads frios.
 - Venda 1 a 1: leads no CRM (Leads Daniel, etapa Prospect; Google Maps 20/dia Brasil todo + robo Instagram so achando perfis, sem envio automatico) -> cliente oculto pelo chip separado (WhatsApp Web) -> analise do print -> DM pra Dra. pedindo um "nao" (Voss) -> rotulo + pergunta calibrada -> call 20 min (inventario de acusacoes) -> "voce desistiu de..." pra quem some.
 - Conteudo: papel e dar prova quando a Dra. abre o perfil + alcance com formatos do Rafa Brito. Pouco tempo (prospeccao come 3h/dia).

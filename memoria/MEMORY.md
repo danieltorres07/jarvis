@@ -83,3 +83,5 @@
 - [Estrategia Negocio online 90 dias](project_estrategia_90_dias_pendente.md) — Atende & Vende Implantado vendido 1 a 1 (cliente oculto + DM Voss), meta 10 clinicas; conteudo 1 semana por vez, Reels Rafa Brito no molde Contraste
 - [Operacao cliente oculto + Voss](project_operacao_cliente_oculto.md) — venda do Atende & Vende Implantado pelo Leads Daniel: fila do dia, cliente oculto pelo chip, DM com pedido de 'nao'; blocos A (feito 26/10) a D
 - [Mensagem escrita correta](feedback_mensagem_escrita_correta.md) — frase com maiúscula, sem vcs/ta/to, pontuação certa, simples mas correta; vale até pra mensagem de paciente do oculto
+- [Harmo: regua, Chamar hoje, IA e auto-move ligado](project_harmo_crm_regua_automacao.md) — 26/10/2026: auto-move da Harmo nunca tinha funcionado (Acesso negado), ligado com prazos desde 26/10; recuperacao 24 quinzenas, 148 antigas entram 15/dia
+- [Migrations do portal rodam na mão](reference_migrations_portal.md) — sem runner nem exec_sql; Daniel cola o SQL no editor do Supabase
