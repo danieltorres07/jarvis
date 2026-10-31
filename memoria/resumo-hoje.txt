@@ -1,12 +1,10 @@
-DATA: 2026-10-30
+DATA: 2026-10-31
 
-STATUS — 30/10/2026
+STATUS — 31/10/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (lembrete pra passar leads de tráfego pra Victória)
-- 10:00 Reunião Mentoria - Elizangela Cristiane Gonçalves de Barros
-- 13:11 Unha
-- 17:00 Análise de Métricas (ver números do dia anterior com Victória)
+- Nenhum compromisso no Google Calendar
+- Sistema da Clínica (Painel Daniel): também sem compromissos hoje (arquivo atualizado)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -14,17 +12,21 @@ STATUS — 30/10/2026
 - Termos ao fechar orçamento
 
 📧 E-mails que precisam de você
-- Nenhum. Vi as threads não lidas de hoje e são tudo automático — newsletter, cobrança confirmada, promoção, alerta de vaga. Nada de pessoa real escrevendo pra você.
+- Nenhum. As não lidas de hoje são tudo recibo/newsletter/alerta automático (Anthropic, AliExpress, LinkedIn, Google, Shopee, etc), nada de pessoa real escrevendo pra você
 
 🟢 Ativo agora
-- Sistema da Clínica: rodando em produção (clinicasaltovoo.vercel.app), com agenda, pacientes, financeiro, funil e prospecção já funcionando
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), módulos de agenda, pacientes, financeiro, funil e prospecção já construídos
 - Carrossel automático: gerando 4 por dia, você aprova 2 (slots 12:30 e 19:30)
-- Prospecção HOF: cron rodando 1 cidade por dia, alimentando o funil de prospecção
-- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes
+- Prospecção HOF: coletor roda 10h, meta de 10 leads/dia
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes (clínica Combo)
 
 ⏸️ Pausado
-- Portal 4D: pausado desde 10/06 antes da Fase 7 (edição de entregáveis pelo cliente)
-- Follow-up automático via WhatsApp: pausado aguardando você resolver a burocracia da Meta
+- Follow-up automático via WhatsApp: parado desde 28/07 esperando a burocracia da Meta
+- Portal 4D (área de membros): pausado desde 10/06, antes da fase do cliente editar entregáveis
+- Auto-post do carrossel no Instagram: ainda pausado, depende da Meta Cloud API
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como vai mandar o PDF pro contato cadastrado — e-mail via Resend, WhatsApp (depende da Meta) ou tirar essa promessa da copy
+- Sprint de Caixa: o entregável "Conexão" (mensagens pro paciente de 1º atendimento) só vai ser produzido depois que você mandar os exemplos
+- Apresentação Harmo Clinic (TV da recepção): esperando você mandar as fotos originais em alta pra exportar em 4K sem perder qualidade
+
+Obs: algumas dessas informações de projeto vêm de arquivos de memória que não são atualizados todo dia (últimas edições entre agosto e setembro), então pode ter mudado coisa que eu não vi.
