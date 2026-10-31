@@ -1,15 +1,12 @@
 ---
 name: feedback-laureo-pronuncia-ia
-description: "Em geração de música/voz por IA, escrever \"Láurio\" no lugar de \"Láureo\" pra pronúncia sair certa"
+description: Em IA de musica/voz, escrever "Laurio" (sem acento, sem instrucao de pronuncia) no lugar de "Láureo"
 metadata:
-  node_type: memory
   type: feedback
-  originSessionId: 6b761c8d-077c-4af0-9d78-e6e4e381dbe1
-  modified: 2026-10-29T14:45:44.056Z
 ---
 
-Quando gerar áudio (jingle, música, locução) por IA com a palavra "Láureo", escrever **"Láurio"** no texto/letra do prompt.
+Em prompt de música/voz por IA, escrever **"Laurio"** (sem acento) onde seria "Láureo", e NÃO colocar parágrafo de instrução de pronúncia.
 
-**Why:** a IA (Kairogen music) cantava "Laurréo", com R forte e tônica no E. O certo é igual ao nome "Laura": LÁU-rio, com R fraco. Daniel definiu a grafia "Láurio" em 29/10/2026, no jingle do Movimento Láureo.
+**Why:** com "Láureo", "LÁU-riu", "LÁU-ri-o", "Láu-reo" + instrução em inglês, o Kairogen cantava "Laurréo". O certo é igual ao nome "Laura". Em 29/10/2026 a v8-a do jingle (só "Laurio" na letra, prompt limpo) foi a única que o Daniel aprovou a pronúncia.
 
 **How to apply:** só no prompt da IA. Em peça escrita (flyer, legenda, landing) continua "Láureo". Jingles em ~/Daniel Torres/corrida-beneficente/jingle/, gerados no Kairogen (generate_audio kind=music). Ver [[project_movimento_laureo]].

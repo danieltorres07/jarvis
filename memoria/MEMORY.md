@@ -85,3 +85,5 @@
 - [Mensagem escrita correta](feedback_mensagem_escrita_correta.md) — frase com maiúscula, sem vcs/ta/to, pontuação certa, simples mas correta; vale até pra mensagem de paciente do oculto
 - [Harmo: regua, Chamar hoje, IA e auto-move ligado](project_harmo_crm_regua_automacao.md) — 26/10/2026: auto-move da Harmo nunca tinha funcionado (Acesso negado), ligado com prazos desde 26/10; recuperacao 24 quinzenas, 148 antigas entram 15/dia
 - [Migrations do portal rodam na mão](reference_migrations_portal.md) — sem runner nem exec_sql; Daniel cola o SQL no editor do Supabase
+- [Pronuncia "Láureo" em IA de audio](feedback_laureo_pronuncia_ia.md) — escrever "Laurio" sem acento e sem instrucao de pronuncia (validado 29/10)
+- [Resposta automatica WhatsApp](project_resposta_automatica_whatsapp.md) — 1a resposta IA pra numero novo no 8054, espera 3 min a Vic, modos desligado/teste/sombra/ligado; construida 30/10

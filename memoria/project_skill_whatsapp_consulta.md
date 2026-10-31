@@ -12,6 +12,8 @@ Criada 2026-10-20 em `~/Daniel Torres/volo/conteudo/skill-do-whatsapp-a-consulta
 
 ChatGPT: GPT personalizado NAO e mais opcao (conta pessoal nao cria GPT desde set/2026, GPTs desligam 11/12/2026; Skills do ChatGPT so em plano empresa). Caminho ChatGPT = Projeto (instrucoes.txt + base-do-metodo.md), que tambem serve pro Claude gratis.
 
+**V2 desde 2026-10-30** (zip trazido pelo Daniel, V1 guardada em `backup-v1-2026-10-30/`): a palavra do encontro e sempre CONSULTA (nunca "avaliacao" solta como proximo passo); na 1a pergunta de preco faz uma pergunta util, na 2a insistencia entrega a faixa real da ficha; a regua de silencio (D+0 a D+30) NAO e gerada pelo assistente, ela vive no CRM e o assistente so lembra que o texto ja esta la. objecoes.md e follow-up.md continuam iguais, com aviso no topo de que as instrucoes mandam. montar-entrega.sh foi ajustado pro titulo novo do SKILL.md e pra tirar os H1 das references.
+
 E uma entrega a mais pra TODO comprador do Do WhatsApp à Consulta (Daniel nao quer chamar de bonus). Tem que servir pra qualquer clinica ou profissional: com ou sem secretaria, clinica propria, sala alugada, clinica de terceiros, qualquer titulo/formacao.
 
 **Why:** a mesma skill vai pra todo mundo, entao nada pode pressupor como e a clinica.
