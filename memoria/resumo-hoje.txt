@@ -1,10 +1,11 @@
-DATA: 2026-11-01
+DATA: 2026-11-02
 
-STATUS — 01/11/2026
+STATUS — 02/11/2026
 
 📅 Agenda de hoje
-- Sem nenhum compromisso marcado no Google Calendar hoje
-- Arquivo de compromissos do Sistema da Clínica está atualizado pra hoje, mas também não tem nada marcado
+- 09:30 Enviar Leads Tráfego (mandar leads do formulário pra Victória)
+- 17:00 Análise de Métricas (ver número do dia anterior com a Victória, mensagens novas, agendamentos)
+- Sistema da Clínica não tem compromisso nenhum marcado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -12,18 +13,19 @@ STATUS — 01/11/2026
 - Termos ao fechar orçamento
 
 📧 E-mails que precisam de você
-- Nenhum. Os 15 não lidos de hoje são todos automáticos (AliExpress, Atlassian, LinkedIn vagas, Vivo, Zap Imóveis, Drogaria Araújo, Casio, Copart, Daz3D) — nenhum de pessoa real escrevendo pra você
+- Nenhum. Só caiu coisa automática hoje (fatura Workspace, pagamento Asaas confirmado, newsletter, alerta de vaga) — nada de uma pessoa escrevendo pra você.
 
 🟢 Ativo agora
-- Sistema da Clínica: no ar em produção (clinicasaltovoo.vercel.app), com agenda, CRM, financeiro, funil e prospecção já rodando
-- Carrossel automático: gerando 4 carrosséis por dia, você aprova 2
-- Prospecção HOF: cron diário rodando, 1 cidade por dia
-- Sprint de Caixa: caso da Dra. Brenda Guedes andando, faltam os lotes 3 e 4 dos entregáveis (régua de orçamento, roteiro de consulta, cardápio de objeções, orçamento padrão)
+- Sistema da Clínica: em produção (clinicasaltovoo.vercel.app), já com agenda, pacientes, financeiro, funil e dashboard rodando
+- Sprint de Caixa 30 dias: caso da Dra. Brenda Guedes andando, falta fechar o Lote 3 (régua de resgate de orçamento, roteiro de consulta, cardápio de objeções de fechamento)
+- Carrossel automático: gerando os 4 do dia, você aprova 2
+- Prospecção HOF: coletando leads, meta de 10/dia
 
 ⏸️ Pausado
-- Portal 4D: parado desde 10/06 antes da Fase 7 (cliente editar entregáveis)
-- Follow-up automático via WhatsApp: parado esperando você resolver a parte burocrática com a Meta
+- Portal 4D: parado desde 10/06, antes da fase de o cliente editar os entregáveis
+- Follow-up automático WhatsApp: parado desde 28/07, esperando você resolver a burocracia da Meta
 
 ⚠️ Precisa de você
-- Playbook: falta decidir como o PDF vai ser enviado pro lead (e-mail via Resend, WhatsApp Meta ou tirar a promessa da copy)
-- Trilha Técnica da Linda: falta a sessão com ela pra fechar escopo e pricing-âncora
+- Playbook: falta decidir como manda o PDF automático pro lead (e-mail via Resend, WhatsApp Meta ou tirar a promessa da copy)
+- Sprint de Caixa: o bloco "Conexão" (mensagem pro paciente de 1º atendimento) tá esperando você mandar os exemplos seus
+- Bolão Royal's Copa: o prazo documentado na memória é 11/06/2026, que já passou — vale confirmar se esse projeto ainda tá de pé ou se o prazo mudou
