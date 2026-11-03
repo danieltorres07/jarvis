@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 3bb62bfa-0185-47c4-8874-3afcdde23c49
-  modified: 2026-10-20T18:45:06.441Z
+  modified: 2026-11-03T13:40:18.757Z
 ---
 
 Evento beneficente "Movimento Láureo · Juntos pela Vida" (Outubro Rosa | Novembro Azul), 1ª caminhada 5 km, domingo 08/11/2026, Av. Francisco Firmo de Matos em frente à Granvilla, Contagem. R$119, 100 vagas, lucro doado pra instituição de câncer (nome a confirmar). Daniel pediu tirar a palavra "corrida" das peças: é "caminhada".
@@ -16,7 +16,8 @@ Evento beneficente "Movimento Láureo · Juntos pela Vida" (Outubro Rosa | Novem
 - CRM: funil "Atletas Corrida" (Pagou > Link enviado > Camisa escolhida) em /admin/sistema-clinico/crm/atletas-corrida; webhook Asaas cria cartão ao pagar; botão abre wa.me com mensagem pronta. Termo de responsabilidade v1 (21/10/2026) no mesmo formulário, aceite gravado (IP, hora, aparelho, hash); termo assinado em /admin/movimento-laureo/termo/[cpf]. Organização no termo: Harmo Clinic e Vereador Léo da Academia; sem reembolso (valor vai pra causa).
 - Webhook Asaas "Portal Volo" estava desativado apontando pro domínio antigo volo-danieltorres; reativado em 21/10 com URL clinicasaltovoo. Integração Git da Vercel FUNCIONA (conferido 21/10): o deploy automático só demora mais de 7 min às vezes; não precisa vercel deploy --prod.
 - Landing pra anúncio no ar desde 22/10: https://clinicasaltovoo.vercel.app/movimento-laureo/evento (fonte em ~/Daniel Torres/corrida-beneficente/landing/, cópia em portal public/movimento-laureo/evento com caminhos absolutos). Sem valores na página. Instituição: Instituto Casa do Caminho (BH, acolhe pacientes com câncer). Horários: início 7h, aquecimento 7h30 (não usar 'aulão'), largada 8h30. Apoio Ouro: Harmo (meio), Léo, Selleta.
-- Desde 28/10: cada inscrição dá direito a 1 CONVIDADO com kit e número de peito (nome, CPF, WhatsApp, tamanho no mesmo formulário). Número sequencial de peito/inscrição (001...) reservado no Storage; em 28/10 havia 21 inscritos reais (001 a 021), nenhum com convidado. Custo vira ~2 kits por inscrição: frase 'mais de R$70 pra causa' deixou de valer.
+- CONVIDADO ENCERRADO em 03/11/2026 (commit 55844df): só participa quem comprou. Formulário sem os campos, API ignora convidado novo e mantém os 10 já cadastrados. Em 03/11: 34 pagos no Asaas (28 de R$119, 6 de R$69, R$3.746 bruto / R$3.682,24 líquido), 32 formulários. Medalha: arte em corrida-beneficente/medalha/ (formato do fornecedor MDF+acrílico, só troca centro e plaquinha).
+- (histórico) De 28/10 a 03/11: cada inscrição dava direito a 1 CONVIDADO com kit e número de peito (nome, CPF, WhatsApp, tamanho no mesmo formulário). Número sequencial de peito/inscrição (001...) reservado no Storage; em 28/10 havia 21 inscritos reais (001 a 021), nenhum com convidado. Custo vira ~2 kits por inscrição: frase 'mais de R$70 pra causa' deixou de valer.
 - Link Asaas: paymentLink `p3fqqkk9rdw6mg3g` ("Movimento Láureo - 1º LOTE") na conta do portal. Redirect pro formulário recusado em 20/10/2026 porque a conta Asaas não tinha site cadastrado (Minha Conta > Informações).
 
 **Why:** evento com prazo curto; Selleta precisa da contagem de tamanhos pra produzir.
