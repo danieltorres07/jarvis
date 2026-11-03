@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: cf5202cd-8940-4c90-8772-2396426e6af1
-  modified: 2026-07-25T18:39:42.823Z
+  modified: 2026-11-03T17:05:56.278Z
 ---
 
 Daniel manda links de repositórios de skills/agentes de IA pra marketing/vendas achados no GitHub, pra avaliar se valem instalar no projeto. Fluxo: ele manda a URL, uso WebFetch pra ler o repo e dou parecer.
@@ -26,5 +26,6 @@ Daniel manda links de repositórios de skills/agentes de IA pra marketing/vendas
 | github.com/hardikpandya/stop-slop | Skill de "anti-slop" — detecta e remove cara de IA no texto, 8 regras + scoring 1-10 em 5 dimensões | Não instalar, sobrepõe com o `humanizer` que já usa obrigatoriamente. Mas tem 4 reforços que faltam no humanizer atual: banir advérbios, evitar sujeito inanimado fazendo ação humana, preferir listas de 2 itens (não 3), voz ativa exclusiva. Daniel ainda vai decidir se quer incorporar isso como checagem extra pós-humanizer |
 | github.com/remotion-dev/skills | Skills oficiais do Remotion (framework de vídeo via React/código) — criar projeto, legenda automática, renderização, mapas, upgrade | Não instalar agora, mas é o único dos 5 avaliados com potencial real: automatizaria edição de Reels/Shorts (legenda estilizada automática no padrão VOLO) pros roteiros que os agentes conteudos-flash-daniel/linda já geram e hoje param no texto. Exige setup técnico (montar template em código antes de virar "peça pronta"). Reavaliar quando o Conteúdo Flash tiver mais volume |
 | github.com/paullabs/edit-labs-ai | Plugin Claude Code de edição de vídeo: podcast longo → cortes verticais (corte, rosto rastreado, motion, B-roll via Higgsfield, legenda queimada) | INSTALADO 2026-10-16 a pedido do Daniel (plugin user scope, venvs em ~/.local/share/edit-labs-ai/, python@3.12 via brew). Sobrepõe em parte com a skill propria editor-videos-daniel ([[project_editor_videos]]); motion dele tem identidade propria, nao a noir |
+| github.com/ohmyjahh/efeitos-claude | Skill /efeito (Rafa Grandi, MIT, Remotion): 17 templates fixos de Reel (palavra gigante atrás da cabeça, comment-box, split-headline, spotlight...), recorte da pessoa via Vision do macOS (tools/personmask.swift) | Avaliado 2026-11-03: não instalar como está (roxo/magenta, texto em inglês, meta-conteúdo "Claude edita meu reel", animação não nasce da fala, efeitos de prova social dependem de views/capas do criador). Código limpo, sem rede. Vale portar pro editor-videos-daniel: o personmask (texto ATRÁS da pessoa) e 3-4 layouts redesenhados no noir (palavra atrás, comment-box digitando CRM26, split-headline, spotlight) |
 
 **Padrão de resposta:** nunca recomendar instalar pacote genérico completo. Se algo tiver valor, é como framework/referência isolada, não como substituto dos agentes já calibrados na voz dele.
