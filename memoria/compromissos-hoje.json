@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-11-02T09:53:53.008Z",
-  "data": "2026-11-02",
-  "compromissos": [],
+  "atualizado_em": "2026-11-03T09:53:53.057Z",
+  "data": "2026-11-03",
+  "compromissos": [
+    {
+      "titulo": "Manda mensagem Rose Domingos",
+      "data": "2026-11-03",
+      "hora_inicio": "10:30:00",
+      "hora_fim": "11:00:00",
+      "observacoes": null
+    }
+  ],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -13,6 +21,10 @@
     },
     {
       "titulo": "Termos ao fechar orçamento",
+      "concluida": false
+    },
+    {
+      "titulo": "Financeiro corrida",
       "concluida": false
     }
   ]
