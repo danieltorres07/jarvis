@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: cf5202cd-8940-4c90-8772-2396426e6af1
-  modified: 2026-11-04T15:45:08.480Z
+  modified: 2026-11-04T15:49:21.714Z
 ---
 
 Daniel manda links de repositórios de skills/agentes de IA pra marketing/vendas achados no GitHub, pra avaliar se valem instalar no projeto. Fluxo: ele manda a URL, uso WebFetch pra ler o repo e dou parecer.
@@ -28,5 +28,9 @@ Daniel manda links de repositórios de skills/agentes de IA pra marketing/vendas
 | github.com/paullabs/edit-labs-ai | Plugin Claude Code de edição de vídeo: podcast longo → cortes verticais (corte, rosto rastreado, motion, B-roll via Higgsfield, legenda queimada) | INSTALADO 2026-10-16 a pedido do Daniel (plugin user scope, venvs em ~/.local/share/edit-labs-ai/, python@3.12 via brew). Sobrepõe em parte com a skill propria editor-videos-daniel ([[project_editor_videos]]); motion dele tem identidade propria, nao a noir |
 | github.com/ohmyjahh/efeitos-claude | Skill /efeito (Rafa Grandi, MIT, Remotion): 17 templates fixos de Reel (palavra gigante atrás da cabeça, comment-box, split-headline, spotlight...), recorte da pessoa via Vision do macOS (tools/personmask.swift) | Avaliado 2026-11-03: não instalar como está (roxo/magenta, texto em inglês, meta-conteúdo "Claude edita meu reel", animação não nasce da fala, efeitos de prova social dependem de views/capas do criador). Código limpo, sem rede. Vale portar pro editor-videos-daniel: o personmask (texto ATRÁS da pessoa) e 3-4 layouts redesenhados no noir (palavra atrás, comment-box digitando CRM26, split-headline, spotlight) |
 | orquestra.zip (baixado 2026-11-04, MIT, sem autor) | 5 skills curtas em markdown: maestro (setup+plano), tráfego, conteúdo, propostas, documentos. Genérico pra "negócio de serviços" | Avaliado 2026-11-04: não instalar. Seguro (sem rede, script só apaga os próprios arquivos de setup). Tudo já existe mais calibrado (copywriter+humanizer, gestor-de-trafego-pago, estruturador/copywriter-de-vendas, CLAUDE.md faz o papel do maestro). Único naipe sem equivalente: documentos (contrato com [PREENCHER] + aviso "não substitui advogado") |
+| Alavanca.zip (Maestros da IA/Circle, 2026-11-04) | Conhecimento → produto digital (6 modos + calculadora de preço Python offline) | Não instalar. Limpo; duplica arquiteto-de-micro-produtos e ai-expert-conhecimento. SETUP.md manda `rm -rf "$(dirname "$0")"` (instrução mal feita) |
+| Forja.zip (Maestros da IA, 2026-11-04) | Profissão + IA → oferta de serviço de IA (preço 3 faixas, one-pager HTML, plano 30 dias) | Não instalar. Limpo, Python offline; feito pra quem começa a vender serviço de IA, Daniel já passou dessa fase |
+| Cadinho.zip (Maestros da IA, 2026-11-04) | Validador de ideia (lojas de app, autocompletar Google, OSM, Wikipedia) → prosseguir/pivotar/matar | Não instalar fixo. Limpo, sem chave; scraping Google zona cinzenta; .claude/CLAUDE.md próprio conflita (proíbe Google Fonts). Aproveitável: collect_keywords.py --alfabeto pra pauta/ideia de produto, rodado em pasta isolada |
+| cinematic-3d-site-builder.zip (2026-11-04) | Site 1 página com 3D (Three.js) ou frames de vídeo Seedance via fal.ai | Não instalar. Limpo mas: claude.md manda executar sem pedir permissão (gasta US$10-30/site), link de afiliado Higgsfield, CTA href="#", pesado no celular, temas de vitrine de produto |
 
 **Padrão de resposta:** nunca recomendar instalar pacote genérico completo. Se algo tiver valor, é como framework/referência isolada, não como substituto dos agentes já calibrados na voz dele.
