@@ -5,13 +5,14 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 3bb62bfa-0185-47c4-8874-3afcdde23c49
-  modified: 2026-11-04T20:39:01.540Z
+  modified: 2026-11-04T20:49:15.413Z
 ---
 
 Evento beneficente "Movimento Láureo · Juntos pela Vida" (Outubro Rosa | Novembro Azul), 1ª caminhada 5 km, domingo 08/11/2026, Av. Francisco Firmo de Matos em frente à Granvilla, Contagem. R$119, 100 vagas, lucro doado pra instituição de câncer (nome a confirmar). Daniel pediu tirar a palavra "corrida" das peças: é "caminhada".
 
 - Pasta: `~/Daniel Torres/corrida-beneficente/` (cards aprovados em `flyer/v3-cards/card_1.png` e `card_2.png`, gerados por `generate.py` com `/usr/bin/python3`).
 - Relatório interativo publicado: https://claude.ai/artifact/W82q4TwNWiFHRW83x2FbJN (fonte `relatorio.html`, checklist compartilhado via db coleção "checks"). Desde 03/11 o FINANCEIRO editável mora dentro dele (Daniel pediu 1 arquivo só): db coleção "fin", docs inscricoes/patrocinio/saidas com {rows:[...]}; atualizar números do Asaas pelo ArtifactData, não republicando. financeiro/financeiro.html local ficou obsoleto. Desde 03/11 a tabela Inscrições se atualiza sozinha: a página puxa /api/movimento-laureo/financeiro do portal (só totais por lote, CORS aberto) ao abrir e a cada 5 min, e grava no db. Tentativa com `claude -p` no launchd falhou: modo headless não tem acesso ao db do artifact.
+- RELATÓRIO OFICIAL AGORA NO PORTAL (04/11): https://clinicasaltovoo.vercel.app/movimento-laureo/relatorio , mesmo HTML do artifact. Fonte continua `corrida-beneficente/relatorio.html`; depois de editar rodar `/usr/bin/python3 corrida-beneficente/publicar-portal.py` e commitar public/movimento-laureo/relatorio. portal-shim.js imita o db do claude.ai em cima de /api/admin/movimento-laureo/relatorio-dados (só admin; checks em relatorio/checks.json, fin nos mesmos arquivos da página financeiro). Página não grava antes do 1º carregamento (já apagou Saídas uma vez num teste, restaurado).
 - FINANCEIRO MUDOU PRO PORTAL em 04/11/2026: /admin/movimento-laureo/financeiro (dados em Storage movimento-laureo/financeiro/<tabela>.json, inscrições puxadas do Asaas ao abrir, salva sozinho). No artifact, a edição pelo claude.ai não gravava (regravava versão antiga); a seção financeira do artifact ficou obsoleta.
 - Links Asaas: principal p3fqqkk9rdw6mg3g (R$119 / R$69) + patrocinadores xtax33ctmktkgoc4 (R$59), ambos em LINKS_ASAAS. CRM casa contato por CPF antes do WhatsApp (caso Bianca pagou pelo Rômulo, 04/11).
 - Formulário pós-pagamento (tamanho P/M/G/GG/XG + termo): https://clinicasaltovoo.vercel.app/movimento-laureo ; painel `/admin/movimento-laureo` (respostas em Supabase Storage bucket `movimento-laureo`).
