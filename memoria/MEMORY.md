@@ -89,3 +89,4 @@
 - [Resposta automatica WhatsApp](project_resposta_automatica_whatsapp.md) — 1a resposta IA pra numero novo no 8054, espera 3 min a Vic, modos desligado/teste/sombra/ligado; construida 30/10
 - [CRM Clinicas visual JARVIS e recursos novos](project_crm_clinicas_jarvis.md) — tudo do prototipo (menu, painel com periodo, gamificacao, barra do topo, perfil, WhatsApp, permissao por acao) na branch visual-jarvis, sem publicar; ACESSO_LIVRE ligado na homologacao ate ele finalizar
 - [Voz clonada do Daniel](reference_voz_clonada_daniel.md) — Higgsfield elemento "Daniel-Torres" (seed_audio); cortar pausas de 6-8 s entre parágrafos; usado no demo narrado do Atende & Vende 03/11
+- [Cardapio de editores de video](feedback_cardapio_editores.md) — pedido de edicao sem editor nomeado passa pela skill `editar` (6 editores, pode escolher varios = variacoes); Efeitos do Rafa instalado em ~/.claude/skills/efeito
