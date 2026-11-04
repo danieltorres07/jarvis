@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: cf5202cd-8940-4c90-8772-2396426e6af1
-  modified: 2026-11-03T17:05:56.278Z
+  modified: 2026-11-04T15:45:08.480Z
 ---
 
 Daniel manda links de repositórios de skills/agentes de IA pra marketing/vendas achados no GitHub, pra avaliar se valem instalar no projeto. Fluxo: ele manda a URL, uso WebFetch pra ler o repo e dou parecer.
@@ -27,5 +27,6 @@ Daniel manda links de repositórios de skills/agentes de IA pra marketing/vendas
 | github.com/remotion-dev/skills | Skills oficiais do Remotion (framework de vídeo via React/código) — criar projeto, legenda automática, renderização, mapas, upgrade | Não instalar agora, mas é o único dos 5 avaliados com potencial real: automatizaria edição de Reels/Shorts (legenda estilizada automática no padrão VOLO) pros roteiros que os agentes conteudos-flash-daniel/linda já geram e hoje param no texto. Exige setup técnico (montar template em código antes de virar "peça pronta"). Reavaliar quando o Conteúdo Flash tiver mais volume |
 | github.com/paullabs/edit-labs-ai | Plugin Claude Code de edição de vídeo: podcast longo → cortes verticais (corte, rosto rastreado, motion, B-roll via Higgsfield, legenda queimada) | INSTALADO 2026-10-16 a pedido do Daniel (plugin user scope, venvs em ~/.local/share/edit-labs-ai/, python@3.12 via brew). Sobrepõe em parte com a skill propria editor-videos-daniel ([[project_editor_videos]]); motion dele tem identidade propria, nao a noir |
 | github.com/ohmyjahh/efeitos-claude | Skill /efeito (Rafa Grandi, MIT, Remotion): 17 templates fixos de Reel (palavra gigante atrás da cabeça, comment-box, split-headline, spotlight...), recorte da pessoa via Vision do macOS (tools/personmask.swift) | Avaliado 2026-11-03: não instalar como está (roxo/magenta, texto em inglês, meta-conteúdo "Claude edita meu reel", animação não nasce da fala, efeitos de prova social dependem de views/capas do criador). Código limpo, sem rede. Vale portar pro editor-videos-daniel: o personmask (texto ATRÁS da pessoa) e 3-4 layouts redesenhados no noir (palavra atrás, comment-box digitando CRM26, split-headline, spotlight) |
+| orquestra.zip (baixado 2026-11-04, MIT, sem autor) | 5 skills curtas em markdown: maestro (setup+plano), tráfego, conteúdo, propostas, documentos. Genérico pra "negócio de serviços" | Avaliado 2026-11-04: não instalar. Seguro (sem rede, script só apaga os próprios arquivos de setup). Tudo já existe mais calibrado (copywriter+humanizer, gestor-de-trafego-pago, estruturador/copywriter-de-vendas, CLAUDE.md faz o papel do maestro). Único naipe sem equivalente: documentos (contrato com [PREENCHER] + aviso "não substitui advogado") |
 
 **Padrão de resposta:** nunca recomendar instalar pacote genérico completo. Se algo tiver valor, é como framework/referência isolada, não como substituto dos agentes já calibrados na voz dele.
