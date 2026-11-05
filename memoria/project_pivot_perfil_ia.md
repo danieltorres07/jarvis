@@ -12,3 +12,5 @@ Em 05/11/2026 Daniel disse que focar só em HOF não está dando resultado e pen
 
 **Why:** resultado fraco do nicho HOF no Instagram. Ainda é ideia, não decisão fechada.
 **How to apply:** recomendação dada foi "IA pra vender mais" com a clínica como case (não largar a prova real). Antes de vender CRM pra fora, corrigir segurança ([[project_auditoria_crm_segunda_clinica]]). Muda o que vale em [[project_foco_clinicas_metodo_jun]] se ele confirmar.
+
+**Skills pra vender (desde 05/11):** carrossel, vídeo e captação como skills do app do Claude (cloud, sem Claude Code), pra qualquer negócio de serviço. Tudo em `~/Daniel Torres/skills-venda/`. Carrossel: 10 modelos e perguntas aprovados, espec em `skills-venda/carrossel/ESPEC.md`. Próximo passo: Daniel rodar `teste-ambiente.zip` no app e mandar o resultado.

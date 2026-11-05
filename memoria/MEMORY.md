@@ -92,3 +92,4 @@
 - [Cardapio de editores de video](feedback_cardapio_editores.md) — pedido de edicao sem editor nomeado passa pela skill `editar` (6 editores, pode escolher varios = variacoes); Efeitos do Rafa instalado em ~/.claude/skills/efeito
 - [Criativo de anuncio: velocidade e CRM](feedback_video_anuncio_velocidade.md) — acelerar ate a duracao pedida sem perder quadro (fps sobe); 1,1x achou rapido; CRM por dentro em janela (Hoje + Sugerir resposta)
 - [Agente gestor de trafego](reference_agente_gestor_trafego.md) — criado 04/11; segue manual oficial da Meta (meta/manual-meta.md) + regras fixas da conta
+- [Pivot do perfil pra soluções de IA](project_pivot_perfil_ia.md) — 05/11 cogitando sair do nicho HOF; mapa em posicionamento-ia/mapa-solucoes-ia.md
