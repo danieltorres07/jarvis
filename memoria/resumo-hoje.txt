@@ -1,11 +1,11 @@
-DATA: 2026-11-05
+DATA: 2026-11-06
 
-STATUS — 05/11/2026
+STATUS — 06/11/2026
 
 📅 Agenda de hoje
 - 09:30 Enviar Leads Tráfego (passar os leads de formulário pra Victória)
+- 12:00 Médico
 - 17:00 Análise de Métricas (número do dia anterior com a Victória, mensagens e agendamentos)
-- Sistema da Clínica não tem compromisso extra marcado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -15,7 +15,7 @@ STATUS — 05/11/2026
 - Higgsfield Criativo
 
 📧 E-mails que precisam de você
-- Nenhum e-mail de pessoa real pendente hoje. Só notificação automática, newsletter, alerta de vaga e confirmação de pagamento (Asaas)
+- Venter Vendas (ventervendas@gmail.com): te convidou pra um "Diagnóstico e Consultoria" dia 9/11 às 15h, convite ainda sem resposta sua
 
 🟢 Ativo agora
 - Sistema da Clínica: em produção, módulos de agenda, pacientes, financeiro, funil e dashboard já rodando. Próximo da fila: módulo de Agenda dedicado e Financeiro+Estoque
@@ -31,5 +31,6 @@ STATUS — 05/11/2026
 - Follow-up automático de WhatsApp: parado esperando você resolver a burocracia da Meta
 
 ⚠️ Precisa de você
+- Responder o convite do dia 9/11 (Diagnóstico e Consultoria)
 - Decidir como vai mandar o PDF do Playbook pro lead: e-mail via Resend, WhatsApp ou tirar a promessa da copy
 - Excluir o cadastro de teste do Bolão Royals (tem um registro de teste junto com a inscrição real da Ingrid, ainda pendente de pagamento)
