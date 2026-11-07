@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-09-16T01:01:19.098Z",
-  "data": "2026-09-16",
+  "atualizado_em": "2026-11-07T09:53:53.250Z",
+  "data": "2026-11-07",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -8,19 +8,19 @@
       "concluida": false
     },
     {
+      "titulo": "Transferência Kwid",
+      "concluida": false
+    },
+    {
       "titulo": "Termos ao fechar orçamento",
       "concluida": false
     },
     {
-      "titulo": "Renegociar Cimed",
+      "titulo": "Editar video",
       "concluida": false
     },
     {
-      "titulo": "4 reels (semana 7 a 11)",
-      "concluida": false
-    },
-    {
-      "titulo": "Começar Prospecção",
+      "titulo": "Higgsfield Criativo",
       "concluida": false
     }
   ]

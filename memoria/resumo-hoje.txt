@@ -1,0 +1,31 @@
+DATA: 2026-11-07
+
+STATUS - 07/11/2026
+
+📅 Agenda de hoje
+- Nada marcado no Google Calendar pra hoje.
+- O arquivo de compromissos do Sistema da Clínica também não tem nada (está atualizado, só que a lista veio vazia).
+
+✅ Tarefas pendentes (Painel Daniel)
+- Plano de Comissionamento Comercial
+- Transferência Kwid
+- Termos ao fechar orçamento
+- Editar vídeo
+- Higgsfield Criativo
+
+📧 E-mails que precisam de você
+- Brunno Faria (anfitrião, via Airbnb): respondeu sobre a consulta do Studio Design Moema (Metrô & Congonhas), hospedagem de 11 a 12/11.
+
+🟢 Ativo agora
+- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e o próprio painel que gerou suas tarefas de hoje.
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, faltam os lotes 3 (régua de resgate de orçamento, roteiro de consulta, objeções de fechamento) e 4 (orçamento padrão).
+- Carrossel automático: rodando 4 por dia, você aprova 2, postagem ainda manual porque o auto-post no Instagram depende da Meta.
+- Prospecção HOF: cron rodando todo dia às 10h, 1 cidade por vez, alimentando o funil de prospecção dentro do Sistema da Clínica.
+
+⏸️ Pausado
+- Follow-up automático via WhatsApp: parado desde 28/07 esperando você rodar a burocracia da Meta (verificação de negócio, app, templates).
+- Portal 4D (área de membros): parado desde 10/06, antes da fase de cliente editar os próprios materiais.
+
+⚠️ Precisa de você
+- Follow-up WhatsApp: só destrava quando você terminar a parte da Meta, e tem duas perguntas em aberto (número que vai usar, e se a Victoria também vê o histórico de mensagens).
+- Playbook: falta decidir como o PDF chega no contato (e-mail via Resend, WhatsApp via Meta, ou tirar essa promessa da copy).
