@@ -1,15 +1,7 @@
 {
-  "atualizado_em": "2026-11-06T09:53:53.084Z",
-  "data": "2026-11-06",
-  "compromissos": [
-    {
-      "titulo": "Medico",
-      "data": "2026-11-06",
-      "hora_inicio": "12:00:00",
-      "hora_fim": "13:00:00",
-      "observacoes": null
-    }
-  ],
+  "atualizado_em": "2026-11-07T09:53:53.250Z",
+  "data": "2026-11-07",
+  "compromissos": [],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
