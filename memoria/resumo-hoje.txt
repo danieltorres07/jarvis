@@ -1,11 +1,10 @@
-DATA: 2026-11-06
+DATA: 2026-11-07
 
-STATUS — 06/11/2026
+STATUS - 07/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (passar os leads de formulário pra Victória)
-- 12:00 Médico
-- 17:00 Análise de Métricas (número do dia anterior com a Victória, mensagens e agendamentos)
+- Nada marcado no Google Calendar pra hoje.
+- O arquivo de compromissos do Sistema da Clínica também não tem nada (está atualizado, só que a lista veio vazia).
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -15,22 +14,18 @@ STATUS — 06/11/2026
 - Higgsfield Criativo
 
 📧 E-mails que precisam de você
-- Venter Vendas (ventervendas@gmail.com): te convidou pra um "Diagnóstico e Consultoria" dia 9/11 às 15h, convite ainda sem resposta sua
+- Brunno Faria (anfitrião, via Airbnb): respondeu sobre a consulta do Studio Design Moema (Metrô & Congonhas), hospedagem de 11 a 12/11.
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção, módulos de agenda, pacientes, financeiro, funil e dashboard já rodando. Próximo da fila: módulo de Agenda dedicado e Financeiro+Estoque
-- Sprint de Caixa 30 dias: caso da Dra. Brenda rodando, falta ela repreencher os 3 campos de R$ do diagnóstico (saíram errados por bug de máscara já corrigido)
-- Carrossel automático: gerando 4 por dia, você aprova 2 (slots 12:30 e 19:30)
-- Prospecção HOF: cron rodando todo dia às 10h, meta de 10 leads por dia
-- Apresentação da Harmo Clinic: esperando as fotos originais em alta que você vai mandar, pra exportar em 4K
-- Bolão Royals: no ar, prazo de inscrição 11/06
-- Rebrand Clínicas de Alto Vôo: em andamento, aplicando o nome novo em todo material novo
+- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e o próprio painel que gerou suas tarefas de hoje.
+- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, faltam os lotes 3 (régua de resgate de orçamento, roteiro de consulta, objeções de fechamento) e 4 (orçamento padrão).
+- Carrossel automático: rodando 4 por dia, você aprova 2, postagem ainda manual porque o auto-post no Instagram depende da Meta.
+- Prospecção HOF: cron rodando todo dia às 10h, 1 cidade por vez, alimentando o funil de prospecção dentro do Sistema da Clínica.
 
 ⏸️ Pausado
-- Portal 4D (área de membros): parado desde junho, antes da fase do cliente editar entregável
-- Follow-up automático de WhatsApp: parado esperando você resolver a burocracia da Meta
+- Follow-up automático via WhatsApp: parado desde 28/07 esperando você rodar a burocracia da Meta (verificação de negócio, app, templates).
+- Portal 4D (área de membros): parado desde 10/06, antes da fase de cliente editar os próprios materiais.
 
 ⚠️ Precisa de você
-- Responder o convite do dia 9/11 (Diagnóstico e Consultoria)
-- Decidir como vai mandar o PDF do Playbook pro lead: e-mail via Resend, WhatsApp ou tirar a promessa da copy
-- Excluir o cadastro de teste do Bolão Royals (tem um registro de teste junto com a inscrição real da Ingrid, ainda pendente de pagamento)
+- Follow-up WhatsApp: só destrava quando você terminar a parte da Meta, e tem duas perguntas em aberto (número que vai usar, e se a Victoria também vê o histórico de mensagens).
+- Playbook: falta decidir como o PDF chega no contato (e-mail via Resend, WhatsApp via Meta, ou tirar essa promessa da copy).
