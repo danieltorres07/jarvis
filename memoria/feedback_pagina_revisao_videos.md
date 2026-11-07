@@ -14,6 +14,8 @@ Página pronta em `~/Daniel Torres/videos/revisao/`: `servidor.py` (porta 8790, 
 
 TEMPO REAL (05/11/2026): ele não quer mandar "pronto". Cada clique grava `eventos.log`; eu vigio com Monitor e ajo na hora, e mostro o andamento na página via `revisao.py fase/previa` (aprovado → exportando → Entregues; ajuste → refazendo → Nova prévia vN). Detalhe no passo 6 da skill `editar`.
 
+ABRIR APROVADOS (05/11/2026): quando ele pedir pra abrir os vídeos aprovados/prontos, abrir `http://localhost:8790/?aprovados` (página com os entregues lado a lado), nunca `open` nos arquivos um por um. Ele corrigiu isso.
+
 Confirmado como PADRÃO DE ENTREGA ("vamos padronizar assim as entregas", 05/11/2026). Gravado no passo 6 da skill `editar` e apontado nas skills `editor-videos-daniel` e `efeito`.
 
 **Why:** ele pediu ("igual você abriu com os carrosséis, coloque lá os vídeos um ao lado do outro… do que ficar abrindo um por um").
