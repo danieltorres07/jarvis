@@ -1,10 +1,11 @@
-DATA: 2026-11-07
+DATA: 2026-11-08
 
-STATUS - 07/11/2026
+STATUS — 8 de novembro de 2026
 
 📅 Agenda de hoje
-- Nada marcado no Google Calendar pra hoje.
-- O arquivo de compromissos do Sistema da Clínica também não tem nada (está atualizado, só que a lista veio vazia).
+- Google Calendar não tem nenhum evento marcado hoje
+- O arquivo memoria/compromissos-hoje.json está atualizado (data bate com hoje), mas a lista de compromissos vem vazia
+- Vale lembrar: hoje é o dia da caminhada do Movimento Láureo (aquecimento 7h, largada 8h30, Contagem) — ela não apareceu na agenda nem no arquivo, mas tá documentada no projeto como sendo hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -14,18 +15,20 @@ STATUS - 07/11/2026
 - Higgsfield Criativo
 
 📧 E-mails que precisam de você
-- Brunno Faria (anfitrião, via Airbnb): respondeu sobre a consulta do Studio Design Moema (Metrô & Congonhas), hospedagem de 11 a 12/11.
+- Nenhum e-mail de pessoa real pendente hoje. As 21 mensagens não lidas são tudo automático/promocional (Airbnb, AliExpress, Shopee, Indeed, LinkedIn, Supabase, Zap Imóveis, Copart, MetLife, Nomad, Dreamstime, Google Agenda)
 
 🟢 Ativo agora
-- Sistema da Clínica: em produção em clinicasaltovoo.vercel.app, com agenda, pacientes, financeiro, funil e o próprio painel que gerou suas tarefas de hoje.
-- Sprint de Caixa 30 dias: caso em andamento com a Dra. Brenda Guedes, faltam os lotes 3 (régua de resgate de orçamento, roteiro de consulta, objeções de fechamento) e 4 (orçamento padrão).
-- Carrossel automático: rodando 4 por dia, você aprova 2, postagem ainda manual porque o auto-post no Instagram depende da Meta.
-- Prospecção HOF: cron rodando todo dia às 10h, 1 cidade por vez, alimentando o funil de prospecção dentro do Sistema da Clínica.
+- Movimento Láureo: caminhada beneficente acontece hoje, financeiro e inscrições rodando pelo portal
+- Pivot de perfil pra IA: ideia em aberto desde 05/11, você ainda não rodou o teste-ambiente.zip das skills de venda
+- Resposta automática WhatsApp: no ar desde 30/10, modo configurado (desligado/teste/sombra/ligado)
+- Harmo CRM régua: auto-move ligado desde 26/10, recuperação das 24 quinzenas antigas rolando
 
 ⏸️ Pausado
-- Follow-up automático via WhatsApp: parado desde 28/07 esperando você rodar a burocracia da Meta (verificação de negócio, app, templates).
-- Portal 4D (área de membros): parado desde 10/06, antes da fase de cliente editar os próprios materiais.
+- Campanha Meta Ads: tudo parado desde 26/10 (otimizador desligado)
+- Follow-up automático WhatsApp (Meta Cloud API): pausado desde 28/07 esperando a burocracia da Meta
+- Portal 4D (plataforma de membros): pausado antes da Fase 7
 
 ⚠️ Precisa de você
-- Follow-up WhatsApp: só destrava quando você terminar a parte da Meta, e tem duas perguntas em aberto (número que vai usar, e se a Victoria também vê o histórico de mensagens).
-- Playbook: falta decidir como o PDF chega no contato (e-mail via Resend, WhatsApp via Meta, ou tirar essa promessa da copy).
+- Relatório CEO diário/semanal: pedido em 19/10, continua sem ser construído
+- Pivot do perfil pra IA: decisão não fechada, falta você testar o ambiente e dar o veredito
+- Rebrand VOLO → Clínicas de Alto Voo: escopo ainda em aberto desde 25/07
