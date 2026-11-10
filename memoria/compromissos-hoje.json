@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-11-09T09:53:53.100Z",
-  "data": "2026-11-09",
-  "compromissos": [],
+  "atualizado_em": "2026-11-10T09:53:53.011Z",
+  "data": "2026-11-10",
+  "compromissos": [
+    {
+      "titulo": "Lembrete Marina Viana",
+      "data": "2026-11-10",
+      "hora_inicio": "11:00:00",
+      "hora_fim": "11:33:00",
+      "observacoes": null
+    }
+  ],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
