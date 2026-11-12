@@ -1,13 +1,13 @@
-DATA: 2026-11-11
+DATA: 2026-11-12
 
-STATUS — 11/11/2026 (quarta)
+STATUS — 12/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (passar pra Victória)
-- 15:00 Reunião Priscila - CRM
-- 17:00 Análise de Métricas (número do dia com Victória, novas mensagens, agendamentos)
-- Check-in no Airbnb em Moema a partir das 15h (a coanfitriã pediu pra avisar o horário de chegada)
-(nenhum compromisso adicional veio do Sistema da Clínica — o campo "compromissos" do arquivo tá vazio)
+- 09:30 Enviar Leads Tráfego
+- 17:00 Análise de Métricas
+(tem também evento de estadia no Airbnb em São Paulo, de 11 a 13/11, criado automático pelo Gmail)
+
+Sistema da Clínica (compromissos-hoje.json): arquivo está atualizado (data de hoje), mas a lista de compromissos veio vazia.
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -17,19 +17,21 @@ STATUS — 11/11/2026 (quarta)
 - Higgsfield Criativo
 
 📧 E-mails que precisam de você
-- Nenhum e-mail de pessoa real pendente hoje. Foi tudo newsletter, cobrança automática e oferta (Serasa, Vivo, AliExpress, Allcare, Rede, BDMG etc). A única mensagem com gente de verdade foi a coanfitriã do Airbnb avisando do check-in de hoje.
+- Nenhum e-mail de pessoa real pendente hoje. Só notificação automática: Google Agenda, LinkedIn, newsletters (Daz3D, Hubla, Airbnb, AliExpress, ConnectMiles, CryptoTab) e um disparo de lançamento do Pedro Sobral.
 
 🟢 Ativo agora
-- Carrossel automático: rodando sozinho, 5 posts/dia nos horários fixos, Jarvis avisa se faltar aprovação
-- Prospecção HOF: 20 clínicas novas por dia direto no CRM (Grande BH por último)
-- Programa AI Expert: falta fechar semana zero, order bumps e a personagem feminina
-- Harmo CRM: régua e auto-move ligados, recuperação das 148 conversas antigas entrando 15/dia
+- Carrossel automático: rodando sozinho, 5 posts por dia, avisa 30 min antes se faltar aprovado
+- Prospecção HOF: 20 clínicas por dia caindo direto no CRM, desde o conserto de 26/10
+- Automação TikTok: publicando rascunho automático desde 16/10
+- Resposta automática WhatsApp: ligada no número novo (8054), com os modos desligado/teste/sombra/ligado
 
 ⏸️ Pausado
 - Follow-up automático WhatsApp: esperando você resolver a burocracia da Meta
-- Campanha Meta Ads via API: tudo pausado desde 26/10 (otimizador desligado)
+- Campanha de Meta Ads: tudo pausado desde 26/10, otimizador desligado
+- Portal 4D (plataforma de membros): pausado antes da Fase 7
 
 ⚠️ Precisa de você
-- Relatório CEO diário/semanal: foi pedido em 19/10 e ainda não foi construído
-- Rebrand VOLO → Clínicas de Alto Voo: escopo ainda em aberto
-- Pivot de perfil pra soluções de IA: você tava cogitando sair do nicho HOF, decisão em aberto
+- Relatório CEO (diário/semanal): pedido em 19/10, ainda não foi construído
+- Rebrand Clínicas de Alto Voo: escopo (onde aplicar o visual novo, apelido curto) ainda em aberto
+- Auditoria CRM da 2ª clínica: Fase 0 esperando sua autorização
+- Próximo passo da campanha Meta Ads: decidir entre formulário instantâneo ou anúncio pro direct
