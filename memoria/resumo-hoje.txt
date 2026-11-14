@@ -1,37 +1,30 @@
-DATA: 2026-11-13
+DATA: 2026-11-14
 
-STATUS — 13/11/2026
+STATUS — 14/11/2026 (sábado)
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (enviar leads de formulário pra Victória entrar em contato)
-- 17:00 Análise de Métricas (ver número do dia anterior com Victória: mensagens, agendamentos, meta)
-- O arquivo de compromissos do Sistema da Clínica tá atualizado pra hoje, mas a lista de compromissos dele veio vazia
+- Sem nenhum compromisso marcado no Google Calendar (o próprio Google já avisou de manhã que hoje não tem evento)
+- O compromissos-hoje.json tá atualizado de hoje, mas a lista de compromissos do Sistema da Clínica também veio vazia
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Transferência Kwid
 - Termos ao fechar orçamento
-- Editar vídeo
-- Higgsfield Criativo
 
 📧 E-mails que precisam de você
-- Não tem nenhum e-mail de uma pessoa real pendente hoje. O que chegou foi tudo automático (GitHub, Google Agenda, Hostinger, promoções, newsletters) ou mensagem de hóspede do Airbnb já resolvida (pediram horário de checkout, estadia já terminou)
+- Não tem nenhum e-mail de pessoa real pendente hoje. Só caiu promoção, alerta automático e notificação de login
 
 🟢 Ativo agora
-- Carrossel automático: gerando e postando sozinho, 5 posts/dia, Jarvis avisa 30min antes se faltar aprovado
-- CRM Harmo: régua de automação e auto-move ligados desde 26/10
-- Resposta automática no WhatsApp (8054): primeira resposta por IA pra número novo, rodando em um dos modos (desligado/teste/sombra/ligado)
-- Automação TikTok: post do Instagram sobe como rascunho pro TikTok (Sandbox) desde 16/10
-- Playbook de e-mail (Raio-X/produto): sequência automática no ar desde 21/09 via Resend
-- Prospecção HOF: coletor achando 20 clínicas/dia com WhatsApp direto no CRM
+- Carrossel automático: rodando sozinho, gera 7 por dia e você aprova 5, publicando nos slots 10:30/12:30/15:30/17:30/19:00
+- Resposta automática no WhatsApp da Harmo (8054): construída, ainda em fase de teste/sombra antes de ligar de vez
+- CRM Clínicas visual JARVIS: blocos 1 e 2 prontos na branch visual-jarvis, falta a gamificação (bloco 3) e juntar na main
+- Atende & Vende no Meta Ads: campanha de conversa no WhatsApp ativa, R$80/dia, com o público dos compradores da Linda
 
 ⏸️ Pausado
-- Follow-up automático WhatsApp (Meta Cloud API): parado desde 28/07 esperando você resolver a burocracia da Meta
-- Campanha de Tráfego Pago (Meta Ads): tudo pausado desde 26/10, otimizador desligado
-- Portal 4D / plataforma de membros: pausado antes da Fase 7
+- Follow-up automático de WhatsApp pro CRM (sequência D+1/D+3/D+7): parado desde julho esperando você resolver a burocracia com a Meta
+- Campanhas antigas de Leads do Meta Ads (página do Raio-X): pausadas, a prioridade virou a campanha de WhatsApp
 
 ⚠️ Precisa de você
-- Pivot de perfil pra soluções de IA: você tá cogitando sair do nicho de harmonização facial (desde 05/11), decisão ainda em aberto
-- Relatório CEO diário/semanal: você pediu em 19/10 e ainda não foi construído
-- Auditoria de segurança do CRM da 2ª clínica: achamos CPF exposto e painel aberto em produção, Fase 0 esperando sua autorização pra seguir
-- Rebrand VOLO → Clínicas de Alto Voo: nome decidido em 25/07, mas o escopo (onde aplicar, apelido curto) ainda tá em aberto
+- Decidir se vira mesmo o perfil pra "soluções de IA" ou continua só em harmonização facial (em aberto desde 05/11)
+- Revisar o resultado da campanha de WhatsApp do Atende & Vende (quantas conversas, custo, quem respondeu a saudação)
+- Quando fechar o visual JARVIS do CRM, avisar pra desligar o acesso livre e publicar
