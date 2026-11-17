@@ -94,3 +94,4 @@
 - [Agente gestor de trafego](reference_agente_gestor_trafego.md) — criado 04/11; segue manual oficial da Meta (meta/manual-meta.md) + regras fixas da conta
 - [Página de revisão de vídeos](feedback_pagina_revisao_videos.md) — variações de edição vão todas pra localhost:8790 lado a lado com Aprovar/Pedir ajuste (~/Daniel Torres/videos/revisao/), nunca abrir uma por uma
 - [Pivot do perfil pra soluções de IA](project_pivot_perfil_ia.md) — 05/11 cogitando sair do nicho HOF; mapa em posicionamento-ia/mapa-solucoes-ia.md
+- [Lembrete boas-vindas seguidores IG](project_lembrete_boas_vindas_seguidores.md) — Jarvis 10h/14h/17h com DM pronta (clinica pela Vic, Linda ela mesma), envio manual, FEITO confirma
