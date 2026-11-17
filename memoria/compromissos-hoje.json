@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-11-16T09:53:52.738Z",
-  "data": "2026-11-16",
-  "compromissos": [],
+  "atualizado_em": "2026-11-17T09:53:53.201Z",
+  "data": "2026-11-17",
+  "compromissos": [
+    {
+      "titulo": "Reunião Matheus tráfego",
+      "data": "2026-11-17",
+      "hora_inicio": "17:00:00",
+      "hora_fim": "18:00:00",
+      "observacoes": null
+    }
+  ],
   "tarefas_pendentes": [
     {
       "titulo": "Plano de Comissionamento Comercial",
@@ -13,6 +21,14 @@
     },
     {
       "titulo": "Termos ao fechar orçamento",
+      "concluida": false
+    },
+    {
+      "titulo": "Fazer adesivos água",
+      "concluida": false
+    },
+    {
+      "titulo": "Fazer adesivos água + verificar com Vitória os pacientes de tráfego pago que fecharam",
       "concluida": false
     }
   ]
