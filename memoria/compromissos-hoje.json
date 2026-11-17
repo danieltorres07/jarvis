@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-07T09:53:53.250Z",
-  "data": "2026-11-07",
+  "atualizado_em": "2026-11-16T09:53:52.738Z",
+  "data": "2026-11-16",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -13,14 +13,6 @@
     },
     {
       "titulo": "Termos ao fechar orçamento",
-      "concluida": false
-    },
-    {
-      "titulo": "Editar video",
-      "concluida": false
-    },
-    {
-      "titulo": "Higgsfield Criativo",
       "concluida": false
     }
   ]
