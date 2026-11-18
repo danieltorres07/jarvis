@@ -1,30 +1,34 @@
-DATA: 2026-11-14
+DATA: 2026-11-18
 
-STATUS — 14/11/2026 (sábado)
+STATUS — 18/11/2026
 
 📅 Agenda de hoje
-- Sem nenhum compromisso marcado no Google Calendar (o próprio Google já avisou de manhã que hoje não tem evento)
-- O compromissos-hoje.json tá atualizado de hoje, mas a lista de compromissos do Sistema da Clínica também veio vazia
+- 09:30 Enviar Leads Tráfego (mandar os leads do formulário pra Victória)
+- 17:00 Análise de Métricas (ver números do dia com a Victória)
+(arquivo de compromissos do Sistema da Clínica tá atualizado pra hoje, mas não trouxe nenhum compromisso extra além desses)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Transferência Kwid
 - Termos ao fechar orçamento
+- Fazer adesivos água
+- Confirmar cadeira com Victoria
+- Conferir origem de leads
 
 📧 E-mails que precisam de você
-- Não tem nenhum e-mail de pessoa real pendente hoje. Só caiu promoção, alerta automático e notificação de login
+- Nenhum e-mail de pessoa real pendente hoje — só newsletter, promoção e notificação automática de plataforma. Único ponto de atenção: o Vercel avisou que o deploy do clinicasaltovoo falhou ontem (17/11, 15h40), vale conferir se afetou a página no ar.
 
 🟢 Ativo agora
-- Carrossel automático: rodando sozinho, gera 7 por dia e você aprova 5, publicando nos slots 10:30/12:30/15:30/17:30/19:00
-- Resposta automática no WhatsApp da Harmo (8054): construída, ainda em fase de teste/sombra antes de ligar de vez
-- CRM Clínicas visual JARVIS: blocos 1 e 2 prontos na branch visual-jarvis, falta a gamificação (bloco 3) e juntar na main
-- Atende & Vende no Meta Ads: campanha de conversa no WhatsApp ativa, R$80/dia, com o público dos compradores da Linda
+- Clínica: rotina do dia rodando (leads de tráfego de manhã, métricas com a Victória à tarde)
+- Carrossel automático: rodando sozinho, 5 posts por dia, Jarvis avisa se faltar aprovar algum
+- CRM Clínicas Jarvis: evoluindo na branch visual-jarvis, ainda sem publicar
 
 ⏸️ Pausado
-- Follow-up automático de WhatsApp pro CRM (sequência D+1/D+3/D+7): parado desde julho esperando você resolver a burocracia com a Meta
-- Campanhas antigas de Leads do Meta Ads (página do Raio-X): pausadas, a prioridade virou a campanha de WhatsApp
+- Follow-up automático WhatsApp: parado desde 28/07 esperando você resolver a burocracia da Meta
+- Campanha Meta Ads: tudo pausado desde 26/10, esperando token novo
 
 ⚠️ Precisa de você
-- Decidir se vira mesmo o perfil pra "soluções de IA" ou continua só em harmonização facial (em aberto desde 05/11)
-- Revisar o resultado da campanha de WhatsApp do Atende & Vende (quantas conversas, custo, quem respondeu a saudação)
-- Quando fechar o visual JARVIS do CRM, avisar pra desligar o acesso livre e publicar
+- Relatório CEO diário/semanal: pedido em 19/10, ainda não construído
+- Rebrand Alto Voo: escopo (visual, onde aplicar, apelido) ainda em aberto
+- Auditoria CRM da 2ª clínica: Fase 0 esperando sua autorização
+- Deploy do clinicasaltovoo falhou no Vercel (17/11, 15h40) — vale checar se a página no ar foi afetada
