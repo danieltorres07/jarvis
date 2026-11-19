@@ -1,34 +1,33 @@
-DATA: 2026-11-18
+DATA: 2026-11-19
 
-STATUS — 18/11/2026
+STATUS — 19/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar os leads do formulário pra Victória)
-- 17:00 Análise de Métricas (ver números do dia com a Victória)
-(arquivo de compromissos do Sistema da Clínica tá atualizado pra hoje, mas não trouxe nenhum compromisso extra além desses)
+- 09:30 Enviar Leads Tráfego (mandar os leads de formulário pra Victória entrar em contato)
+- 17:00 Análise de Métricas (número do dia anterior com a Victória, mensagens novas, agendamentos)
+- Sistema da Clínica: sem compromissos registrados pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Transferência Kwid
 - Termos ao fechar orçamento
 - Fazer adesivos água
-- Confirmar cadeira com Victoria
 - Conferir origem de leads
 
 📧 E-mails que precisam de você
-- Nenhum e-mail de pessoa real pendente hoje — só newsletter, promoção e notificação automática de plataforma. Único ponto de atenção: o Vercel avisou que o deploy do clinicasaltovoo falhou ontem (17/11, 15h40), vale conferir se afetou a página no ar.
+- Não tem nenhum. Os e-mails não lidos de hoje e de ontem são tudo automático/promocional (notificação de agenda, LinkedIn, newsletter, loja, cobrança, divulgação de evento) — ninguém te escreveu direto.
 
 🟢 Ativo agora
-- Clínica: rotina do dia rodando (leads de tráfego de manhã, métricas com a Victória à tarde)
-- Carrossel automático: rodando sozinho, 5 posts por dia, Jarvis avisa se faltar aprovar algum
-- CRM Clínicas Jarvis: evoluindo na branch visual-jarvis, ainda sem publicar
+- Carrossel automático: sistema gera e posta sozinho, 5 posts por dia, rodando desde 19/10
+- Harmo CRM: régua de automação e auto-move ligados
+- Resposta automática no WhatsApp (IA): rodando pro número novo, com os modos desligado/teste/sombra/ligado
+- Automação TikTok: post do Instagram sobe como rascunho pro TikTok, funcionando desde 16/10
 
 ⏸️ Pausado
-- Follow-up automático WhatsApp: parado desde 28/07 esperando você resolver a burocracia da Meta
-- Campanha Meta Ads: tudo pausado desde 26/10, esperando token novo
+- Follow-up automático via WhatsApp: pausado esperando você resolver a burocracia da Meta
+- Campanha de Meta Ads: tudo pausado desde 26/10, otimizador desligado
 
 ⚠️ Precisa de você
-- Relatório CEO diário/semanal: pedido em 19/10, ainda não construído
-- Rebrand Alto Voo: escopo (visual, onde aplicar, apelido) ainda em aberto
-- Auditoria CRM da 2ª clínica: Fase 0 esperando sua autorização
-- Deploy do clinicasaltovoo falhou no Vercel (17/11, 15h40) — vale checar se a página no ar foi afetada
+- Relatório do CEO (diário/semanal): você pediu em 19/10 e ainda não foi construído
+- Auditoria do CRM da 2ª clínica: Fase 0 esperando sua autorização pra seguir
+- Rebrand VOLO → Clínicas de Alto Voo: escopo ainda em aberto, falta você decidir
