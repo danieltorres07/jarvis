@@ -1,33 +1,34 @@
-DATA: 2026-11-19
+DATA: 2026-11-21
 
-STATUS — 19/11/2026
+STATUS — 21/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar os leads de formulário pra Victória entrar em contato)
-- 17:00 Análise de Métricas (número do dia anterior com a Victória, mensagens novas, agendamentos)
-- Sistema da Clínica: sem compromissos registrados pra hoje
+- Nenhum compromisso no Google Calendar
+- Arquivo do Sistema da Clínica (Painel Daniel) tá atualizado pra hoje, e também não tem nenhum compromisso registrado nele
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
 - Transferência Kwid
 - Termos ao fechar orçamento
-- Fazer adesivos água
+- Contrato ao fechar orçamento, com assinatura digital
 - Conferir origem de leads
 
 📧 E-mails que precisam de você
-- Não tem nenhum. Os e-mails não lidos de hoje e de ontem são tudo automático/promocional (notificação de agenda, LinkedIn, newsletter, loja, cobrança, divulgação de evento) — ninguém te escreveu direto.
+- Gisele Adelisa (giselleadelysa@gmail.com): mandou dizendo que perdeu o acesso ao curso
 
 🟢 Ativo agora
-- Carrossel automático: sistema gera e posta sozinho, 5 posts por dia, rodando desde 19/10
-- Harmo CRM: régua de automação e auto-move ligados
-- Resposta automática no WhatsApp (IA): rodando pro número novo, com os modos desligado/teste/sombra/ligado
-- Automação TikTok: post do Instagram sobe como rascunho pro TikTok, funcionando desde 16/10
+- Direct do Instagram da Linda + IA: construído 17/11, modo teste rodando só no perfil do Daniel, primeiro envio real funcionou. Falta colar a migration 123 no Supabase e, depois de testar o pedido de WhatsApp até o fim, ligar o modo Sombra
+- Pivot de perfil pra soluções de IA: ainda é ideia (desde 05/11), não é decisão fechada. Próximo passo combinado foi você rodar o teste-ambiente.zip e mandar o resultado
+- Carrossel automático: sistema rodando sozinho, gerando e postando os carrosséis do dia
+- Sistema contínuo de conteúdo: ciclo atual vai de 26/10 até 24/11
 
 ⏸️ Pausado
-- Follow-up automático via WhatsApp: pausado esperando você resolver a burocracia da Meta
-- Campanha de Meta Ads: tudo pausado desde 26/10, otimizador desligado
+- Follow-up automático via WhatsApp: pausado desde 28/07 esperando você resolver a burocracia da Meta
+- Meta Ads (campanha paga): tudo pausado desde 26/10, otimizador desligado
+- Portal 4D: pausado antes da fase 7, foi absorvido pelo portal Volo
 
 ⚠️ Precisa de você
-- Relatório do CEO (diário/semanal): você pediu em 19/10 e ainda não foi construído
-- Auditoria do CRM da 2ª clínica: Fase 0 esperando sua autorização pra seguir
-- Rebrand VOLO → Clínicas de Alto Voo: escopo ainda em aberto, falta você decidir
+- Migration 123 do Instagram Direct, colar no Supabase pra destravar
+- Rodar o teste-ambiente.zip (skills de venda por IA) e mandar o resultado
+- SQL da segunda camada de segurança da Harmo (REVOKE) esperando você rodar desde 25/10
+- E-mail da Gisele sobre acesso perdido ao curso ainda sem resposta
