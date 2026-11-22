@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-21T09:53:53.021Z",
-  "data": "2026-11-21",
+  "atualizado_em": "2026-11-22T09:53:52.964Z",
+  "data": "2026-11-22",
   "compromissos": [],
   "tarefas_pendentes": [
     {
@@ -21,6 +21,10 @@
     },
     {
       "titulo": "Conferir origem de leads",
+      "concluida": false
+    },
+    {
+      "titulo": "Lembrar Leandro Claude code",
       "concluida": false
     }
   ]
