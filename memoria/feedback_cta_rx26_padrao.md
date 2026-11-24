@@ -24,3 +24,8 @@ Todo carrossel (automatico ou manual) tem dois pedidos, com estas palavras EXATA
 Se o modelo passa de 9 slides, `_caber_no_teto` pede reescrita (cortar no escuro sumia com o item 3 de capa que prometia 3 coisas). Toda leva nova: revisar se a capa promete N e entrega N, e perguntar ao Daniel quando a capa/legenda conta historia em 1a pessoa.
 
 Teto de 10 slides e real: o auto-post (`portal/lib/instagram/publicar.ts`, API do Meta) recusa carrossel com mais de 10 ("Carrossel aceita no maximo 10 imagens"). O app aceita 20, a API nao. Nunca deixar passar de 10.
+
+**Atualizado 24/11/2026 (perfil virou empresas em geral, ver [[project_perfil_empresas_geral]]):** textos fixos novos, aprovados pelo Daniel:
+- Meio: "Antes de continuar, já salva e compartilha com alguém que vende e precisa ver isso."
+- Último: "Agora se você quer atrair e vender mais para seus clientes, comente **CRM26** que te envio no direct."
+A palavra continua CRM26. O gerador automatico (_master/gerar-automatico.py padronizar_ctas) e o CLAUDE.md ainda tem o texto antigo de clinica.
