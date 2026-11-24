@@ -97,3 +97,4 @@
 - [Lembrete boas-vindas seguidores IG](project_lembrete_boas_vindas_seguidores.md) — Jarvis 10h/14h/17h com DM pronta (clinica pela Vic, Linda ela mesma), envio manual, FEITO confirma
 - [Poker FTV · Lambisgoias do Poker](project_poker_ftv.md) — painel cash no ar em poker-ftv.vercel.app, molde amigo oculto, edição por link secreto
 - [IA no direct do Instagram da Linda](project_instagram_direct_ia.md) — 17/11: direct vira cartao no Novos Leads + IA leva pro WhatsApp; falta migration 123, webhook no painel, modo Sombra
+- [Canais Instagram x Trafego Pago](project_canais_instagram_trafego.md) — Instagram e sempre organico/perfil, Trafego Pago e sempre anuncio; nao misturar
