@@ -1,8 +1,12 @@
 {
-  "atualizado_em": "2026-11-23T09:53:52.952Z",
-  "data": "2026-11-23",
+  "atualizado_em": "2026-11-24T09:53:52.919Z",
+  "data": "2026-11-24",
   "compromissos": [],
   "tarefas_pendentes": [
+    {
+      "titulo": "Conferir origem de leads",
+      "concluida": false
+    },
     {
       "titulo": "Plano de Comissionamento Comercial",
       "concluida": false
