@@ -1,8 +1,12 @@
 {
-  "atualizado_em": "2026-11-18T09:53:52.974Z",
-  "data": "2026-11-18",
+  "atualizado_em": "2026-11-24T09:53:52.919Z",
+  "data": "2026-11-24",
   "compromissos": [],
   "tarefas_pendentes": [
+    {
+      "titulo": "Conferir origem de leads",
+      "concluida": false
+    },
     {
       "titulo": "Plano de Comissionamento Comercial",
       "concluida": false
@@ -16,15 +20,7 @@
       "concluida": false
     },
     {
-      "titulo": "Fazer adesivos água",
-      "concluida": false
-    },
-    {
-      "titulo": "Confirmar cadeira com Victoria",
-      "concluida": false
-    },
-    {
-      "titulo": "Conferir origem de leads",
+      "titulo": "Contrato ao fechar orçamento, com assinatura digital",
       "concluida": false
     }
   ]

@@ -1,34 +1,37 @@
-DATA: 2026-11-18
+DATA: 2026-11-24
 
-STATUS — 18/11/2026
+STATUS — 24/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar os leads do formulário pra Victória)
-- 17:00 Análise de Métricas (ver números do dia com a Victória)
-(arquivo de compromissos do Sistema da Clínica tá atualizado pra hoje, mas não trouxe nenhum compromisso extra além desses)
+- 05:30 Devocional LGND
+- 09:00 Reunião Henrique
+- 09:30 Enviar Leads Tráfego (passar leads do formulário pra Victória)
+- 17:00 Análise de Métricas
+- Sistema da Clínica: arquivo tá atualizado, mas não tem compromisso nenhum registrado pra hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
+- Conferir origem de leads
 - Plano de Comissionamento Comercial
 - Transferência Kwid
 - Termos ao fechar orçamento
-- Fazer adesivos água
-- Confirmar cadeira com Victoria
-- Conferir origem de leads
+- Contrato ao fechar orçamento, com assinatura digital
 
 📧 E-mails que precisam de você
-- Nenhum e-mail de pessoa real pendente hoje — só newsletter, promoção e notificação automática de plataforma. Único ponto de atenção: o Vercel avisou que o deploy do clinicasaltovoo falhou ontem (17/11, 15h40), vale conferir se afetou a página no ar.
+- Nenhum. Os 26 não lidos de hoje são tudo newsletter, cobrança automática, promoção ou notificação de plataforma (AllCare, Asaas, Cakto, LinkedIn, Temu, Airbnb etc), ninguém escrevendo pra você direto
 
 🟢 Ativo agora
-- Clínica: rotina do dia rodando (leads de tráfego de manhã, métricas com a Victória à tarde)
-- Carrossel automático: rodando sozinho, 5 posts por dia, Jarvis avisa se faltar aprovar algum
-- CRM Clínicas Jarvis: evoluindo na branch visual-jarvis, ainda sem publicar
+- Carrossel automático: rodando sozinho, 5 posts/dia nos horários fixos, Jarvis avisa se faltar aprovado
+- Resposta automática WhatsApp (clínica): primeira resposta de IA ligada pro número novo
+- Harmo CRM régua de automação: auto-move ligado, recuperação das conversas antigas em andamento
+- IA no direct do Instagram da Linda: direct virando lead no CRM, IA levando pro WhatsApp
+- Prospecção HOF: coletando 20 clínicas/dia com WhatsApp direto pro CRM
 
 ⏸️ Pausado
-- Follow-up automático WhatsApp: parado desde 28/07 esperando você resolver a burocracia da Meta
-- Campanha Meta Ads: tudo pausado desde 26/10, esperando token novo
+- Follow-up automático WhatsApp (CRM): esperando você resolver a burocracia da Meta
+- Campanha Meta Ads: tudo pausado desde 26/10, sem teste novo rodando
+- Portal 4D (plataforma de membros): parado antes da Fase 7
 
 ⚠️ Precisa de você
-- Relatório CEO diário/semanal: pedido em 19/10, ainda não construído
-- Rebrand Alto Voo: escopo (visual, onde aplicar, apelido) ainda em aberto
-- Auditoria CRM da 2ª clínica: Fase 0 esperando sua autorização
-- Deploy do clinicasaltovoo falhou no Vercel (17/11, 15h40) — vale checar se a página no ar foi afetada
+- IA no direct da Linda: falta a migration 123 e o webhook no painel pra destravar
+- Rebrand Alto Voo: escopo (visual, onde aplicar) ainda em aberto, sem decisão sua
+- Pivot de perfil pra soluções de IA: ainda em aberto, sem decisão tomada
