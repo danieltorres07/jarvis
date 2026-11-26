@@ -100,3 +100,4 @@
 - [Canais Instagram x Trafego Pago](project_canais_instagram_trafego.md) — Instagram e sempre organico/perfil, Trafego Pago e sempre anuncio; nao misturar
 - [Perfil pra empresas em geral](project_perfil_empresas_geral.md) — DECIDIDO 24/11: perfil sai de clinicas/HOF, vira empresas que vendem (servico e produto); dica generica ou uma por nicho
 - [Encontro Secreto 29/11](project_encontro_secreto.md) — evento online R$ 27 Pix, Linda+Daniel+Matheus, ferramenta mostrada = presente; LP em landings/encontro-secreto
+- [Campanha: 1a mensagem so chamada](feedback_campanha_primeira_mensagem_chamada.md) — lead parado: 1a msg curta pra responder, sem detalhar protocolo; Vitoria conduz; "mapeamento do seu rosto" so depois do interesse
