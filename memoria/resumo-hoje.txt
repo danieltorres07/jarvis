@@ -1,13 +1,11 @@
-DATA: 2026-11-26
+DATA: 2026-11-27
 
-STATUS — 26/11/2026
+STATUS — 27/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (mandar leads do formulário pra Victória)
-- 15:30 Café Edvaldo
-- 17:00 Análise de Métricas
-
-O arquivo do Sistema da Clínica tá atualizado, mas não trouxe nenhum compromisso extra hoje.
+- 09:30 Enviar Leads Tráfego (recorrente, Google Calendar)
+- 09:30–11:00 Unha (Sistema da Clínica)
+- 17:00 Análise de Métricas (Google Calendar)
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -17,19 +15,20 @@ O arquivo do Sistema da Clínica tá atualizado, mas não trouxe nenhum compromi
 - Contrato ao fechar orçamento, com assinatura digital
 
 📧 E-mails que precisam de você
-Não tem nenhum e-mail de pessoa real pendente hoje. Tudo que chegou foi automático (Cemig, Asaas, AliExpress, LinkedIn, newsletters e por aí vai).
+- Nenhum. Os não lidos de hoje são tudo newsletter e notificação automática (Spotify, Booking, AliExpress, Hostinger, Asaas, Vercel, LinkedIn, Skool e parecidos). Nenhuma pessoa real escreveu pra você hoje.
 
 🟢 Ativo agora
-- Perfil do Instagram: desde 24/11 saiu do nicho só de clínica e virou pra empresas em geral que vendem (serviço e produto). Ainda rolando o ajuste de copy e CTA pro público novo.
-- Carrossel automático: rodando sozinho, gera 7 por dia e posta os 5 aprovados nos horários de sempre (10:30, 12:30, 15:30, 17:30, 19:00).
-- Encontro Secreto: domingo 29/11 às 20h no Meet, agora gratuito. LP no ar, só acompanhar inscrição.
+- Encontro Secreto: domingo 29/11 às 20h, LP no ar, grupo do WhatsApp pronto, Harmo Demo na v2 pros participantes testarem o CRM
+- Demo Regulariza Imob: apresentação marcada pra 02/12, demo estática pronta em ~/Daniel Torres/demo-imobiliaria
+- Escritório virtual da clínica: estrutura desenhada (Otávio, Clara, Vitória etc.), esperando você liberar a Fase 1
+- Carrossel automático: continua gerando e postando sozinho todo dia
 
 ⏸️ Pausado
-- Follow-up automático por WhatsApp: parado desde julho esperando a burocracia da Meta.
-- Portal 4D (plataforma de membros): pausado antes da Fase 7.
-- Campanha de Meta Ads: tudo pausado desde 26/10, otimizador desligado.
+- Follow-up automático WhatsApp: esperando você resolver a burocracia da Meta
+- Campanha Meta Ads via API: tudo parado desde 26/10
+- Portal 4D (plataforma de membros da mentoria): pausado antes da Fase 7
 
 ⚠️ Precisa de você
-- Rebrand VOLO pra Clínicas de Alto Voo: escopo ainda em aberto, precisa fechar com você.
-- Auditoria do CRM da segunda clínica: Fase 0 esperando sua autorização pra seguir.
-- IA no direct do Instagram da Linda: falta a migration 123 e definir o modo Sombra.
+- Escritório virtual: liberar ou não a Fase 1
+- Harmo Demo: rodar o popular.py de novo no domingo antes da live, pra zerar os dados fictícios
+- Perfil do Instagram mudou pra empresas em geral (decidido 24/11), mas os textos fixos (CTA, CLAUDE.md) ainda estão no nicho de clínica, falta bater o martelo em como ajustar isso
