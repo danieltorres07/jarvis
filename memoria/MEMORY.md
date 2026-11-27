@@ -102,3 +102,4 @@
 - [Encontro Secreto 29/11](project_encontro_secreto.md) — evento online R$ 27 Pix, Linda+Daniel+Matheus, ferramenta mostrada = presente; LP em landings/encontro-secreto
 - [Campanha: 1a mensagem so chamada](feedback_campanha_primeira_mensagem_chamada.md) — lead parado: 1a msg curta pra responder, sem detalhar protocolo; Vitoria conduz; "mapeamento do seu rosto" so depois do interesse
 - [Escritorio virtual da clinica](project_escritorio_virtual.md) — bonecos por setor, Otavio gestor do faturamento, avisos e ordens na pagina; Fase 1 aguardando ok (26/11)
+- [Harmo Demo · sistema completo fictício](project_harmo_demo.md) — harmo-demo.vercel.app, cópia do portal com dados fictícios pro Encontro 29/11; popular.py regenera; nada sai pra fora

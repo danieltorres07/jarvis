@@ -17,4 +17,8 @@ Criada 26/11/2026 pro Encontro Secreto: Daniel mostra o sistema completo (portal
 - Gatilho sync_lead_facebook_to_crm cria cartão a cada lead de anúncio: popular.py desliga ele durante a carga.
 - Projeto Vercel novo precisa framework=nextjs (sem isso o middleware sobe cru e dá 500).
 
+- v2 (26/11): popular.py gera 3 meses (50k/80k/110k, mês atual chega nos 110k até dia 28), ticket ~2.340, 92% fechamento pós-consulta, 12 clientes com recompra; CRM só Novos Leads/Jornada Pós/Recuperação (outros arquivados); todo paciente com WhatsApp 31999999999 (botão do cartão abre wa.me com a msg da etapa). Logo/nome Harmo no menu FICA (Daniel decidiu). Rodar popular.py de novo no domingo 29/11 antes da live.
+
+PARTICIPANTES (MUDOU 26/11, Daniel: "exatamente o CRM que eu uso"): entram NA PRÓPRIA HARMO DEMO com login de equipe paginas_permitidas=["crm"] (só a área CRM: painel CRM, atendimento, funis, tarefas, chamar hoje, metas, anúncios, análise, gerenciar funis). Login em https://harmo-demo.vercel.app/equipe/login. Portal ganhou AVISO_TESTE (faixa no topo) e ACESSO_EQUIPE_ATE (equipe para de entrar depois de 14/12), commit 4f2efc5, só ativos no projeto harmo-demo. Logins: /usr/bin/python3 ~/Daniel Torres/volo/harmo-demo/acessos_encontro.py (lê funil Encontro Secreto do portal, cria login @encontro.example.com, gera acessos-encontro.html com botão wa.me + mensagem; senhas em acessos-encontro.json 0600). popular.py preserva esses logins, MAS apaga os dados: depois de mandar os acessos, NÃO rodar popular.py de novo (participantes perdem o que mexeram). Clínica Demo (crm-clinicas) ficou com a versão Jarvis publicada mas NÃO é mais usada pros participantes.
+
 Relacionado: [[project-encontro-secreto]], [[project-crm-clinicas-jarvis]].
