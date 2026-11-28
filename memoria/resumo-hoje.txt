@@ -1,11 +1,10 @@
-DATA: 2026-11-27
+DATA: 2026-11-28
 
-STATUS — 27/11/2026
+STATUS — 28/11/2026
 
 📅 Agenda de hoje
-- 09:30 Enviar Leads Tráfego (recorrente, Google Calendar)
-- 09:30–11:00 Unha (Sistema da Clínica)
-- 17:00 Análise de Métricas (Google Calendar)
+- 08:00–11:00 Aula yoga rennova (Sistema da Clínica, arquivo atualizado hoje)
+- Google Calendar: sem nenhum evento hoje
 
 ✅ Tarefas pendentes (Painel Daniel)
 - Plano de Comissionamento Comercial
@@ -15,20 +14,17 @@ STATUS — 27/11/2026
 - Contrato ao fechar orçamento, com assinatura digital
 
 📧 E-mails que precisam de você
-- Nenhum. Os não lidos de hoje são tudo newsletter e notificação automática (Spotify, Booking, AliExpress, Hostinger, Asaas, Vercel, LinkedIn, Skool e parecidos). Nenhuma pessoa real escreveu pra você hoje.
+- Nenhum e-mail de pessoa real pendente hoje. As 41 não lidas de ontem/hoje são tudo newsletter e promoção (Black Friday, Cyber Monday, viagem, etc.)
 
 🟢 Ativo agora
-- Encontro Secreto: domingo 29/11 às 20h, LP no ar, grupo do WhatsApp pronto, Harmo Demo na v2 pros participantes testarem o CRM
-- Demo Regulariza Imob: apresentação marcada pra 02/12, demo estática pronta em ~/Daniel Torres/demo-imobiliaria
-- Escritório virtual da clínica: estrutura desenhada (Otávio, Clara, Vitória etc.), esperando você liberar a Fase 1
-- Carrossel automático: continua gerando e postando sozinho todo dia
+- Encontro Secreto (Método Láureo): evento online grátis domingo 29/11 às 20h no Meet, com Linda e Matheus Cabral. LP no ar, grupo de WhatsApp criado, Harmo Demo pronta pra mostrar o sistema. Falta rodar o popular.py de novo no domingo antes da live.
+- Escritório Virtual: no ar desde 26/11, vigiando a cada 5 min. Otávio sinalizou que a Clara (IA) tá sem resposta registrada desde 20/11 e um anúncio com 13 conversas gerou só 1 lead entre 20 e 25/11 — ainda não investigado.
+- Perfil Instagram: decisão de 24/11 de sair do nicho só de clínica/HOF e falar com empresas em geral que vendem (serviço ou produto).
+- Direct do Instagram com IA (clínica da Linda): App Review enviado pro Meta em 24/11, esperando aprovação pra liberar pra terceiros.
 
 ⏸️ Pausado
-- Follow-up automático WhatsApp: esperando você resolver a burocracia da Meta
-- Campanha Meta Ads via API: tudo parado desde 26/10
-- Portal 4D (plataforma de membros da mentoria): pausado antes da Fase 7
+- Follow-up automático via WhatsApp (Meta Cloud API): parado desde 28/07 esperando você fazer a Business Verification e a configuração no Meta Business.
 
 ⚠️ Precisa de você
-- Escritório virtual: liberar ou não a Fase 1
-- Harmo Demo: rodar o popular.py de novo no domingo antes da live, pra zerar os dados fictícios
-- Perfil do Instagram mudou pra empresas em geral (decidido 24/11), mas os textos fixos (CTA, CLAUDE.md) ainda estão no nicho de clínica, falta bater o martelo em como ajustar isso
+- O achado do Otávio (Clara sem resposta desde 20/11 e anúncio com 13 conversas / 1 lead) ainda não foi investigado — vale dar uma olhada.
+- Relatório CEO diário/semanal: foi pedido em 19/10 e ainda não foi construído.
